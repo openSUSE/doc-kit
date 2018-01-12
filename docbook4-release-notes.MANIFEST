@@ -1,0 +1,22 @@
+always: gitignore -> .gitignore
+
+always(license-cc-by-sa): LICENSE-CC-BY-SA -> LICENSE
+always(license-cc-by-nd): LICENSE-CC-BY-ND -> LICENSE
+
+initial(process-fate): bootstrap-Makefile -> Makefile
+initial(process-fate): make.vars
+initial: xml/specific-rn.ent
+always: xml/generic-rn.ent
+
+initial: xml/template.xml
+always(template-common): xml/template.xml
+always: xml/abstract.xml
+always(arch-multi): xml/about-rn-multi-arch.xml -> xml/about-rn.xml
+always(arch-single): xml/about-rn-simple.xml -> xml/about-rn.xml
+always: xml/support.xml
+always: xml/source-code.xml
+always: xml/legal.xml
+always(license-cc-by-sa): xml/license-cc-by-sa.xml -> xml/license.xml
+always(license-cc-by-nd): xml/license-cc-by-nd.xml -> xml/license.xml
+always(arch-multi): xml/technical-preview-multi-arch.xml -> xml/technical-preview.xml
+always(arch-single): xml/technical-preview-simple.xml -> xml/technical-preview.xml

@@ -1,0 +1,12 @@
+Write files/SHA sums/variants into doc-kit.comf
+Check SHA sum before update
+Inform users about added/updated variants
+Warn when git status is not clean
+Allow {name} in $to file names & auto-detect if necessary to give name
+Create boilerplate comments client-side: <!-- doc-kit-comment --> v/ # doc-kit-comment
+Never overwrite initial filesystemsallow changing repo
+package bin/
+allow validating boilerplate repo structure, XML well-formedness (validation makes no sense), KITS, MANIFESTs, match file names, find typos in variants?
+parseline() as function
+allow changing repo or keep hard-coded?
+mark variants with same prefix as colliding
