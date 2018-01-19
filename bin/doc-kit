@@ -139,9 +139,10 @@ if [[ -f "$config" ]]; then # FIXME: validate config
   manifest=$(geturl "${configtype}${fileextension}")
 else
   echo "No update.conf file found: Running initial setup."
-  manifestindex=$(wget -qO - --no-check-certificate "${repo}/${branch}/${indexfile}")
+  manifestindex=$(wget -qO - --no-check-certificate "${repo}/${branch}/${indexfile}" | sort -u)
   echo "Available document types:"
   echo "$manifestindex" | tr '\n' ' ' | sed -r 's/ $/\n/'
+  echo ""
   decide "Specify the desired document type" "$manifestindex" 0 0
   configtype="$decision"
   echo ""
@@ -150,9 +151,10 @@ else
   availablevariants=$(preparemanifest "$manifest" | sed -r \
     -e 's/\)?:.+$//' \
     -e 's/^[^\(]+\(?//' \
-    | tr ' ' '\n' | sed -n '/./ p')
-  echo "Choose a variant:"
+    | tr ' ' '\n' | sed -n '/./ p' | sort -u)
+  echo "Available variants:"
   echo "$availablevariants" | tr '\n' ' ' | sed -r 's/ $/\n/'
+  echo ""
   decide "Specify the desired variant(s)" "$availablevariants" 1 1
   configvariants=$(sanitizevariants "$decision")
   echo -e "type: $configtype\nvariant: $configvariants" > "$config"
