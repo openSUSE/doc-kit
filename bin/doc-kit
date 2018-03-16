@@ -138,7 +138,7 @@ if [[ -f "$config" ]]; then # FIXME: validate config
   configvariants=$(sanitizevariants $(sed -r -n 's/^ *variant: *// p' "$config"))
   manifest=$(geturl "${configtype}${fileextension}")
 else
-  echo "No update.conf file found: Running initial setup."
+  echo "No $config file found: Running initial setup."
   manifestindex=$(wget -qO - --no-check-certificate "${repo}/${branch}/${indexfile}" | sort -u)
   echo "Available document types:"
   echo "$manifestindex" | tr '\n' ' ' | sed -r 's/ $/\n/'
@@ -152,12 +152,17 @@ else
     -e 's/\)?:.+$//' \
     -e 's/^[^\(]+\(?//' \
     | tr ' ' '\n' | sed -n '/./ p' | sort -u)
-  echo "Available variants:"
-  echo "$availablevariants" | tr '\n' ' ' | sed -r 's/ $/\n/'
-  echo ""
-  decide "Specify the desired variant(s)" "$availablevariants" 1 1
-  configvariants=$(sanitizevariants "$decision")
-  echo -e "type: $configtype\nvariant: $configvariants" > "$config"
+  if [[ $availablevariants != '' ]]; then
+    echo "Available variants:"
+    echo "$availablevariants" | tr '\n' ' ' | sed -r 's/ $/\n/'
+    echo ""
+    decide "Specify the desired variant(s)" "$availablevariants" 1 1
+    configvariants=$(sanitizevariants "$decision")
+    echo -e "type: $configtype\nvariant: $configvariants" > "$config"
+  else
+    echo "This document type has no variants."
+    configvariants=''
+  fi
   echo "Wrote $config file into current directory. Make sure to commit."
   initial=1
 fi
