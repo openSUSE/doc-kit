@@ -1,0 +1,10 @@
+# This file originates from the project https://github.com/sknorr/doc-kit
+# This file can be edited downstream.
+
+MAIN="MAIN.book-example.xml"
+ROOTID="book.example"
+
+PROFOS="sles"
+
+STYLEROOT="/usr/share/xml/docbook/stylesheet/opensuse2013-ns"
+FALLBACK_STYLEROOT="/usr/share/xml/docbook/stylesheet/suse-ns"

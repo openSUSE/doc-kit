@@ -1,0 +1,24 @@
+always: gitignore -> .gitignore
+
+initial: xml/product-entities.ent
+always: xml/generic-entities.ent
+always: xml/network-entities.ent
+
+initial: DC-example
+
+initial: xml/MAIN.book-example.xml
+initial: xml/preface_example.xml
+initial: xml/cha_example_one.xml
+initial: xml/cha_example_two.xml
+initial: xml/example_doc_updates.xml
+
+initial: images/src/png/example.png
+
+initial: xml/common_intro_available_doc.xml
+always: xml/common_intro_convention.xml
+always: xml/common_intro_feedback.xml
+always: xml/common_intro_tool.xml
+
+always: xml/common_copyright_gfdl.xml
+always: xml/common_legal.xml
+always: xml/common_license_gfdl1.2.xml
