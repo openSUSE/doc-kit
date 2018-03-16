@@ -158,11 +158,11 @@ else
     echo ""
     decide "Specify the desired variant(s)" "$availablevariants" 1 1
     configvariants=$(sanitizevariants "$decision")
-    echo -e "type: $configtype\nvariant: $configvariants" > "$config"
   else
     echo "This document type has no variants."
     configvariants=''
   fi
+  echo -e "type: $configtype\nvariant: $configvariants" > "$config"
   echo "Wrote $config file into current directory. Make sure to commit."
   initial=1
 fi
@@ -178,9 +178,9 @@ while [[ "$cleanmanifest" ]]; do
   from=$(echo "$line" | sed -r 's/^[^:]+: +//' | grep -oP "^${charclass_files}")
   to=$(echo "$line" | grep -oP "${charclass_files}+\$")
 
-  if [[ "$type" -eq "always" ]]; then
+  if [[ "$type" = "always" ]]; then
     [[ $(subsetof "$configvariants" "$variants" 1) ]] && saveurl "$configtype/$from" "$to"
-  elif [[ $initial = 1 ]] && [[ "$type" -eq "initial" ]]; then
+  elif [[ $initial = 1 ]] && [[ "$type" = "initial" ]]; then
     [[ $(subsetof "$configvariants" "$variants" 1) ]] && saveurl "$configtype/$from" "$to"
   fi
 
