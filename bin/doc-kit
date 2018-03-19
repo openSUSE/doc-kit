@@ -8,7 +8,7 @@
 # $ $0          # Set up/update a documentation repository
 # $ $0 --help   # This screen
 
-# Script version number
+# project version number
 version=0.1
 
 repo="https://github.com/sknorr/doc-kit/raw"

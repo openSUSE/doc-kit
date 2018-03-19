@@ -1,0 +1,6 @@
+version: 0.1
+files: packaging/doc-kit.spec bin/doc-kit Makefile
+changesfile: CHANGES.md
+format: (0|[1-9][0-9]*)\.[0-9]
+formathuman: [major].[bugfix (1 digit)]
+formatpolicy: [major] for new versions, [bugfix] for very small updates
