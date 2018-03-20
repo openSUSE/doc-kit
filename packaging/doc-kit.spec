@@ -1,5 +1,5 @@
 #
-# spec file for package dotcolon-medio-fonts
+# spec file for package doc-kit
 #
 # Copyright (c) 2013 SUSE LINUX Products GmbH, Nuernberg, Germany.
 #
