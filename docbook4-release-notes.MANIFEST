@@ -3,13 +3,13 @@ always: gitignore -> .gitignore
 always(license-cc-by-sa): LICENSE-CC-BY-SA -> LICENSE
 always(license-cc-by-nd): LICENSE-CC-BY-ND -> LICENSE
 
-initial(process-fate): bootstrap-Makefile -> Makefile
+initial(process-fate): Makefile
 initial(process-fate): make.vars
 initial: xml/specific-rn.ent
 always: xml/generic-rn.ent
 
 initial: xml/template.xml
-always(template-common): xml/template.xml
+initial: xml/content.xml
 always: xml/abstract.xml
 always(arch-multi): xml/about-rn-multi-arch.xml -> xml/about-rn.xml
 always(arch-single): xml/about-rn-simple.xml -> xml/about-rn.xml
