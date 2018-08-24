@@ -44,11 +44,11 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <!ENTITY support-url "https://www.suse.com/support/programs/subscriptions/?id=[PRODUCT_NAME]">
 
 
-<!-- FIXME: Update to correct SLES 15 URL before the release. -->
-<!ENTITY doc-url "http://beta.suse.com/private/documentation/sles-15">
-<!-- <!ENTITY doc-url "https://www.suse.com/documentation/sles-15">-->
+<!-- FIXME: Update to correct URL before the release. -->
+<!ENTITY doc-url "http://susedoc.github.io/...">
+<!-- <!ENTITY doc-url "https://www.suse.com/documentation/...">-->
 <!ENTITY rn-url "https://www.suse.com/releasenotes">
 
 <!-- FIXME: Update to correct SLES 15 URL before the release. -->
-<!ENTITY bugtracker-pi '<?dbsuse-bugtracker url="https://bugzilla.suse.com/enter_bug.cgi" product="Beta SUSE Linux Enterprise Server 15" component="Maintenance" assignee="sknorr@suse.com" ?>'>
-<!-- <!ENTITY bugtracker-pi '<?dbsuse-bugtracker url="https://bugzilla.suse.com/enter_bug.cgi" product="SUSE Linux Enterprise Server 15" component="Release Notes" assignee="sknorr@suse.com" ?>'> -->
+<!ENTITY bugtracker-pi '<?dbsuse-bugtracker url="https://bugzilla.suse.com/enter_bug.cgi" product="Beta Product n SPm" component="Maintenance" assignee="ex@am.ple" ?>'>
+<!-- <!ENTITY bugtracker-pi '<?dbsuse-bugtracker url="https://bugzilla.suse.com/enter_bug.cgi" product="Product n SPm" component="Release Notes" assignee="ex@am.ple" ?>'> -->
