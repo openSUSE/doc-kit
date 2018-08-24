@@ -52,11 +52,11 @@ function sanitizevariants() {
 }
 
 function subsetof() {
-  # $1 original set (separated by newlines)
-  # $2 potential subset (separated by newlines)
+  # $1 original set (separated by spaces or newlines)
+  # $2 potential subset (separated by spaces or newlines)
   # $3 allow empty subset: 0 - no (default), 1 - yes
-  original=$(echo -e "$1" | sort -u)
-  potential=$(echo -e "$2" | sort -u)
+  original=$(echo -e "$1" |  tr ' ' '\n' | sort -u)
+  potential=$(echo -e "$2" | tr ' ' '\n' | sort -u)
   emptysubset=0
   [[ ! "$potential" ]] && emptysubset=1
   while [[ "$potential" ]]; do
