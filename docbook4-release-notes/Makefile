@@ -2,6 +2,8 @@
 # gitlab.nue.suse.com/documentation/release-notes-boilerplate.
 # THIS FILE WAS MADE FOR DOWNSTREAM BOOTSTRAPPING.
 
+BRANCH = master
+
 .PHONY: make-update
 
 make-update:
