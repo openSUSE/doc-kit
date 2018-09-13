@@ -2,9 +2,11 @@
 # gitlab.nue.suse.com/documentation/release-notes-boilerplate.
 # THIS FILE WAS MADE FOR DOWNSTREAM BOOTSTRAPPING.
 
-BRANCH = master
+BRANCH = rn_fate_doc-kit
 
-.PHONY: make-update
+.PHONY: all make-update
+
+all: make-update
 
 make-update:
 	wget --no-check-certificate -O Makefile0 \
