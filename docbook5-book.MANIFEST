@@ -1,3 +1,5 @@
+v0.2
+--
 always: gitignore -> .gitignore
 
 initial: xml/product-entities.ent
