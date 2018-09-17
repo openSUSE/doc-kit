@@ -16,7 +16,7 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
  <para>
   &product-desc;
   This document provides an overview of high-level general features,
-  capabilities, and limitations of &product; &version; and important product
+  capabilities, and limitations of &product; &this-version; and important product
   updates.
  </para>
  <para condition="beta;pre">

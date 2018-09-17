@@ -25,11 +25,13 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <!ENTITY sleha "&sle; High Availability Extension">
 <!ENTITY slehag "Geo Clustering for &sleha;">
 <!ENTITY slert "&sle; Real Time">
-<!ENTITY ha-guide "High Availability Guide">
+<!ENTITY slehpc "&sle; for High-Performance Computing">
 <!ENTITY sdk "Software Development Kit">
 <!ENTITY slesdk "&sle; &sdk;">
 <!ENTITY we "Workstation Extension">
 <!ENTITY slewe "&sle; &we;">
+<!ENTITY suma "&suse; Manager">
+
 <!ENTITY slea "SLE">
 <!ENTITY slda "&slea;D">
 <!ENTITY slsa "&slea;S">
@@ -37,7 +39,7 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <!ENTITY haga "&slea; HA Geo">
 <!ENTITY slewea "&sle;-WE">
 <!ENTITY sdka "&slea; &sdk;">
-<!ENTITY suma "&suse; Manager">
+
 <!ENTITY scc "&suse; Customer Center">
 <!ENTITY ph "&suse; Package Hub">
 

@@ -27,7 +27,7 @@
 
  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="documentation.xml"/>
  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="support.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="technical-preview.xml"/>
+ <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="technology-preview.xml"/>
 
  <!-- Main content -->
  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content.xml"/>

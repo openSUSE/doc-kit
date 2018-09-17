@@ -43,6 +43,10 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
   on exporting &suse; software. &suse; assumes no responsibility for your
   failure to obtain any necessary export approvals.
  </para>
+ <para>
+  Copyright © &copyright-begin;-<?dbtimestamp format="Y" ?> &company;.
+  &additional-rightsholders;
+ </para>
  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="license.xml"/>
  <para>
   &suse; has intellectual property rights relating to technology embodied
