@@ -8,10 +8,13 @@
 # $ $0          # Set up/update a documentation repository
 # $ $0 --help   # This screen
 
-# project version number
-version=0.1
+# project name
+self="Doc Kit"
 
-repo="https://github.com/sknorr/doc-kit/raw"
+# project version number
+version=0.2
+
+repo="https://github.com/openSUSE/doc-kit/raw"
 branch="master"
 indexfile="KITS"
 fileextension=".MANIFEST"
@@ -21,12 +24,22 @@ config="doc-kit.conf"
 charclass_variants="[-_/a-zA-Z0-9]+"
 charclass_files="[-_./a-zA-Z0-9]+"
 
-function geturl() {
+
+out() {
+  # $1 = message
+  # $2 = error code (optional)
+  errorcode=1
+  [[ "$2" ]] && errorcode=$2
+  >&2 echo -e "[err] $1"
+  exit $errorcode
+}
+
+geturl() {
   # $1 = file name
   wget -qO - --no-check-certificate "${repo}/${branch}/$1"
 }
 
-function saveurl() {
+saveurl() {
   # $1 = file name at origin
   # $2 = file name to save under
   echo "Saving $1 to $2..."
@@ -41,17 +54,17 @@ function saveurl() {
   wget -q --no-check-certificate -O "$2" "${repo}/${branch}/$1"
 }
 
-function shortenattop() {
+shortenattop() {
   # $1 - text to cut the first line off of
   echo -e "$1" | tail -$(($(echo "$1" | wc -l) - 1))
 }
 
-function sanitizevariants() {
+sanitizevariants() {
   # $1 - variants string
   echo -e "$1" | sort -u | tr '\n' ' ' | sed -r 's/ $/\n/'
 }
 
-function subsetof() {
+subsetof() {
   # $1 original set (separated by spaces or newlines)
   # $2 potential subset (separated by spaces or newlines)
   # $3 allow empty subset: 0 - no (default), 1 - yes
@@ -71,7 +84,7 @@ function subsetof() {
   fi
 }
 
-function decide() {
+decide() {
   # $1 = prompt
   # $2 = valid answers, separated by newlines
   # $3 = allow multiple choice: 0 - no (default), 1 - yes
@@ -89,7 +102,26 @@ function decide() {
   done
 }
 
-function preparemanifest() {
+checkmanifestcompatibility() {
+  # $1 - KITS/*.MANIFEST file with compatibility header in first two lines,
+  #      example of a compatibility header:
+  #        v0.2
+  #        --
+  candidate=$(echo -e "$1" | head -2)
+  # Let's check line length anyway, helps to exclude cases where we get a single
+  # line only.
+  if [[ $(echo -e "$candidate" | wc -l) -ne 2 ]] || \
+    [[ $(echo -e "$candidate" | head -1 | sed -r -n '/^v[0-9]+(\.[0-9]+)+$/ !p') ]] || \
+    [[ $(echo -e "$candidate" | tail -1) != '--' ]]; then
+    out "Manifest header is invalid."
+  fi
+  headerversion=$(echo -e "$candidate" | head -1 | sed 's/^v//')
+  if [[ $(echo -e "$version\n$headerversion" | sort -V | head -1) != "$headerversion" ]]; then
+    out "Header version $headerversion is unsupported in $self $version."
+  fi
+}
+
+preparemanifest() {
   # $1 manifest
   echo -e "$1" | tr '\t' ' ' | sed -r \
     -e 's/^ +//' \
@@ -98,13 +130,12 @@ function preparemanifest() {
     | sed -n '/./ p'
 }
 
-function validatemanifest() {
+validatemanifest() {
   # $1 = manifest
   # $2 = success message: 0 - hide (default), 1 - show
   # $3 = error mode: 0 - continue on error, 1 - quit on error (default)
   if  [[ ! $(echo -e "$1" | sed -n '/./ p') ]]; then
-    echo -e "Manifest file empty."
-    exit 1
+    out "Manifest file empty."
   fi
   validatedmanifest=$(preparemanifest "$1" | sed -r \
     -e "s/^(initial|always)(\(${charclass_variants}( +${charclass_variants})*\))?: +${charclass_files}( +-> +${charclass_files})?\$//" \
@@ -137,16 +168,21 @@ if [[ -f "$config" ]]; then # FIXME: validate config
   configtype=$(sed -r -n 's/^ *type: *// p' "$config")
   configvariants=$(sanitizevariants $(sed -r -n 's/^ *variant: *// p' "$config"))
   manifest=$(geturl "${configtype}${fileextension}")
+  checkmanifestcompatibility "$manifest"
+  manifest=$(echo -e "$manifest" | tail -n +3)
 else
   echo "No $config file found: Running initial setup."
-  manifestindex=$(wget -qO - --no-check-certificate "${repo}/${branch}/${indexfile}" | sort -u)
+  manifestindex=$(wget -qO - --no-check-certificate "${repo}/${branch}/${indexfile}")
+  checkmanifestcompatibility "$manifestindex"
   echo "Available document types:"
-  echo "$manifestindex" | tr '\n' ' ' | sed -r 's/ $/\n/'
+  echo -e "$manifestindex" | tail -n +3 | sort -u | tr '\n' ' ' | sed -r 's/ $/\n/'
   echo ""
   decide "Specify the desired document type" "$manifestindex" 0 0
   configtype="$decision"
   echo ""
   manifest=$(geturl "${configtype}${fileextension}")
+  checkmanifestcompatibility "$manifest"
+  manifest=$(echo -e "$manifest" | tail -n +3)
   validatemanifest "$manifest"
   availablevariants=$(preparemanifest "$manifest" | sed -r \
     -e 's/\)?:.+$//' \
