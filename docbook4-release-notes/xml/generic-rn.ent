@@ -17,6 +17,8 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 
 
 <!ENTITY opensuse "open&suse;">
+<!ENTITY leap "&opensuse; Leap">
+<!ENTITY tw "&opensuse; Tumbleweed">
 <!ENTITY sle "&suse; Linux Enterprise">
 <!ENTITY sled "&sle; Desktop">
 <!ENTITY sles "&sle; Server">
@@ -35,6 +37,8 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <!ENTITY haga "&slea; HA Geo">
 <!ENTITY slewea "&sle;-WE">
 <!ENTITY sdka "&slea; &sdk;">
+<!ENTITY suma "&suse; Manager">
+<!ENTITY scc "&suse; Customer Center">
 <!ENTITY ph "&suse; Package Hub">
 
 <!ENTITY ibmz "IBM Z">
