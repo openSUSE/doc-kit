@@ -18,7 +18,7 @@
 
 Name:           doc-kit
 # project version number
-Version:        0.1
+Version:        0.2
 Release:        0
 Summary:        Initialize and Update Documentation Repositories
 License:        GPL-2.0+

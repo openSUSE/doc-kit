@@ -22,7 +22,7 @@ CBUILD_DIR    := $(CDIR)/$(BUILD_DIR)
 INSTALL_EXTRA := doc/packages/doc-kit
 
 # project version number
-VERSION       := 0.1
+VERSION       := 0.2
 
 .PHONY: build install dist clean
 all: dist
