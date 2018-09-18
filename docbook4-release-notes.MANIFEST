@@ -20,5 +20,5 @@ always: xml/source-code.xml
 always: xml/legal.xml
 always(license-cc-by-sa): xml/license-cc-by-sa.xml -> xml/license.xml
 always(license-cc-by-nd): xml/license-cc-by-nd.xml -> xml/license.xml
-always(arch-multi): xml/technical-preview-multi-arch.xml -> xml/technology-preview.xml
-always(arch-single): xml/technical-preview-simple.xml -> xml/technology-preview.xml
+always(arch-multi): xml/techpreviews-multi-arch.xml -> xml/technology-preview.xml
+always(arch-single): xml/techpreviews-simple.xml -> xml/technology-preview.xml
