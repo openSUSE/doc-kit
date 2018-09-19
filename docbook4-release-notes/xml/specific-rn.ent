@@ -35,14 +35,13 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <!-- DOES THE PRODUCT HAVE MODULES? -->
 <!ENTITY productis "&product-no-module-is;">
 
-<!ENTITY product-no-module-is "&product; &this-version;">
-<!ENTITY product-module-is "&product; &this-version; and its modules are">
-
 
 <!ENTITY kernel-version "n.m">
 
-<!ENTITY support-url "https://www.suse.com/support/programs/subscriptions/?id=[PRODUCT_NAME]">
 
+
+<!ENTITY support-url "https://www.suse.com/support/programs/subscriptions/?id=[PRODUCT_NAME]">
+<!ENTITY res-library-url "https://www.suse.com/products/[PRODUCT_NAME]/resource-library">
 
 <!-- FIXME: Update to correct URL before the release. -->
 <!ENTITY doc-url "http://susedoc.github.io/...">

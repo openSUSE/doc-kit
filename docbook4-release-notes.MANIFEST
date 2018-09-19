@@ -12,10 +12,12 @@ always: xml/generic-rn.ent
 
 initial: xml/template.xml
 initial: xml/content.xml
+initial: xml/about-product.xml
+initial: xml/documentation.xml
 always: xml/abstract.xml
 always(arch-multi): xml/about-rn-multi-arch.xml -> xml/about-rn.xml
 always(arch-single): xml/about-rn-simple.xml -> xml/about-rn.xml
-always: xml/support.xml
+always: xml/support-statement.xml
 always: xml/source-code.xml
 always: xml/legal.xml
 always(license-cc-by-sa): xml/license-cc-by-sa.xml -> xml/license.xml

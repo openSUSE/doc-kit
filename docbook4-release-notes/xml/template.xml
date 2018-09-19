@@ -25,8 +25,6 @@
  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="about-rn.xml"/>
  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="about-product.xml"/>
 
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="documentation.xml"/>
- <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="support.xml"/>
  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="technology-preview.xml"/>
 
  <!-- Main content -->

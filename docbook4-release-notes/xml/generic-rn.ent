@@ -50,4 +50,7 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <!ENTITY amd64 "AMD64">
 <!ENTITY x86-64 "&intel64;/&amd64;">
 
+<!ENTITY product-no-module-is "&product; &this-version; is">
+<!ENTITY product-module-is "&product; &this-version; and its modules are">
+
 <!ENTITY mdash "—">
