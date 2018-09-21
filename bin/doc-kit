@@ -60,7 +60,7 @@ shortenattop() {
 
 sanitizevariants() {
   # $1 - variants string
-  echo -e "$1" | sort -u | tr '\n' ' ' | sed -r 's/ $/\n/'
+  echo -e "$@" | tr ' ' '\n' | sort -u | tr '\n' ' ' | sed -r 's/ $//'
 }
 
 subsetof() {
@@ -214,16 +214,18 @@ while [[ "$cleanmanifest" ]]; do
   line=$(echo -e "$cleanmanifest" | head -1)
 
   type=$(echo "$line" | grep -oP '^(initial|always)')
-  variants=$(sanitizevariants $(echo "$line" | grep -oP '^[^:]+:' | sed -r -e "s/(^${charclass_variants}\(?|\)?:\$)//g"))
+  variants=$(sanitizevariants $(echo "$line" | grep -oP '^[^:]+' | sed -r -e 's/^[a-z]+\(?//' -e 's/\)$//'))
   from=$(echo "$line" | sed -r 's/^[^:]+: +//' | grep -oP "^${charclass_files}")
   to=$(echo "$line" | grep -oP "${charclass_files}+\$")
 
   if [[ "$type" = "always" ]]; then
-    if [[ $(subsetof "$configvariants" "$variants" 1) ]]; then
+    if [[ $(subsetof "$configvariants" "$variants" 1 0) ]]; then
       # FIXME: Adding $to here is dangerous (though file names are checked at
       # some point to only contain $charclass_files.)
       oldsha=$(echo -e "$cachedconfig" | sed -r -n 's^file: +([0-9a-f]+) +'"$to"'$^\1^ p')
-      downstreamsha=$(sha1sum "$to" | cut -d ' ' -f 1)
+      # If the file does not already exist (e.g. initial setup or new file),
+      # sha1sum will expectedly write out an error message, hence 2>/dev/null
+      downstreamsha=$(sha1sum "$to" 2>/dev/null | cut -d ' ' -f 1)
       if [[ "$oldsha" == "$downstreamsha" ]] || \
         [[ ! "$downstreamsha" ]] || [[ ! "$oldsha" ]] || \
         [[ $forcereplace -eq 1 ]]; then
@@ -241,7 +243,7 @@ while [[ "$cleanmanifest" ]]; do
       fi
     fi
   elif [[ $initial = 1 ]] && [[ "$type" = "initial" ]]; then
-    if [[ $(subsetof "$configvariants" "$variants" 1) ]]; then
+    if [[ $(subsetof "$configvariants" "$variants" 1 0) ]]; then
       saveurl "$configtype/$from" "$to"
       newfiles+="\nfile: "$(sha1sum "$to")
     fi
