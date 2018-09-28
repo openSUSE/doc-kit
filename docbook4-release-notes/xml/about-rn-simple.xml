@@ -24,5 +24,7 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
  <para>
   Release notes only list changes that happened between two subsequent
   releases.
+  Always review all release notes documents that apply in your upgrade
+  scenario.
  </para>
 </section>
