@@ -6,11 +6,13 @@ always(license-cc-by-sa): LICENSE-CC-BY-SA -> LICENSE
 always(license-cc-by-nd): LICENSE-CC-BY-ND -> LICENSE
 
 initial(process-fate): Makefile
+initial(process-manual): Makefile-manual -> Makefile
 initial(process-fate): make.vars
 initial: xml/specific-rn.ent
 always: xml/generic-rn.ent
 
-initial: xml/template.xml
+initial(process-fate): xml/template.xml
+initial(process-manual): xml/template.xml -> xml/release-notes.xml
 initial: xml/content.xml
 initial: xml/about-product.xml
 initial: xml/documentation.xml
