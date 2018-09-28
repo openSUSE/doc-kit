@@ -74,25 +74,25 @@
 
  <section id="Intro.Lifecycle">
   <title>Support and Life Cycle</title>
- <!-- This is highly product-specific, make sure to adapt! -->
- <para>
-  &product; is backed by award-winning support from &suse;, an established
-  technology leader with a proven history of delivering enterprise-quality
-  support services.
- </para>
- <para>
-  &product; &this-ga; has a n-year life cycle, with m years of
-  General Support and o years of Extended Support. The current version
-  (&this-sp;) will be fully maintained and supported until p months after the
-  release of &product; &this-ga; &next-sp;.
- </para>
- <para>
-  If you need additional time to design, validate and
-  test your upgrade plans, Long Term Service Pack Support (LTSS) can extend
-  the support you get by an additional 12 to 36 months in 12-month
-  increments, providing a total of q to r years of support on any
-  given Service Pack.
- </para>
+  <!-- This is highly product-specific, make sure to adapt! -->
+  <para>
+   &product; is backed by award-winning support from &suse;, an established
+   technology leader with a proven history of delivering enterprise-quality
+   support services.
+  </para>
+  <para>
+   &product; &this-ga; has a n-year life cycle, with m years of
+   General Support and o years of Extended Support. The current version
+   (&this-sp;) will be fully maintained and supported until p months after the
+   release of &product; &this-ga; &next-sp;.
+  </para>
+  <para>
+   If you need additional time to design, validate and
+   test your upgrade plans, Long Term Service Pack Support (LTSS) can extend
+   the support you get by an additional 12 to 36 months in 12-month
+   increments, providing a total of q to r years of support on any
+   given Service Pack.
+  </para>
   <para>
    For more information, see:
   </para>

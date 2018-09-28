@@ -12,36 +12,92 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <!ENTITY rnotes "Release Notes">
 <!ENTITY rversion "@VERSION@">
 
-<!ENTITY yast "YaST">
-<!ENTITY autoyast "AutoYaST">
 
+
+<!-- Current products/projects -->
 
 <!ENTITY opensuse "open&suse;">
 <!ENTITY leap "&opensuse; Leap">
 <!ENTITY tw "&opensuse; Tumbleweed">
+<!ENTITY kubic "&opensuse; Kubic">
+
 <!ENTITY sle "&suse; Linux Enterprise">
+<!ENTITY slea "SLE">
+
 <!ENTITY sled "&sle; Desktop">
+<!ENTITY slda "&slea;D">
+
 <!ENTITY sles "&sle; Server">
+<!ENTITY slsa "&slea;S">
+
+<!ENTITY s4s "&sles; for SAP Applications">
+<!ENTITY s4s "&slsa; for SAP">
+
 <!ENTITY sleha "&sle; High Availability Extension">
-<!ENTITY slehag "Geo Clustering for &sleha;">
+<!ENTITY haa "&slea; HA">
+
+<!ENTITY slelp "&sle; Live Patching">
+<!ENTITY slelpa "&slea;LP">
+
 <!ENTITY slert "&sle; Real Time">
+
 <!ENTITY slehpc "&sle; for High-Performance Computing">
-<!ENTITY sdk "Software Development Kit">
-<!ENTITY slesdk "&sle; &sdk;">
+<!ENTITY hpca "&sle; HPC">
+
 <!ENTITY we "Workstation Extension">
 <!ENTITY slewe "&sle; &we;">
-<!ENTITY suma "&suse; Manager">
-
-<!ENTITY slea "SLE">
-<!ENTITY slda "&slea;D">
-<!ENTITY slsa "&slea;S">
-<!ENTITY haa "&slea; HA">
-<!ENTITY haga "&slea; HA Geo">
 <!ENTITY slewea "&sle;-WE">
-<!ENTITY sdka "&slea; &sdk;">
+
+<!ENTITY suma "&suse; Manager">
+<!ENTITY retail "&suma; for Retail">
+
+<!ENTITY ses "&suse; Enterprise Storage">
+<!ENTITY sesa "SES">
+
+<!ENTITY soc "&suse; OpenStack Cloud">
+<!ENTITY soca "SOC">
+
+<!ENTITY cap "&suse; Cloud Application Platform">
+<!ENTITY capa "&suse; CAP">
+
+<!ENTITY caasp "&suse; Cloud as a Service Platform">
+<!ENTITY caaspa "&suse; CaaS Platform">
+
+<!ENTITY rmt "Repository Mirroring Tool">
+
+
+
+<!-- Old products/projects -->
+
+<!ENTITY sdk "Software Development Kit">
+<!ENTITY slesdk "&sle; &sdk;">
+<!ENTITY sdka "&slea; &sdk;">
+
+<!ENTITY slehag "Geo Clustering for &sleha;">
+<!ENTITY haga "&slea; HA Geo">
+
+<!ENTITY pos "&sle; Point of Service">
+<!ENTITY posa "&slea;POS">
+
+<!ENTITY smt "Subscription Management Tool">
+
+
+
+<!-- Web services -->
 
 <!ENTITY scc "&suse; Customer Center">
 <!ENTITY ph "&suse; Package Hub">
+
+
+
+<!-- Support -->
+
+<!ENTITY ltss "Long Term Service Pack Support">
+<!ENTITY espos "Extended Service Pack Overlay Support">
+<!ENTITY tp "Technology Preview">
+
+
+<!-- Architectures -->
 
 <!ENTITY ibmz "IBM Z">
 <!ENTITY power "POWER">
@@ -50,7 +106,24 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <!ENTITY amd64 "AMD64">
 <!ENTITY x86-64 "&intel64;/&amd64;">
 
-<!ENTITY product-no-module-is "&product; &this-version; is">
-<!ENTITY product-module-is "&product; &this-version; and its modules are">
+
+
+<!-- Software -->
+
+<!ENTITY yast "YaST">
+<!ENTITY autoyast "AutoYaST">
+<!ENTITY zypper "Zypper">
+<!ENTITY snapper "Snapper">
+
+
+
+<!-- Text fragments -->
+
+<!ENTITY product-no-module-is "&product; &this-version; is">
+<!ENTITY product-module-is "&product; &this-version; and its modules are">
+
+
+
+<!-- Characters -->
 
 <!ENTITY mdash "—">
