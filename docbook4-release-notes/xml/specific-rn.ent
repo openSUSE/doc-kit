@@ -39,15 +39,13 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <!ENTITY kernel-version "n.m">
 
 
-
 <!ENTITY support-url "https://www.suse.com/support/programs/subscriptions/?id=[PRODUCT_NAME]">
-<!ENTITY res-library-url "https://www.suse.com/products/[PRODUCT_NAME]/resource-library">
+<!ENTITY res-library-url "https://www.suse.com/products/[PRODUCT_NAME]/#resources">
 
 <!-- FIXME: Update to correct URL before the release. -->
-<!ENTITY doc-url "http://susedoc.github.io/...">
-<!-- <!ENTITY doc-url "https://www.suse.com/documentation/...">-->
+<!ENTITY doc-url-beta "http://susedoc.github.io/#...">
+<!ENTITY doc-url "https://www.suse.com/documentation/...">
 <!ENTITY rn-url "https://www.suse.com/releasenotes">
 
-<!-- FIXME: Update to correct SLES 15 URL before the release. -->
 <!ENTITY bugtracker-pi '<?dbsuse-bugtracker url="https://bugzilla.suse.com/enter_bug.cgi" product="Beta Product n SPm" component="Maintenance" assignee="ex@am.ple" ?>'>
 <!-- <!ENTITY bugtracker-pi '<?dbsuse-bugtracker url="https://bugzilla.suse.com/enter_bug.cgi" product="Product n SPm" component="Release Notes" assignee="ex@am.ple" ?>'> -->

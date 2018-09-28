@@ -21,6 +21,10 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
  </para>
  <para condition="beta;pre">
   This product will be released in &rel-date;.
+  The latest version of these release notes is always available at
+  <ulink url="&rn-url;"/>.
+  Drafts of the general documentation can be found at
+  <ulink url="&doc-url-beta;"/>.
  </para>
  <para condition="maintained">
   These release notes are updated periodically. The latest version is always
