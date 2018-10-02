@@ -1,3 +1,6 @@
+0.3 - 2018-10-02 - sknorr
+  - Make variants code actually work
+
 0.2 - 2018-09-17 - sknorr
   - Make variants code work
   - Include doc-kit minimum compatibility version in KITS/MANIFEST
