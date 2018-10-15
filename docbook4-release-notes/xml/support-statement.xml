@@ -59,28 +59,9 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
   For contracted customers and partners, &productis; delivered with L3 support
   for all packages, except for the following:
  </para>
- <itemizedlist>
-  <listitem>
-   <para>
-    Technology Previews<phrase role="check-xref">, see
-    <xref linkend="Intro.Support.Techpreviews"/></phrase>
-   </para>
-  </listitem>
-    <listitem>
-     <para>
-      Sound, graphics, fonts and artwork
-     </para>
-    </listitem>
-    <listitem>
-     <para>
-      Packages that require an additional customer
-      contract<phrase role="check-xref">, see
-      <xref linkend="Intro.Support.External"/></phrase>
-     </para>
-    </listitem>
-   </itemizedlist>
-   <para>
-    &suse; will only support the usage of original packages. That is,
-    packages that are unchanged and not recompiled.
-   </para>
-  </section>
+ <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="support-statement-productparts.xml"/>
+ <para>
+  &suse; will only support the usage of original packages. That is,
+  packages that are unchanged and not recompiled.
+ </para>
+</section>
