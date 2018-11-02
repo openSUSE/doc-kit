@@ -58,7 +58,7 @@
   <para>
    A paragraph of text.
   </para>
-  <itemizedlist>
+  <orderedlist>
    <listitem>
     <para>
      An
@@ -74,7 +74,7 @@
      List
     </para>
    </listitem>
-  </itemizedlist>
+  </orderedlist>
   <figure xml:id="fig.two">
    <title>A Figure</title>
    <mediaobject>
