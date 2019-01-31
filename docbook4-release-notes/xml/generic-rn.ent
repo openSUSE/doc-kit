@@ -30,6 +30,9 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <!ENTITY sles "&sle; Server">
 <!ENTITY slsa "&slea;S">
 
+<!ENTITY bcl "&suse; Business Critical Linux">
+<!ENTITY bcla "&suse; BCL">
+
 <!ENTITY s4s "&sles; for SAP Applications">
 <!ENTITY s4s "&slsa; for SAP">
 
