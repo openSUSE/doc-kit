@@ -14,16 +14,18 @@ gitlab.nue.suse.com/documentation/release-notes-boilerplate. -->
 <section id="Legal">
 <title>Legal Notices</title>
  <para>
-  &suse; makes no representations or warranties with regard to the contents
-  or use of this documentation, and specifically disclaims any express or
+  &suse; makes no representations or warranties <emphasis>with regard to the
+  contents or use of this documentation</emphasis>, and specifically disclaims
+  any express or
   implied warranties of merchantability or fitness for any particular
   purpose. Further, &suse; reserves the right to revise this publication
   and to make changes to its content, at any time, without the obligation
   to notify any person or entity of such revisions or changes.
  </para>
  <para>
-  Further, &suse; makes no representations or warranties with regard to any
-  software, and specifically disclaims any express or implied warranties of
+  Further, &suse; makes no representations or warranties <emphasis>with regard
+  to any software</emphasis>, and specifically disclaims any express or implied
+  warranties of
   merchantability or fitness for any particular purpose. Further, &suse;
   reserves the right to make changes to any and all parts of &suse;
   software, at any time, without any obligation to notify any person or
