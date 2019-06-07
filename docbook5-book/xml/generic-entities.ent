@@ -100,6 +100,7 @@
 <!ENTITY susemgrreg    "&suse;&reg; Manager">
 <!ENTITY susemgrdb     "&suse; Manager with Database">
 <!ENTITY susemgrproxy  "&susemgr; Proxy">
+<!ENTITY smr           "&susemgr; for Retail">
 
 <!-- Studio -->
 <!ENTITY susestudio     "&suse; Studio">
