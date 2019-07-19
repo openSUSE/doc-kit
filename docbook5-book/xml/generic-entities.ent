@@ -85,11 +85,12 @@
 
 <!-- SLE HA -->
 <!ENTITY hasi          "High Availability Extension">
-<!ENTITY sleha         "&sleha;">
-<!ENTITY hageo         "GEO Clustering for &sle; &hasi;">
+<!ENTITY sleha         "&sle; &hasi;">
+<!ENTITY hageo         "GEO Clustering for &sleha;">
 
 <!-- SUSE Manager -->
 <!ENTITY susemgr       "&suse; Manager">
+<!ENTITY suma          "&susemgr;">
 <!ENTITY susemgrdb     "&suse; Manager with Database">
 <!ENTITY susemgrproxy  "&susemgr; Proxy">
 <!ENTITY smr           "&susemgr; for Retail">
@@ -130,7 +131,7 @@
 <!ENTITY sledreg       "&slereg; Desktop">
 <!ENTITY slehpcreg     "&slereg; High Performance Computing">
 <!ENTITY slertreg      "&slereg; Real Time">
-<!ENTITY slsreg        "&lereg; Server">
+<!ENTITY slsreg        "&slereg; Server">
 <!ENTITY sles4sapreg   "&slsreg; for &sap; Applications">
 <!ENTITY susemgrreg    "&suse;&reg; Manager">
 
