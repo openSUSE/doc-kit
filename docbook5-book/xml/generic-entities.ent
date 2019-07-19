@@ -294,7 +294,6 @@
 
 <!-- BOOK NAMES -->
 
-<!-- FIXME: Not sure if these should better go into the product-specific files -->
 <!-- SUSE Linux Enterprise -->
 <!ENTITY admin         "<citetitle xmlns='http://docbook.org/ns/docbook'>Administration Guide</citetitle>">
 <!ENTITY auditguide    "<citetitle xmlns='http://docbook.org/ns/docbook'>The Linux Audit Framework</citetitle>">
@@ -309,6 +308,7 @@
 <!ENTITY storage_guide "<citetitle xmlns='http://docbook.org/ns/docbook'>Storage Administration Guide</citetitle>">
 <!ENTITY tuning        "<citetitle xmlns='http://docbook.org/ns/docbook'>System Analysis and Tuning Guide</citetitle>">
 <!ENTITY virtual       "<citetitle xmlns='http://docbook.org/ns/docbook'>Virtualization Guide</citetitle>">
+<!ENTITY upgrade_guide  "<emphasis xmlns='http://docbook.org/ns/docbook'>Upgrade Guide</emphasis>">
 
 <!-- HA -->
 <!ENTITY haguide       "<citetitle xmlns='http://docbook.org/ns/docbook'>High Availability Guide</citetitle>">
