@@ -169,8 +169,13 @@
 <!-- URLS -->
 
 <!ENTITY sccurl         "https://scc.suse.com/">
-<!ENTITY suse-onlinedoc "http://www.suse.com/documentation">
-
+<!ENTITY dsc            "https://documentation.suse.com">
+<!ENTITY dsc-sles       "&dsc;/sles">
+<!ENTITY dsc-sled       "&dsc;/sled">
+<!ENTITY dsc-ha         "&dsc;/sle-ha">
+<!ENTITY dsc-sap        "&dsc;/sles-sap">
+<!ENTITY dsc-ses        "&dsc;/ses">
+<!ENTITY dsc-suma       "&dsc;/suma">
 
 
 <!-- PLATFORMS -->
