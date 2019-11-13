@@ -20,8 +20,8 @@
   </dm:docmanager>
  </info>
  <para>
-  Your feedback and contribution to this documentation is welcome!
-  Several channels are available:
+  We welcome feedback for and contributions to this documentation.
+  There are several channels for this:
  </para>
 
  <variablelist>
@@ -29,13 +29,14 @@
    <term>Service Requests and Support</term>
    <listitem>
     <para>
-     For services and support options available for your product, refer to
+     For services and support options available for your product, see
      <link xlink:href="http://www.suse.com/support/"/>.
     </para>
     <para>
-     To open a service request, you need a subscription at &scc;. Go to
-     <link xlink:href="https://scc.suse.com/support/requests"/>, log in, and click
-     <guimenu>Create New</guimenu>.
+     To open a service request, you need a &suse; subscription registered at
+     &scc;.
+     Go to <link xlink:href="https://scc.suse.com/support/requests"/>, log
+     in, and click <guimenu>Create New</guimenu>.
     </para>
    </listitem>
   </varlistentry>
@@ -44,14 +45,16 @@
    <listitem>
     <para>
      Report issues with the documentation at <link os="sles;sled"
-      xlink:href="https://bugzilla.suse.com/"/><link os="osuse"
-       xlink:href="https://bugzilla.opensuse.org/"/>.
+     xlink:href="https://bugzilla.suse.com/"/><link os="osuse"
+     xlink:href="https://bugzilla.opensuse.org/"/>.
+     Reporting issues requires a Bugzilla account.
+    </para>
+    <para>
      To simplify this process, you can use the <guimenu>Report
-      Documentation Bug</guimenu> links next to headlines in the HTML
+     Documentation Bug</guimenu> links next to headlines in the HTML
      version of this document. These preselect the right product and
      category in Bugzilla and add a link to the current section.
-     You can start typing your bug report right away. A Bugzilla
-     account is required.
+     You can start typing your bug report right away.
     </para>
    </listitem>
   </varlistentry>
@@ -62,7 +65,7 @@
      To contribute to this documentation, use the <guimenu>Edit Source</guimenu>
      links next to headlines in the HTML version of this document. They
      take you to the source code on GitHub, where you can open a pull request.
-     A GitHub account is required.
+     Contributing requires a GitHub account.
     </para>
    </listitem>
   </varlistentry>
@@ -70,11 +73,11 @@
    <term>Mail</term>
    <listitem>
     <para>
-     Alternatively, you can report errors and send feedback concerning the
-     documentation to <email>doc-team@suse.com</email>. Make sure to include the
-     document title, the product version and the publication date of the
-     documentation. Refer to the relevant section number and title (or
-     include the URL) and provide a concise description of the problem.
+     You can also report errors and send feedback concerning the
+     documentation to <email>doc-team@suse.com</email>. Include the
+     document title, the product version, and the publication date of the
+     document. Additionally, include the relevant section number and title (or
+     provide the URL) and provide a concise description of the problem.
     </para>
    </listitem>
   </varlistentry>

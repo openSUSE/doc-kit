@@ -177,6 +177,10 @@
 <!ENTITY dsc-ses        "&dsc;/ses">
 <!ENTITY dsc-suma       "&dsc;/suma">
 
+<!ENTITY beta-www       "https://susedoc.github.io">
+
+<!ENTITY doo            "https://doc.opensuse.org">
+
 
 <!-- PLATFORMS -->
 
@@ -186,12 +190,9 @@
 <!ENTITY amd64          "AMD64">
 <!ENTITY x86-64         "&intel64;/&amd64;">
 
-<!ENTITY arm            "ARM">
+<!ENTITY arm            "Arm">
 <!ENTITY aarch64        "AArch64">
 <!ENTITY arm64          "&arm;&nbsp;&aarch64;">
-
-
-<!ENTITY ipf            "Itanium">
 
 <!ENTITY power          "POWER">
 <!ENTITY ipseries       "&power;">
@@ -199,7 +200,7 @@
 <!ENTITY ppc64le        "ppc64le">
 
 <!ENTITY zseries        "IBM&nbsp;Z">
-<!ENTITY zsystems       "&zsystems;">
+<!ENTITY zsystems       "&zseries;">
 
 
 
