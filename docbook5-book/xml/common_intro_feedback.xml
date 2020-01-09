@@ -62,6 +62,11 @@
      take you to the source code on GitHub, where you can open a pull request.
      Contributing requires a GitHub account.
     </para>
+    <para>
+     For more information about the documentation environment used for this
+     documentation, see the repository's README at
+     <link xlink:href="&repo-url;"/>.
+    </para>
    </listitem>
   </varlistentry>
   <varlistentry>
