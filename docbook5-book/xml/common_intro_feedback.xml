@@ -20,7 +20,7 @@
  </para>
 
  <variablelist>
-  <varlistentry os="sles;sled">
+  <varlistentry condition="suse-product">
    <term>Service Requests and Support</term>
    <listitem>
     <para>
@@ -39,8 +39,8 @@
    <term>Bug Reports</term>
    <listitem>
     <para>
-     Report issues with the documentation at <link os="sles;sled"
-     xlink:href="https://bugzilla.suse.com/"/><link os="osuse"
+     Report issues with the documentation at <link condition="suse-product"
+     xlink:href="https://bugzilla.suse.com/"/><link condition="community-project"
      xlink:href="https://bugzilla.opensuse.org/"/>.
      Reporting issues requires a Bugzilla account.
     </para>
@@ -81,7 +81,7 @@
     </para>
    </listitem>
   </varlistentry>
-  <varlistentry os="osuse">
+  <varlistentry condition="community-project">
    <term>Help</term>
    <listitem>
     <para>If you need further help on &productname;, see <link
