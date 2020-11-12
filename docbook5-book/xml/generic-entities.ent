@@ -120,7 +120,6 @@
 <!ENTITY smra          "SUMA-Retail">
 
 
-
 <!-- PRODUCT NAMES WITH (R) SIGN (incomplete) -->
 
 <!ENTITY slereg        "&suse;&reg; Linux Enterprise">
@@ -141,6 +140,7 @@
 <!ENTITY obsa          "OBS">
 <!ENTITY ph            "PackageHub">
 <!ENTITY soliddriver   "SUSE SolidDriver">
+
 
 
 <!-- 3RD-PARTY -->
