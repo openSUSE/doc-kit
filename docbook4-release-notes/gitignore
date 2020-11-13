@@ -3,6 +3,7 @@
 .#*
 *.bak
 *.orig
+*.swp
 
 build/
 
