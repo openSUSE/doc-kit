@@ -2,13 +2,15 @@ v0.2
 --
 always: gitignore -> .gitignore
 
-initial: xml/product-entities.ent
+initial(license-gfdl): xml/product-entities-cc.ent -> xml/product-entities.ent
+initial(license-cc): xml/product-entities-cc.ent -> xml/product-entities.ent
 always: xml/generic-entities.ent
 always: xml/network-entities.ent
 
 initial: DC-example
 
-initial: xml/MAIN.book-example.xml
+initial(license-gfdl): xml/MAIN.book-example-gfdl.xml -> xml/MAIN.book-example.xml
+initial(license-cc): xml/MAIN.book-example-cc.xml -> xml/MAIN.book-example.xml
 initial: xml/preface_example.xml
 initial: xml/cha_example_one.xml
 initial: xml/cha_example_two.xml
@@ -22,6 +24,7 @@ always: xml/common_intro_support.xml
 always: xml/common_intro_convention.xml
 always: xml/common_intro_feedback.xml
 
-always: xml/common_copyright_gfdl.xml
-always: xml/common_legal.xml
-always: xml/common_license_gfdl1.2.xml
+always(license-gfdl): xml/common_copyright_gfdl.xml
+always(license-gfdl): xml/common_legal.xml
+always(license-gfdl): xml/common_license_gfdl1.2.xml
+always(license-cc): xml/common_copyright_cc.xml
