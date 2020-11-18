@@ -11,7 +11,7 @@
     %entities;
 ]>
 
-<preface xml:id="preface.example" xml:lang="en"
+<preface xml:id="pre-example" xml:lang="en"
  xmlns="http://docbook.org/ns/docbook" version="5.1"
  xmlns:xi="http://www.w3.org/2001/XInclude"
  xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -24,18 +24,18 @@
  </para>
  <variablelist>
   <varlistentry>
-   <term><xref linkend="part.one"/></term>
+   <term><xref linkend="part-one"/></term>
    <listitem>
     <para>
-     Description of <xref linkend="part.one"/>.
+     Description of <xref linkend="part-one"/>.
     </para>
    </listitem>
   </varlistentry>
   <varlistentry>
-   <term><xref linkend="part.two"/></term>
+   <term><xref linkend="part-two"/></term>
    <listitem>
     <para>
-     Description of <xref linkend="part.two"/>.
+     Description of <xref linkend="part-two"/>.
     </para>
    </listitem>
   </varlistentry>
