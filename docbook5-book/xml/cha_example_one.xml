@@ -15,7 +15,7 @@
  xmlns="http://docbook.org/ns/docbook" version="5.1"
  xmlns:xi="http://www.w3.org/2001/XInclude"
  xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Chapter One</title>
+ <title>Chapter one</title>
  <info>
   <abstract>
    <para>
@@ -28,7 +28,7 @@
   </dm:docmanager>
  </info>
  <sect1 xml:id="sec-example-one-one">
-  <title>Section One</title>
+  <title>Section one</title>
   <para>
    A paragraph of text.
   </para>
@@ -50,14 +50,14 @@
    </step>
   </procedure>
   <warning>
-   <title>A Warning</title>
+   <title>A warning</title>
    <para>
     A paragraph of text.
    </para>
   </warning>
  </sect1>
  <sect1 xml:id="sec-example-one-two">
-  <title>Section Two</title>
+  <title>Section two</title>
   <para>
    A paragraph of text.
   </para>

@@ -15,7 +15,7 @@
  xmlns="http://docbook.org/ns/docbook" version="5.1"
  xmlns:xi="http://www.w3.org/2001/XInclude"
  xmlns:xlink="http://www.w3.org/1999/xlink">
- <title>Documentation Updates</title>
+ <title>Documentation updates</title>
  <info>
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
    <dm:translation>yes</dm:translation>
@@ -23,7 +23,7 @@
  </info>
  <variablelist>
   <varlistentry>
-   <term>Documentation Updates</term>
+   <term>Documentation updates</term>
    <listitem>
     <itemizedlist>
      <listitem>
