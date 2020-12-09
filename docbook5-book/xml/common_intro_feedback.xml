@@ -21,7 +21,7 @@
 
  <variablelist>
   <varlistentry condition="suse-product">
-   <term>Service Requests and Support</term>
+   <term>Service requests and support</term>
    <listitem>
     <para>
      For services and support options available for your product, see
@@ -36,7 +36,7 @@
    </listitem>
   </varlistentry>
   <varlistentry>
-   <term>Bug Reports</term>
+   <term>Bug reports</term>
    <listitem>
     <para>
      Report issues with the documentation at <link condition="suse-product"
@@ -82,7 +82,7 @@
    </listitem>
   </varlistentry>
   <varlistentry condition="beta">
-   <term>Beta Program Requests</term>
+   <term>Beta program requests</term>
    <listitem>
     <para>
      &suse; Beta Software is bound by the &suse; Beta EULA.
