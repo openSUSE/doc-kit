@@ -1,0 +1,13 @@
+:product: ProductName
+:producta: PN
+:this-version: 1.0
+:abstract: This document provides an overview of high-level general features, capabilities, and limitations of {product} {this-version} and important product updates.
+
+:doc-url: https://example.com/
+:doc-url-beta: https://example.com/
+:doc-url-source: https://example.com/
+
+:copyright-begin: 20XX
+:copyright-end: {docyear}
+:company: SUSE LLC
+:additional-rightsholders:
