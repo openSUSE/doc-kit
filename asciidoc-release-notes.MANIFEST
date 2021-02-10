@@ -1,0 +1,21 @@
+v0.2
+--
+always: gitignore -> .gitignore
+
+always: adoc_postprocess.xsl
+initial: DC-release-notes
+always: LICENSE
+always: Makefile
+initial: NEWS
+initial: README.adoc
+
+always: adoc/about-documentation.adoc
+initial: adoc/about-product.adoc
+always: adoc/about-rn.adoc
+always: adoc/abstract.adoc
+always: adoc/attributes-generic.adoc
+initial: adoc/attributes-product.adoc
+always: adoc/legal.adoc
+initial: adoc/release-notes.adoc
+initial: adoc/release-notes-docinfo.xml
+always: adoc/source-code.adoc
