@@ -15,7 +15,7 @@ self="Doc Kit"
 version=0.3
 
 repo="https://github.com/openSUSE/doc-kit/raw"
-branch="master"
+branch="main"
 indexfile="KITS"
 fileextension=".MANIFEST"
 config="doc-kit.conf"
