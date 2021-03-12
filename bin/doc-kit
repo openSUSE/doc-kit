@@ -12,7 +12,7 @@
 self="Doc Kit"
 
 # project version number
-version=0.3
+version=0.4
 
 repo="https://github.com/openSUSE/doc-kit/raw"
 branch="main"

@@ -1,3 +1,6 @@
+0.4 - 2021-03-12 - sknorr
+  - Use `main` branch of doc-kit repo by default
+
 0.3 - 2018-10-02 - sknorr
   - Make variants code actually work
 
