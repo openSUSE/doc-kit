@@ -46,6 +46,7 @@ all: validate single-html yast-html pdf text
 validate: $(prereqs)
 	$(daps_command) -d $< \
 	  $(profile_params) \
+		--adocattr attribute-missing=warn \
 	  validate
 
 pdf: build/release-notes/release-notes_color_en.pdf
