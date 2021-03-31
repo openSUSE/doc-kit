@@ -7,6 +7,9 @@
 :doc-url-beta: https://example.com/
 :doc-url-source: https://example.com/
 
+:support-url: https://example.com/support
+:rn-url: https://www.suse.com/releasenotes
+
 :copyright-begin: 20XX
 :copyright-end: {docyear}
 :company: SUSE LLC

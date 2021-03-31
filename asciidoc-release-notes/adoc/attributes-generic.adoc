@@ -168,7 +168,3 @@
 :zynq: Zynq
 :zynqreg: {zynq}*
 
-
-:support-url: https://example.com/support
-:rn-url: https://www.suse.com/releasenotes
-
