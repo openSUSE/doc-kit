@@ -19,6 +19,7 @@
 // conditionals-end
 
 :mdash: —
+:nbh: ‑
 :nbsp:  
 :nbzwsp: ﻿
 :zwsp: ​
@@ -31,6 +32,8 @@
 
 :suse: SUSE
 
+:selinux: SELinux
+
 :opensuse: open{suse}
 :sle: {suse} Linux Enterprise
 :sled: {sle} Desktop
@@ -38,8 +41,10 @@
 :jeos: JeOS
 :sleha: {sle} High Availability Extension
 :slehpc: {sle} for High-Performance Computing
+:slehpca: {slea} for HPC
 :slehag: Geo Clustering for {sleha}
 :slert: {sle} Real Time
+:slerta: {sle} RT
 :ha-guide: High Availability Guide
 :sdk: Software Development Kit
 :slesdk: {sle} {sdk}
@@ -48,6 +53,8 @@
 :slea: SLE
 :slda: {slea}D
 :slsa: {slea}S
+:sleda: {slda}
+:slesa: {slsa}
 :slessapa: {slea}S-SAP
 :haa: {slea} HA
 :haga: {slea} HA Geo
@@ -55,9 +62,11 @@
 :sdka: {slea} {sdk}
 :suma: {suse} Manager
 :leap: {opensuse} Leap
+:tw: {opensuse} Tumbleweed
 :scc: {suse} Customer Center
 :ph: {suse} Package Hub
 :ibmz: IBM Z
+:hana: SAP HANA
 // https://www.arm.com/company/policies/trademarks
 :arm: Arm
 :armreg: {arm}*
@@ -70,6 +79,9 @@
 :amazon-ec2reg: {amazon-ec2}*
 :aws: AWS
 :awsreg: {aws}*
+// https://azure.microsoft.com
+:azure: Microsoft Azure
+:azurereg: Microsoft* Azure*
 // https://amperecomputing.com/
 :ampere: Ampere
 :amperereg: {ampere}*
@@ -79,6 +91,8 @@
 :emagreg: {emag}*
 :altra: Altra
 :altrareg: {altra}*
+:altramax: Altra{nbsp}Max
+:altramaxreg: {altramax}*
 // https://www.amd.com/en/corporate/trademarks
 :amd: AMD
 :amdreg: {amd}*
@@ -99,6 +113,9 @@
 // XXX: ⅠⅤ - displaying as ## in cross-references
 :vc4: {videocore}{nbsp}IV
 :vc4reg: {videocorereg}{nbsp}IV
+// XXX: ⅤⅠ
+:vc6: {videocore}{nbsp}VI
+:vc6reg: {videocorereg}{nbsp}VI
 // https://www.cadence.com/en_US/home/company/u-s-trademarks.html
 :cadence: Cadence
 :cadencereg: {cadence}*
@@ -112,6 +129,9 @@
 :huaweireg: {huawei}*
 :kunpeng: Kunpeng
 :kunpengreg: {kunpeng}*
+// Khronos
+:openmax: OpenMAX
+:openmaxreg: {openmax}*
 // https://www.marvell.com/company/trademarks.html
 :marvell: Marvell
 :marvellreg: {marvell}*
@@ -125,18 +145,35 @@
 :thunderx2reg: {thunderx2}*
 :thunderx3: ThunderX3
 :thunderx3reg: {thunderx3}*
+:mobiveil: Mobiveil
 // https://www.mellanox.com/company/policies/trademarks
 :mellanox: Mellanox
 :mellanoxreg: {mellanox}*
 :bluefield: BlueField
 :bluefieldreg: {bluefield}*
+// MIPI Alliance
+:mipi: MIPI
+:mipireg: {mipi}*
+:mipicsi2: {mipi}{nbsp}CSI{nbh}2
+:mipicsi2reg: {mipireg}{nbsp}CSI{nbh}2*
 // https://www.nvidia.com/en-us/about-nvidia/legal-info/
 :nvidia: NVIDIA
 :nvidiareg: {nvidia}*
+:cuda: CUDA
+:cudareg: {cuda}*
 :tegra: Tegra
 :tegrareg: {tegra}*
 :jetson: Jetson
 :jetsonreg: {jetson}*
+:drive: DRIVE
+:nvidiadrive: NVIDIA {drive}
+:nvidiadrivereg: {nvidiadrive}*
+:xavier: Xavier
+:xavierreg: {xavier}*
+:jetsonagxxavier: Jetson AGX{nbsp}Xavier
+:jetsonagxxavierreg: {jetsonagxxavier}*
+:pegasus: Pegasus
+:pegasusreg: {pegasus}*
 // https://www.nxp.com/company/our-company/about-nxp/terms-of-use:TERMSOFUSE
 :nxp: NXP
 :nxpreg: {nxp}*
@@ -153,6 +190,10 @@
 :socionextreg: {socionext}*
 :synquacer: SynQuacer
 :synquacerreg: {synquacer}*
+// https://www.synopsys.com/company/legal/trademarks-brands.html
+:synopsis: Synopsis
+:designware: DesignWare
+:designwarereg: {designware}*
 :vivante: Vivante
 // https://www.xilinx.com/about/legal.html
 :xilinx: Xilinx

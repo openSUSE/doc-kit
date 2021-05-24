@@ -1,7 +1,24 @@
 :product: ProductName
 :producta: PN
-:this-version: 1.0
-:abstract: This document provides an overview of high-level general features, capabilities, and limitations of {product} {this-version} and important product updates.
+
+:this-ga: 01
+:this-sp: SP0
+:rel-date: Jan 1970
+:next-sp: SP0
+:next-ga: 01
+:previous-sp: SP0
+:previous-ga: 01
+:previous-version: {this-ga}{nbsp}{previous-sp}
+:this-version: {this-ga}{nbsp}{this-sp}
+:next-version: {this-ga}{nbsp}{next-sp}
+
+:abstract: This document provides an overview of high-level general features, capabilities, and limitations of {product}{nbsp}{this-version} and important product updates.
+
+:arm-product: {product} for {arm}
+:rpi-appliance: {arm-product} for the {rpi}
+:this-rpi-appliance: {arm-product} {this-version} for the {rpi}
+:z-product: {product} for IBM Z and LinuxONE
+:power-product: {product} for POWER
 
 :arm-product: {product} for {arm}
 :rpi-appliance: {arm-product} for the {rpi}
