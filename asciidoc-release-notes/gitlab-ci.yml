@@ -1,0 +1,6 @@
+image: registry.opensuse.org/documentation/containers/containers/opensuse-daps-toolchain:latest
+
+validate:
+  stage: test
+  script:
+    - make validate

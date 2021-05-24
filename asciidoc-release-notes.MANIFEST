@@ -1,6 +1,7 @@
 v0.2
 --
 always: gitignore -> .gitignore
+always(host-gitlab): gitlab-ci.yml -> .gitlab-ci.yml
 
 always: adoc_postprocess.xsl
 initial: DC-release-notes
