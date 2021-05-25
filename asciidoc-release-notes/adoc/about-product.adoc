@@ -1,6 +1,6 @@
 
-include::entities-generic.adoc[]
-include::entities-product.adoc[]
+include::attributes-generic.adoc[]
+include::attributes-product.adoc[]
 
 [#intro]
 == {product}
