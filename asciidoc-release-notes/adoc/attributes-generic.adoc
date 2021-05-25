@@ -58,6 +58,7 @@
 :haa: {slea} HA
 :haga: {slea} HA Geo
 :slewea: {sle}-WE
+:sdka: {slea}-{sdk}
 :sdka: {slea} {sdk}
 :suma: {suse} Manager
 :leap: {opensuse} Leap
