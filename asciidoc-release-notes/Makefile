@@ -33,7 +33,7 @@ xsltproc_command = xsltproc \
   --nonet
 
 mainfile = adoc/release-notes.adoc
-prereqs = DC-release-notes ${mainfile} adoc/*
+prereqs = DC-release-notes $(wildcard adoc/*.adoc adoc/*.xml)
 daps_xslt_rn_dir = /usr/share/daps/daps-xslt/relnotes
 
 profile_params = --adocattr lifecycle=$(LIFECYCLE)
