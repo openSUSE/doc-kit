@@ -33,6 +33,11 @@
 :support-url: https://example.com/support
 :rn-url: https://www.suse.com/releasenotes
 
+// conditionals-begin
+// lifecycle: beta|maintained|unmaintained
+:lifecycle: maintained
+// conditionals-end
+
 :copyright-begin: 20XX
 :copyright-end: {docyear}
 :company: SUSE LLC
