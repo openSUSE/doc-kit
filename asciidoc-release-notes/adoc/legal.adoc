@@ -19,7 +19,7 @@ You agree to not use deliverables for prohibited nuclear, missile, or chemical/b
 Refer to https://www.suse.com/company/legal/ for more information on exporting {suse} software.
 {suse} assumes no responsibility for your failure to obtain any necessary export approvals.
 
-Copyright © {copyright-begin}-2019 {company}.
+Copyright © {copyright-begin}-{copyright-end} {company}.
 {additional-rightsholders}
 
 This release notes document is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License (CC-BY-ND-4.0). You should have received a copy of the license along with this document. If not, see https://creativecommons.org/licenses/by-nd/4.0/.
