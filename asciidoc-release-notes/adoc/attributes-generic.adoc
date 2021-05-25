@@ -19,6 +19,10 @@
 :nbzwsp: ﻿
 :zwsp: ​
 
+// For support tables: +supported/-unsupported character
+:sup: &#43;
+:uns: ‒
+
 :rnotes: Release Notes
 :rversion: @VERSION@
 
