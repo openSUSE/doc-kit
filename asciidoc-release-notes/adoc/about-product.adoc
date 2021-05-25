@@ -56,10 +56,10 @@ For contracted customers and partners, {product} is delivered with L3 support fo
 To learn about supported features and limitations, refer to the following
 sections in this document:
 
-* <<allArch-kernel>>
-* <<allArch-virtualization>>
-* <<allArch-filesystems>>
-* <<removedDeprecated>>
+* <<kernel>>
+* <<virtualization>>
+* <<filesystems>>
+* <<removed-deprecated>>
 
 // see fate#316990, bsc#1161529
 [#intro-support-external]
