@@ -35,8 +35,6 @@
 :sles: {sle} Server
 :jeos: JeOS
 :sleha: {sle} High Availability Extension
-:slehpc: {sle} for High-Performance Computing
-:slehpca: {slea} for HPC
 :slehag: Geo Clustering for {sleha}
 :slert: {sle} Real Time
 :slerta: {sle} RT
@@ -46,6 +44,8 @@
 :we: Workstation Extension
 :slewe: {sle} {we}
 :slea: SLE
+:slehpc: {sle} for High-Performance Computing
+:slehpca: {slea} for HPC
 :slda: {slea}D
 :slsa: {slea}S
 :sleda: {slda}
