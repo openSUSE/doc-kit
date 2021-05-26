@@ -1,0 +1,10 @@
+== SUSE Product 1.0 (SP 1.0) Release Notes
+
+== How to contribute
+
+For a comprehensive overview, see https://confluence.suse.com/display/documentation/Contributing+to+release+notes.
+
+. Create a new branch with name that includes: your username, the original branch name, and descriptive suffix (e.g. `lkucharczyk-15_SP3-newfeature`).
+. Submit the changes as a merge request.
+. Write one sentence per line.
+. If there is a related issue, use its Jira or Bugzilla identifier as the section ID (`[#jsc-SLE-1234]`), or if that is not possible, add it as a comment (`// jsc#SLE-1234`).
