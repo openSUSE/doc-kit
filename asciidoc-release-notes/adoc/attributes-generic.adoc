@@ -55,8 +55,6 @@
 :slsa: {slea}S
 :sleda: {slda}
 :slesa: {slsa}
-:slessap: {sles} for SAP Applications
-:slessapa: {slea}S-SAP
 :haa: {slea} HA
 :haga: {slea} HA Geo
 :slewea: {sle}-WE
@@ -68,7 +66,12 @@
 :scc: {suse} Customer Center
 :ph: {suse} Package Hub
 :ibmz: IBM Z
-:hana: SAP HANA
+:sap: SAP
+:slessap: {sles} for {sap} Applications
+:slessapa: {slea}S-{sap}
+:hana: {sap} HANA
+:nw: {sap} NetWeaver
+:s4hana: {sap} S/4HANA
 // https://www.arm.com/company/policies/trademarks
 :arm: Arm
 :armreg: {arm}*
