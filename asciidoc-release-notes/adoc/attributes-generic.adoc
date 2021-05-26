@@ -37,6 +37,7 @@
 :sle: {suse} Linux Enterprise
 :sled: {sle} Desktop
 :sles: {sle} Server
+:ses: {suse} Enterprise Storage
 :jeos: JeOS
 :sleha: {sle} High Availability Extension
 :slehag: Geo Clustering for {sleha}
@@ -54,6 +55,7 @@
 :slsa: {slea}S
 :sleda: {slda}
 :slesa: {slsa}
+:slessap: {sles} for SAP Applications
 :slessapa: {slea}S-SAP
 :haa: {slea} HA
 :haga: {slea} HA Geo
