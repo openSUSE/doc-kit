@@ -19,7 +19,6 @@ initial: xml/example_doc_updates.xml
 initial: images/src/png/example.png
 
 initial: xml/common_intro_available_doc.xml
-initial: xml/common_intro_cycle.xml
 always: xml/common_intro_support.xml
 always: xml/common_intro_convention.xml
 always: xml/common_intro_feedback.xml
