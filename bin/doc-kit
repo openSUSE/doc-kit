@@ -5,8 +5,10 @@
 # The initial setup asks a few questions (which type of document, which
 # variant). Mere updates are usually completely automatic.
 # Usage:
-# $ $0          # Set up/update a documentation repository
-# $ $0 --help   # This screen
+# $ $0                               # Set up/update a documentation repository
+# $ $0 --help                        # This screen
+# $ DOCKIT_REPO=https://github.com/org/repo  # Use non-default source repository
+# $ DOCKIT_BRANCH=different_branch   # Use non-default source branch
 
 # project name
 self="Doc Kit"
@@ -14,8 +16,9 @@ self="Doc Kit"
 # project version number
 version=0.4
 
-repo="https://github.com/openSUSE/doc-kit/raw"
-branch="main"
+repo_base=${DOCKIT_REPO:-https://github.com/openSUSE/doc-kit}
+repo="$repo_base/raw"
+branch=${DOCKIT_BRANCH:-main}
 indexfile="KITS"
 fileextension=".MANIFEST"
 config="doc-kit.conf"
