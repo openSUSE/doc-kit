@@ -39,7 +39,7 @@ out() {
 
 geturl() {
   # $1 = file name
-  wget -qO - --no-check-certificate "${repo}/${branch}/$1"
+  wget -qO - "${repo}/${branch}/$1"
 }
 
 saveurl() {
@@ -53,7 +53,7 @@ saveurl() {
     fi
     [[ -d "$dir" ]] || mkdir -p "$dir"
   fi
-  wget -q --no-check-certificate -O "$2" "${repo}/${branch}/$1"
+  wget -q -O "$2" "${repo}/${branch}/$1"
 }
 
 shortenattop() {
@@ -174,7 +174,7 @@ if [[ -f "$config" ]]; then # FIXME: validate config
   manifest=$(echo -e "$manifest" | tail -n +3)
 else
   echo "No $config file found: Running initial setup."
-  manifestindex=$(wget -qO - --no-check-certificate "${repo}/${branch}/${indexfile}")
+  manifestindex=$(wget -qO - "${repo}/${branch}/${indexfile}")
   checkmanifestcompatibility "$manifestindex"
   manifestindex=$(echo -e "$manifestindex" | tail -n +3 | sort -u)
   echo "Available document types:"
