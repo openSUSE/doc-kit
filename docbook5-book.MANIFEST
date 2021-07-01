@@ -1,6 +1,7 @@
 v0.2
 --
 always: gitignore -> .gitignore
+always: editorconfig -> .editorconfig
 
 initial(license-gfdl): xml/product-entities-gfdl.ent -> xml/product-entities.ent
 initial(license-cc): xml/product-entities-cc.ent -> xml/product-entities.ent

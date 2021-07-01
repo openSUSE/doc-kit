@@ -1,6 +1,7 @@
 v0.2
 --
 always: gitignore -> .gitignore
+always: editorconfig -> .editorconfig
 
 always(license-cc-by-sa): LICENSE-CC-BY-SA -> LICENSE
 always(license-cc-by-nd): LICENSE-CC-BY-ND -> LICENSE
