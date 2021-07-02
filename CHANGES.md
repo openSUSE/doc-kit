@@ -1,4 +1,4 @@
-0.5 - 2021-03-12 - sknorr
+0.5 - 2021-07-02 - sknorr
   - Allow overriding default source branch and source repo by using
     variables `DOCKIT_BRANCH` and `DOCKIT_REPO` on the command line
   - Improve manifest validation

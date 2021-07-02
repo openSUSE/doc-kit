@@ -22,7 +22,7 @@ Version:        0.5
 Release:        0
 Summary:        Initialize and Update Documentation Repositories
 License:        GPL-2.0+
-Group:          System/X11/Fonts
+Group:          Productivity/Publishing/XML
 Url:            https://github.com/sknorr/doc-kit
 Source0:        %{name}-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
