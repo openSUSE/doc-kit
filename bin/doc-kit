@@ -24,8 +24,9 @@ fileextension=".MANIFEST"
 config="doc-kit.conf"
 
 
-charclass_variants="[-_/a-zA-Z0-9]+"
-charclass_files="[-_./a-zA-Z0-9]+"
+charclass_variants="[-_a-zA-Z0-9]+"
+charclass_files_strict="[-_.a-zA-Z0-9][-_/a-zA-Z0-9][-_./a-zA-Z0-9]+"
+charclass_files_relaxed="[-_.a-zA-Z0-9][-_./a-zA-Z0-9]+"
 
 
 out() {
@@ -140,7 +141,7 @@ validatemanifest() {
     out "Manifest file empty."
   fi
   validatedmanifest=$(preparemanifest "$1" | sed -r \
-    -e "s/^(initial|always)(\(${charclass_variants}( +${charclass_variants})*\))?: +${charclass_files}( +-> +${charclass_files})?\$//" \
+    -e "s/^(initial|always)(\(${charclass_variants}( +${charclass_variants})*\))?: +(${charclass_files_relaxed} +-> +)?${charclass_files_strict}\$//" \
     | sed -n '/./ p')
 
   if [[ "$validatedmanifest" ]]; then
@@ -218,13 +219,13 @@ while [[ "$cleanmanifest" ]]; do
 
   type=$(echo "$line" | grep -oP '^(initial|always)')
   variants=$(sanitizevariants $(echo "$line" | grep -oP '^[^:]+' | sed -r -e 's/^[a-z]+\(?//' -e 's/\)$//'))
-  from=$(echo "$line" | sed -r 's/^[^:]+: +//' | grep -oP "^${charclass_files}")
-  to=$(echo "$line" | grep -oP "${charclass_files}+\$")
+  from=$(echo "$line" | sed -r 's/^[^:]+: +//' | grep -oP "^${charclass_files_relaxed}")
+  to=$(echo "$line" | grep -oP "${charclass_files_relaxed}+\$")
 
   if [[ "$type" = "always" ]]; then
     if [[ $(subsetof "$configvariants" "$variants" 1 0) ]]; then
       # FIXME: Adding $to here is dangerous (though file names are checked at
-      # some point to only contain $charclass_files.)
+      # some point to only contain $charclass_files_relaxed.)
       oldsha=$(echo -e "$cachedconfig" | sed -r -n 's^file: +([0-9a-f]+) +'"$to"'$^\1^ p')
       # If the file does not already exist (e.g. initial setup or new file),
       # sha1sum will expectedly write out an error message, hence 2>/dev/null
