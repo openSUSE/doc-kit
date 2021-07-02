@@ -14,7 +14,7 @@
 self="Doc Kit"
 
 # project version number
-version=0.4
+version=0.5
 
 repo_base=${DOCKIT_REPO:-https://github.com/openSUSE/doc-kit}
 repo="$repo_base/raw"

@@ -1,3 +1,9 @@
+0.5 - 2021-03-12 - sknorr
+  - Allow overriding default source branch and source repo by using
+    variables `DOCKIT_BRANCH` and `DOCKIT_REPO` on the command line
+  - Improve manifest validation
+  - Remove `--no-check-certificates` from `wget` calls
+
 0.4 - 2021-03-12 - sknorr
   - Use `main` branch of doc-kit repo by default
 
