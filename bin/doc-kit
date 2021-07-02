@@ -187,7 +187,7 @@ else
   manifest=$(geturl "${configtype}${fileextension}")
   checkmanifestcompatibility "$manifest"
   manifest=$(echo -e "$manifest" | tail -n +3)
-  validatemanifest "$manifest"
+  validatemanifest "$manifest" || out "Manifest validation failed" 1
   availablevariants=$(preparemanifest "$manifest" | sed -r \
     -e 's/\)?:.+$//' \
     -e 's/^[^\(]+\(?//' \
@@ -207,7 +207,7 @@ else
   initial=1
 fi
 
-validatemanifest "$manifest"
+validatemanifest "$manifest" || out "Manifest validation failed" 1
 
 cleanmanifest=$(preparemanifest "$manifest")
 
