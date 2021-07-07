@@ -12,25 +12,25 @@
 ]>
 
 <!--filename:
- * use hyphens as separators
- * use topic type as prefix (task-|concept-|reference-)
- * content must be obvious from filename-->
+     * use hyphens as separators
+     * use topic type as prefix (task-|concept-|reference-)
+     * content must be obvious from filename-->
 
 <!--Root ID
- * use topic type as prefix (task-|concept-|reference-)
- * describe task, use verb in infinitive
-   e.g. task-register-product-after-installation-->
+    * use topic type as prefix (task-|concept-|reference-)
+    * describe task, use verb in infinitive
+    e.g. task-register-product-after-installation-->
 
 <!--IDs
-  * must not reflect structure-->
+    * must not reflect structure-->
 
 <!--metadata
- * product foo
- * product version xyz
- * topic category/ies
- * target group(s)
- * initially published
- * last modified-->
+   * product foo
+   * product version xyz
+   * topic category/ies
+   * target group(s)
+   * initially published
+   * last modified-->
  
 <article xml:id="task-example" xml:lang="en"
  xmlns="http://docbook.org/ns/docbook" version="5.1"
