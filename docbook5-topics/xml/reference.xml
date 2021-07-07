@@ -13,13 +13,13 @@
 
 <!--filename:
  * use hyphens as separators
- * use topic type as prefix (task-|concept-|reference-)
+ * use topic type as prefix (task|concept|reference)
  * content must be obvious from filename-->
 
 <!--Root ID
- * use topic type as prefix (task-|concept-|reference-)
+ * use topic type as prefix (task|concept|reference)
  * use nouns
-   e.g. reference-zypper-options->
+   e.g. reference-zypper-options-->
 
 <!--IDs
   * must not reflect structure-->
@@ -51,7 +51,7 @@
  </info>
 
  <section>
-  <title>A title</title>
+  <title>Section title</title>
   <para>
    A paragraph of text.
   </para>
@@ -59,7 +59,7 @@
   <variablelist>
    <title>A title</title>
    <varlistentry>
-    <term><screen>&prompt.user;a-long-command --with-options</screen></term>
+    <term><command>a-command --with-options</command></term>
     <listitem>
      <para>
       A paragraph of text.
@@ -67,7 +67,7 @@
     </listitem>
    </varlistentry>
    <varlistentry>
-    <term><screen>&prompt.user;another-long-command --with-options</screen></term>
+    <term><command>another-command --with-options</command></term>
     <listitem>
      <para>
       Another paragraph of text.
@@ -76,15 +76,17 @@
    </varlistentry>
   </variablelist>
 
-  <informaltable>
+  <table>
+   <title>A table title</title>
    <tgroup cols="2">
     <colspec colwidth="50*"/>
-    <colspec colwidth="50"/>
+    <colspec colwidth="50*"/>
     <tbody>
-     <row><entry>1</entry><entry>1</entry></row>
-     <row><entry>2</entry><entry>4</entry></row>
-     <row><entry>3</entry><entry>9</entry></row>
+     <row><entry>an entry</entry><entry>another entry</entry></row>
+     <row><entry>an entry</entry><entry>another entry</entry></row>
+     <row><entry>an entry</entry><entry>another entry</entry></row>
     </tbody>
    </tgroup>
-  </informaltable>
+  </table>
  </section>
+</article>

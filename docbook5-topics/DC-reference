@@ -1,7 +1,7 @@
 # This file originates from the project https://github.com/openSUSE/doc-kit
 # This file can be edited downstream.
 
-MAIN="reference-.xml"
+MAIN="reference.xml"
 ROOTID="reference-example"
 
 PROFCONDITION="suse-product"

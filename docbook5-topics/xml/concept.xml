@@ -13,13 +13,13 @@
 
 <!--filename:
  * use hyphens as separators
- * use topic type as prefix (task-|concept-|reference-)
+ * use topic type as prefix (task|concept|reference)
  * content must be obvious from filename-->
 
 <!--Root ID
- * use topic type as prefix (task-|concept-|reference-)
+ * use topic type as prefix (task|concept|reference)
  * use nouns
-   e.g. concept-fencing->
+   e.g. concept-fencing-->
 
 <!--IDs
   * must not reflect structure-->
@@ -109,3 +109,4 @@
    </listitem>
   </itemizedlist>
  </section>
+</article>

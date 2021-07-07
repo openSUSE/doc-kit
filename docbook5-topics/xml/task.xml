@@ -13,11 +13,11 @@
 
 <!--filename:
  * use hyphens as separators
- * use topic type as prefix (task-|concept-|reference-)
+ * use topic type as prefix (task|concept|reference)
  * content must be obvious from filename-->
 
 <!--Root ID
- * use topic type as prefix (task-|concept-|reference-)
+ * use topic type as prefix (task|concept|reference)
  * describe task, use verb in infinitive
    e.g. task-register-product-after-installation-->
 
@@ -179,3 +179,4 @@
    </listitem>
   </itemizedlist>
  </section>
+</article>
