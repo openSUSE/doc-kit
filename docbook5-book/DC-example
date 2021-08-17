@@ -2,7 +2,7 @@
 # This file can be edited downstream.
 
 MAIN="MAIN.book-example.xml"
-ROOTID="book.example"
+ROOTID="book-example"
 
 PROFCONDITION="suse-product"
 #PROFCONDITION="suse-product;beta"
