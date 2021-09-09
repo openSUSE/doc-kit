@@ -36,4 +36,4 @@ endif::[]
 ifeval::["{lifecycle}" == "unmaintained"]
 * For the most up-to-date version of the documentation for {product}{nbsp}{this-version}, see {doc-url}.
 endif::[]
-* Find a collection of White Papers in the {product} Resource Library at https://www.suse.com/products/server#resources.
+* Find a collection of White Papers in the {product} Resource Library at {resource-library-url}.
