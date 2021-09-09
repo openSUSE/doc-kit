@@ -27,6 +27,8 @@
 :support-url: https://example.com/support
 :rn-url: https://www.suse.com/releasenotes
 
+:resource-library-url: https://www.suse.com/products/server#resources
+
 // conditionals-begin
 // lifecycle: beta|maintained|unmaintained
 :lifecycle: maintained
