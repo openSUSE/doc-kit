@@ -33,6 +33,10 @@
 
 :selinux: SELinux
 
+:x64: x86-64
+:aarch64: AArch64
+:ppc: PowerPC
+
 :opensuse: open{suse}
 :sle: {suse} Linux Enterprise
 :sled: {sle} Desktop
@@ -154,8 +158,17 @@
 // https://www.mellanox.com/company/policies/trademarks
 :mellanox: Mellanox
 :mellanoxreg: {mellanox}*
-:bluefield: BlueField
+:bluefield: Blue{nbzwsp}Field
 :bluefieldreg: {bluefield}*
+// XXX {nbh}
+:bluefield2: {bluefield}-2
+:bluefield2reg: {bluefieldreg}-2
+:bluefield2x: {bluefield}-2X
+:bluefield2xreg: {bluefieldreg}-2X
+:bluefield3: {bluefield}-3
+:bluefield3reg: {bluefieldreg}-3
+:connectx: ConnectX
+:connectxreg: {connectx}*
 // MIPI Alliance
 :mipi: MIPI
 :mipireg: {mipi}*
