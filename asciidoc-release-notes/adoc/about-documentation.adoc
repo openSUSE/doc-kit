@@ -15,6 +15,7 @@ rpm --changelog -qp FILENAME.rpm
 * Check the `ChangeLog` file in the top level of the installation medium for a chronological log of all changes made to the updated packages.
 * Find more information in the `docu` directory of the installation medium of {product}{nbsp}{this-version}.
   This directory includes PDF versions of the {product}{nbsp}{this-version} Installation Quick Start Guide.
+// bsc#1188302
 * Get list of manual pages with usage information about a particular package from the RPM (where `_FILENAME_.rpm` is the name of the RPM):
 +
 ----
