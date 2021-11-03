@@ -1,3 +1,15 @@
+// conditionals-begin
+// lifecycle: beta|maintained|unmaintained
+:lifecycle: maintained
+// conditionals-end
+
+ifeval::["{lifecycle}" == "beta"]
+:label-pre: {nbsp}(prerelease)
+endif::[]
+ifeval::["{lifecycle}" != "beta"]
+:label-pre:
+endif::[]
+
 :product: ProductName
 :producta: PN
 
@@ -9,7 +21,7 @@
 :previous-sp: SP0
 :previous-ga: 01
 :previous-version: {this-ga}{nbsp}{previous-sp}
-:this-version: {this-ga}{nbsp}{this-sp}
+:this-version: {this-ga}{nbsp}{this-sp}{label-pre}
 :next-version: {this-ga}{nbsp}{next-sp}
 
 :abstract: This document provides an overview of high-level general features, capabilities, and limitations of {product}{nbsp}{this-version} and important product updates.
@@ -28,11 +40,6 @@
 :rn-url: https://www.suse.com/releasenotes
 
 :resource-library-url: https://www.suse.com/products/server#resources
-
-// conditionals-begin
-// lifecycle: beta|maintained|unmaintained
-:lifecycle: maintained
-// conditionals-end
 
 :copyright-begin: 20XX
 :copyright-end: {docyear}

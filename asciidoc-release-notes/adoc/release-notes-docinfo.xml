@@ -7,6 +7,6 @@
    </dm:bugtracker>
   </dm:docmanager>
   <releaseinfo>@VERSION@</releaseinfo>
-  <productname>ProductName</productname>
-  <productnumber>1.0</productnumber>
+  <productname>{product}</productname>
+  <productnumber>{this-version}</productnumber>
   <date><?dbtimestamp format="Y-m-d"?></date>
