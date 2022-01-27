@@ -27,7 +27,7 @@ The `doc-kit` command-line tool can be installed in the following ways:
 0. Create a new directory and switch to it.
 1. Create a Git repository in the directory: `git init`. 
 2. Within this directory, run `doc-kit`.
-3. Specify the document type you want to create. Currently, the options are `docbook5-book` and `docbook4-release-notes`.
+3. Specify the document type you want to create. Currently, the options are `docbook5-book` and `asciidoc-release-notes`.
 4. Document types can have variants.
    This allows, for example, to ship a slightly different set of files for products that support a single architecture versus products that support multiple architectures.
    * If the selected type has variants, specify the ones needed in your situation.
