@@ -8,7 +8,7 @@ Doc-Kit
 
 Doc-Kit consists of two parts:
 
-* a command-line tool called `doc-kit` can download documentation boilerplate files
+* a command-line tool called `doc-kit` that can download documentation boilerplate files
 * a repository of documentation boilerplate files, such as the SUSE book preface and entity files
 
 Both are currently hosted in this Git repository.
