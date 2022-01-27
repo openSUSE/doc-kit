@@ -1,4 +1,6 @@
-# Doc Kit
+:prjname: Doc Kit
+
+# {prjname}
 
 * Initialize SUSE or openSUSE documentation repositories.
 
@@ -7,7 +9,7 @@
 
 ## What it is
 
-Doc Kit consists of two parts:
+{prjname} consists of two parts:
 
 * a command-line tool called `doc-kit` that can download documentation boilerplate files
 
@@ -16,7 +18,7 @@ Doc Kit consists of two parts:
 Both are currently hosted in this Git repository.
 
 
-## Installing Doc Kit
+## Installing {prjname}
 
 The `doc-kit` command-line tool can be installed in the following ways:
 
@@ -43,18 +45,18 @@ This allows, for example, to ship a slightly different set of files for products
 
 ** If there are no variants, this step will be skipped.
 
-. Doc Kit will now download all necessary files. At the end, it will create a settings file `doc-kit.conf`.
+. {prjname} will now download all necessary files. At the end, it will create a settings file `doc-kit.conf`.
 
 . Add and commit all downloaded files to the Git repo (including the `doc-kit.conf` settings file):
 `git add . && git commit`
 
 . Start customizing the files:
 
-** Doc Kit makes a distinction between files downloaded only once during the initial setup ("initial") and files that are updateable ("always").
+** {prjname} makes a distinction between files downloaded only once during the initial setup ("initial") and files that are updateable ("always").
 
 ** Which type of file you are looking at is noted in the first few lines of the file header.
 
-** Do not edit updateable files, or you will run into issues on later updates with Doc Kit.
+** Do not edit updateable files, or you will run into issues on later updates with {prjname}.
 (As also noted in the file header.)
 
 ** Do edit initial files, so they fit with your project.
@@ -65,7 +67,7 @@ Feel free to remove the file headers from initial files.
 . Commit your changes again.
 
 
-## Converting a project to Doc Kit
+## Converting a project to {prjname}
 
 . Go to your project directory.
 . Make sure there are no uncommitted changes and no stray unstaged files in your project directory.
@@ -78,15 +80,15 @@ This allows, for example, to ship a slightly different set of files for products
 
 ** If there are no variants, this step will be skipped.
 
-. Doc Kit will now download all necessary files. At the end, it will create a settings file `doc-kit.conf`.
+. {prjname} will now download all necessary files. At the end, it will create a settings file `doc-kit.conf`.
 
-. Get an overview of the unstaged new files added by Doc Kit using `git status`.
+. Get an overview of the unstaged new files added by {prjname} using `git status`.
 
 . Start customizing the files:
 
-** Doc Kit makes a distinction between files downloaded only once during the initial setup ("initial") and files that are updateable ("always").
+** {prjname} makes a distinction between files downloaded only once during the initial setup ("initial") and files that are updateable ("always").
 
-*** Do not edit updateable files, or you will run into issues on later updates with Doc Kit.
+*** Do not edit updateable files, or you will run into issues on later updates with {prjname}.
 (As also noted in the file header.)
 
 *** Do edit initial files, so they fit with your project.
@@ -105,7 +107,7 @@ Integrate necessary changes from the old files into the new ones.
 . Add and commit all changes to the Git repo (including the `doc-kit.conf` settings file): `git add . && git commit`
 
 
-## Updating a Doc Kit project
+## Updating a {prjname} project
 
 . Go to the project directory.
 
@@ -114,3 +116,8 @@ Integrate necessary changes from the old files into the new ones.
 . Check whether everything still builds.
 
 . Commit.
+
+
+## Creating a kit
+
+See link:create-a-kit.adoc[].
