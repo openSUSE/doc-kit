@@ -1,0 +1,196 @@
+:prjname: Doc Kit
+:prjversion: 0.5
+:minimumcompat: 0.2
+
+
+# Creating a kit for {prjname}
+
+Creating a kit means creating a template that can be reused and customized by downstream document projects.
+
+Kits can be made to fit multiple use cases by means of variants.
+
+At its heart, {prjname} is a fairly dumb downloader and as such completely format-agnostic and purpose-agnostic.
+It does whatever the kit defines.
+It currently happens to be used for documentation content in DocBook and AsciiDoc formats.
+However, it knows nothing whatsoever about these formats.
+
+
+## Definitions
+
+Kit::
+  A set of files that can be downloaded.
+
+`KITS` file::
+  The entry point for {prjname} to discover all kits available in certain repository/branch.
+
+Manifest::
+  The file that defines the set of documents that belong to a kit.
+
+Variant::
+  When a file is defined to be part of a variant, {prjname} will only download it, if the user requests that variant.
+
+
+## Starting a kit
+
+. Change directory to the repository for kits.
+Normally that will be this directory.
+
+. Create a new local branch within the repository.
+For example, `my-test-branch`
+
+. Think of a name for your kit.
+The name must be composed of only alphanumeric ASCII characters, and `-`, `_`, and `.` characters.
+
+. Create a directory named after your kit in the root directory of the repository.
+For example, `my-kit`.
+
+. Create a set of files that need to be included, and move all of them into the directory.
+If possible, add a header to each file that indicates whether it can be edited downstream or must be kept pristine by downstreams.
+
+. Create a manifest file named after your kit with the file extension `.MANIFEST`.
+For example, `my-kit.MANIFEST`.
+
+. In the manifest file, set up the contents of the kit as outlined in <<manifest-file>>.
+
+. Add the new kit to the file `KITS` as outlined in <<kits-file>>.
+
+. Push your branch.
+
+. Test your new kit:
+
+.. Create an empty test directory and initialize it with Git:
+`git init my-kit-test`
+
+.. Change to the directory, then create an initial commit:
+`git commit --allow-empty .`
+
+.. Run {prjname} on your branch:
+`DOCKIT_BRANCH=my-test-branch doc-kit`.
+Select your new kit and wait for it to download.
+
+.. If the kit works, manually review it and eventually merge it to the `main` branch.
+
+
+
+[#kits-file]
+## The `KITS` file
+
+
+### Purpose
+
+* The `KITS` file serves as the entry point to a repository containing one or more kits.
+
+* The `KITS` file lists the names of all kits that are available.
+Even if a kit exists within the repository, {prjname} will only discover it if it is listed in the file.
+
+* The `KITS` file must be located at the root of the Git repository.
+
+
+### File format
+
+The `KITS` file is a plain-text file.
+It has the following contents:
+
+* It begins with a version compatibility header declaring the minimal version of {prjname} it is compatible with.
+{prjname} will refuse to consume a `KITS` file that includes a version compatibility header indicating the file was created for a later version of {prjname}.
+As of {prjname} {prjversion}, the minimum version for the version header is `pass:a[v{minimumcompat}]`, as that version marks the last change to the file format used.
+
+* The second line is composed of two hyphen characters (`--`).
+It separates the version compatibility header from the content of the file.
+
+* The third and all following lines each list the name of a single kit.
+For each kit, there must be a manifest file named `__name_of_kit__.MANIFEST` and a directory named `__name_of_kit__`.
+
+.A `KITS` file
+====
+[source]
+----
+v0.2
+--
+name-of-kit1
+name-of-kit2
+name-of-kit3
+----
+====
+
+
+[#manifest-file]
+## Manifest files (`*.MANIFEST`)
+
+
+### Purpose
+
+* Manifest files list all files belonging to a kit.
+
+* Manifest files allow {prjname} to discover these files, check whether they need to be downloaded in the current context and download them.
+
+* Manifest files allow defining that {prjname} should rename a file downstream.
+
+
+### File format
+
+Manifest files are plain-text files.
+They have the following contents:
+
+* They begins with a version compatibility header declaring the minimal version of {prjname} it is compatible with.
+{prjname} will refuse to consume a manifest file that includes a version compatibility header indicating the file was created for a later version of {prjname}.
+As of {prjname} {prjversion}, the minimum version for the version header is `pass:a[v{minimumcompat}]`, as that version marks the last change to the file format used.
+
+* The second line is composed of two hyphen characters (`--`).
+It separates the version compatibility header from the content of the file.
+
+* The third and all following lines each list the name of a file included in the kit and how it should be used.
+These lines are composed of the following information fields:
+
+** mandatory: `initial` or `always`:
+Indicates whether a file should only be downloaded initially or whether it should be downloaded upon every update.
+
+** optional: `(__variant__)` / `(__variant1__ __variant2__)`:
+Files that belong to a variant are only downloaded if the user requested a specific variant.
+Variants are defined ad-hoc and don't need to be declared otherwise.
++
+To only have the file downloaded if the user requested a set of variants, you can supply multiple variants, separated with spaces.
++
+There is currently no way of supplying a description along with variants.
+There is currently no mechanism of defining variants as mutually exclusive.
+For example, a user may request the variants `license-gpl` and `license-mit` together and end up with an illogical set of files.
+For these reasons, it is important that variants have speaking, logical names.
+
+** mandatory: ``: `` :
+A separator.
+
+** optional: ``__source_file_name__ +++->+++ ``:
+{prjname} allows renaming files within the downloaded set of documents.
+To do so, add the source file name, as used in the source Git repository and an ASCII arrow (`+++->+++`)
++
+By default, files have to be located in `__name_of_kit__/__source_file_name__`.
+However, you can store them in subdirectories or even in the parent directory (`../`).
+In this case, the referenced relative file path must include that information.
+
+** mandatory: `__target_file_name__`:
+The file name to store the file under.
+By default, the name is the same in both source and target, unless a source file name was explicitly specified (using the `+++->+++` field above).
++
+By default, files have to be located in `__name_of_kit__/__source_file_name__`.
+However, you can store them in subdirectories or even in the parent directory (`../`).
+In this case, the referenced relative file path must include that information.
+On the user's side, subdirectories will be created automatically as necessary.
+
+** Below the version compatibility header, you can use empty lines which will not be interpreted.
+
+.A manifest file
+====
+[source]
+----
+v0.2
+--
+initial: file1.txt
+always: file2.txt
+always: file3.txt -> .file3.txt
+
+initial(variant1): file4-variant1.txt -> file4.txt
+initial(variant2): file4-variant2.txt -> file4.txt
+
+initial(variant2 variant3): file5.txt
+----
+====
