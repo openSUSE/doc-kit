@@ -1,0 +1,116 @@
+# Doc Kit
+
+* Initialize SUSE or openSUSE documentation repositories.
+
+* Update boilerplate files contained in documentation repositories.
+
+
+## What it is
+
+Doc Kit consists of two parts:
+
+* a command-line tool called `doc-kit` that can download documentation boilerplate files
+
+* a repository of documentation boilerplate files, such as the SUSE book preface and entity files
+
+Both are currently hosted in this Git repository.
+
+
+## Installing Doc Kit
+
+The `doc-kit` command-line tool can be installed in the following ways:
+
+* Install it as an RPM for openSUSE from the OBS project [Documentation:Tools](https://build.opensuse.org/project/show/Documentation:Tools), under the package name `doc-kit`.
+(Generally preferred.)
+
+* Clone this Git repository and use `bin/doc-kit`.
+
+
+## Setting up a completely new project
+
+. Create a new directory and switch to it.
+
+. Create a Git repository in the directory: `git init`. 
+
+. Within this directory, run `doc-kit`.
+
+. Specify the document type you want to create. Currently, the options are `docbook5-book` and `asciidoc-release-notes`.
+
+. Document types can have variants.
+This allows, for example, to ship a slightly different set of files for products that support a single architecture versus products that support multiple architectures.
+
+** If the selected type has variants, specify the ones needed in your situation.
+
+** If there are no variants, this step will be skipped.
+
+. Doc Kit will now download all necessary files. At the end, it will create a settings file `doc-kit.conf`.
+
+. Add and commit all downloaded files to the Git repo (including the `doc-kit.conf` settings file):
+`git add . && git commit`
+
+. Start customizing the files:
+
+** Doc Kit makes a distinction between files downloaded only once during the initial setup ("initial") and files that are updateable ("always").
+
+** Which type of file you are looking at is noted in the first few lines of the file header.
+
+** Do not edit updateable files, or you will run into issues on later updates with Doc Kit.
+(As also noted in the file header.)
+
+** Do edit initial files, so they fit with your project.
+Feel free to remove the file headers from initial files.
+
+. Make sure the edited project validates: `daps -d DC-example validate` 
+
+. Commit your changes again.
+
+
+## Converting a project to Doc Kit
+
+. Go to your project directory.
+. Make sure there are no uncommitted changes and no stray unstaged files in your project directory.
+. Within this directory, run `doc-kit`.
+. Specify the document type you want to create. Currently, the options are `docbook5-book` and `docbook4-release-notes`.
+. Document types can have variants.
+This allows, for example, to ship a slightly different set of files for products that support a single architecture versus products that support multiple architectures.
+
+** If the selected type has variants, specify the ones needed in your situation.
+
+** If there are no variants, this step will be skipped.
+
+. Doc Kit will now download all necessary files. At the end, it will create a settings file `doc-kit.conf`.
+
+. Get an overview of the unstaged new files added by Doc Kit using `git status`.
+
+. Start customizing the files:
+
+** Doc Kit makes a distinction between files downloaded only once during the initial setup ("initial") and files that are updateable ("always").
+
+*** Do not edit updateable files, or you will run into issues on later updates with Doc Kit.
+(As also noted in the file header.)
+
+*** Do edit initial files, so they fit with your project.
+Feel free to remove the file headers from initial files.
+
+** Which type of file you are looking at is noted in the first few lines of the file header.
+
+** Most likely, many will duplicate files that are already in your repo.
+If so, give preference to the new files and remove the old ones from your Git repo.
+Integrate necessary changes from the old files into the new ones.
+
+** Remove the old boilerplate files from Git
+
+. Make sure the edited project validates: `daps -d DC-example validate` 
+
+. Add and commit all changes to the Git repo (including the `doc-kit.conf` settings file): `git add . && git commit`
+
+
+## Updating a Doc Kit project
+
+. Go to the project directory.
+
+. Run `doc-kit`.
+
+. Check whether everything still builds.
+
+. Commit.
