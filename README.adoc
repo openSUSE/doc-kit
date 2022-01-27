@@ -22,7 +22,7 @@ Both are currently hosted in this Git repository.
 
 The `doc-kit` command-line tool can be installed in the following ways:
 
-* Install it as an RPM for openSUSE from the OBS project [Documentation:Tools](https://build.opensuse.org/project/show/Documentation:Tools), under the package name `doc-kit`.
+* Install it as an RPM for openSUSE from the OBS project link:https://build.opensuse.org/project/show/Documentation:Tools[Documentation:Tools], under the package name `doc-kit`.
 (Generally preferred.)
 
 * Clone this Git repository and use `bin/doc-kit`.
