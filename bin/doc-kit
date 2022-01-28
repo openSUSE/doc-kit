@@ -242,7 +242,7 @@ while [[ "$cleanmanifest" ]]; do
           forcereplace=1
           continue
         else
-          newfiles+="\nfile: $oldsha $to"
+          newfiles+="\nfile: $oldsha  $to"
         fi
       fi
     fi
