@@ -8,7 +8,7 @@
 
 <!-- PROJECT REPOSITORY URL -->
 <!ENTITY repo-url "https://github.com/SUSE/doc-[PRODUCT]">
-<!ENTITY repo-readme "&repo-url;/blob/master/README.adoc">
+<!ENTITY repo-readme "&repo-url;/blob/main/README.adoc">
 
 <!-- DOCUMENTATION.SUSE.COM PRODUCT URL -->
 <!ENTITY doc-url "&dsc;/[PRODUCT]/[VERSION]">
