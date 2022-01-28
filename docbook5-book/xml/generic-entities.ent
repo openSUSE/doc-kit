@@ -147,7 +147,7 @@
 <!ENTITY obsa                   "OBS">
 <!ENTITY ph                     "&suse; Package Hub">
 <!ENTITY soliddriver            "&suse; SolidDriver">
-<!-- Do not abbreviate "registry" to "reg"! -- &susereg; = SUSE(R) -->
+<!-- Do not abbreviate "registry" to "reg"! &susereg; = SUSE(R) -->
 <!ENTITY suseregistry           "&suse; Registry">
 
 
