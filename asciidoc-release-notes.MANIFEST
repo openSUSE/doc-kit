@@ -1,6 +1,6 @@
 v0.2
 --
-always: gitignore -> .gitignore
+always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 always(host-gitlab): gitlab-ci.yml -> .gitlab-ci.yml
 
