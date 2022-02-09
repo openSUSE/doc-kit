@@ -436,7 +436,7 @@ use &deng;! -->
 
 <!-- BOOK NAMES -->
 
-<!-- SUSE Linux Enterprise -->
+<!-- SLES/SLED/Leap -->
 <!ENTITY ayguide                "<citetitle xmlns='http://docbook.org/ns/docbook'>&ay; Guide</citetitle>">
 <!ENTITY deploy                 "<citetitle xmlns='http://docbook.org/ns/docbook'>Deployment Guide</citetitle>">
 <!ENTITY gnomeuser              "<citetitle xmlns='http://docbook.org/ns/docbook'>&gnome; User Guide</citetitle>">
@@ -452,8 +452,22 @@ use &deng;! -->
 <!ENTITY auditguide             "<citetitle xmlns='http://docbook.org/ns/docbook'>The Linux Audit Framework</citetitle>">
 <!ENTITY tuning                 "<citetitle xmlns='http://docbook.org/ns/docbook'>System Analysis and Tuning Guide</citetitle>">
 <!ENTITY secguide               "<citetitle xmlns='http://docbook.org/ns/docbook'>Security and Hardening Guide</citetitle>">
-<!ENTITY rmtguide               "<citetitle xmlns='http://docbook.org/ns/docbook'>Repository Mirroring Tool Guide</citetitle>">
+<!ENTITY rmtguide               "<citetitle xmlns='http://docbook.org/ns/docbook'>&rmtool; Guide</citetitle>">
+<!ENTITY sle_rmt_guide_a        "<citetitle xmlns='http://docbook.org/ns/docbook'>&rmt; Guide</citetitle>">
 <!ENTITY upgrade_guide          "<citetitle xmlns='http://docbook.org/ns/docbook'>Upgrade Guide</citetitle>">
+<!ENTITY sle_vgpu_kvm_guide     "<citetitle xmlns='http://docbook.org/ns/docbook'>&nvidia; Virtual GPU for &kvm; Guests</citetitle>">
+<!ENTITY sle_virt_bp_guide      "<citetitle xmlns='http://docbook.org/ns/docbook'>Virtualization Best Practices</citetitle>">
+<!ENTITY sle_amd_sev_guide      "<citetitle xmlns='http://docbook.org/ns/docbook'>AMD Secure Encrypted Virtualization (AMD-SEV) Guide</citetitle>">
+<!ENTITY sle_minvm_guide        "<citetitle xmlns='http://docbook.org/ns/docbook'>&minvm; Quick Start</citetitle>">
+<!ENTITY sle_container_guide    "<citetitle xmlns='http://docbook.org/ns/docbook'>Container Guide</citetitle>">
+<!ENTITY sle_pcidss_guide       "<citetitle xmlns='http://docbook.org/ns/docbook'>&pcidss; (&pcidssa;) Guide</citetitle>">
+<!ENTITY sle_pcidss_guide_a     "<citetitle xmlns='http://docbook.org/ns/docbook'>&pcidssa; Guide</citetitle>">
+
+
+<!-- SLE Micro-specific -->
+<!ENTITY micro_podman_guide     "<citetitle xmlns='http://docbook.org/ns/docbook'>Podman Guide</citetitle>">
+<!ENTITY micro_upgrade_guide    "&upgrade_guide;">
+<!ENTITY micro_deploy_guide     "&deploy;">
 
 
 <!-- HA -->
