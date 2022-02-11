@@ -266,7 +266,7 @@ use &deng;! -->
 <!ENTITY chrony                 "<systemitem xmlns='http://docbook.org/ns/docbook' class='resource'>chrony</systemitem>">
 <!ENTITY chronyc                "<command xmlns='http://docbook.org/ns/docbook'>chronyc</command>">
 <!ENTITY gnome                  "GNOME">
-<!ENTITY grub                   "GRUB">
+<!ENTITY grub                   "GRUB&nbsp;2">
 <!ENTITY grub-efi               "GRUB&nbsp;2 for EFI">
 <!ENTITY kdump                  "Kdump">
 <!ENTITY kexec                  "Kexec">
