@@ -16,8 +16,6 @@ ifneq "$(LIFECYCLE)" "$(filter $(LIFECYCLE),$(LIFECYCLE_VALID))"
   override LIFECYCLE := maintained
 endif
 
-yast_profiled_file := build/.profiled/noprofile/release-notes.xml
-
 daps_command = daps
 
 xsltproc_command = xsltproc \
@@ -33,58 +31,47 @@ xsltproc_command = xsltproc \
   --nonet
 
 mainfile = adoc/release-notes.adoc
-prereqs = DC-release-notes $(wildcard adoc/*.adoc adoc/*.xml)
+dc_file = DC-release-notes
+src_files = $(wildcard adoc/*.adoc adoc/*.xml)
+
 daps_xslt_rn_dir = /usr/share/daps/daps-xslt/relnotes
 
 profile_params = --adocattr lifecycle=$(LIFECYCLE)
 text_params =
 
-.PHONY: clean pdf text single-html yast-html profile validate
+# temp files to be created by daps:
+txt_file = build/release-notes/release-notes.txt
+yast_profiled_file := build/.profiled/noprofile/release-notes.xml
+
+.PHONY: clean pdf text single-html yast-html validate
 
 all: validate single-html yast-html pdf text
 
-validate: $(prereqs)
-	$(daps_command) -d $< \
-	  $(profile_params) \
-		--adocattr attribute-missing=warn \
-	  validate
+validate: $(dc_file) $(src_files)
+	$(daps_command) -d $< $(profile_params) validate
 
-pdf: build/release-notes/release-notes_color_en.pdf
-build/release-notes/release-notes_color_en.pdf: $(prereqs)
-	$(daps_command) -vv -d $< \
-	  $(profile_params) \
-	  pdf
+pdf: $(dc_file) $(src_files)
+	$(daps_command) -d $< $(profile_params) pdf
 
-single-html: build/release-notes/single-html/release-notes/index.html
-build/release-notes/single-html/release-notes/index.html: $(prereqs)
-	$(daps_command) -d $< \
-	  $(profile_params) \
-	  html --single \
-	  --param="toc.section.depth=2"
+single-html: $(dc_file) $(src_files)
+	$(daps_command) -d $< $(profile_params) html --single --param="toc.section.depth=2"
 
-yast-html: build/release-notes/yast-html/release-notes.html
-build/release-notes/yast-html/release-notes.html: $(yast_profiled_file)
-	mkdir -p build/release-notes/yast-html/; \
-	  $(xsltproc_command) $(daps_xslt_rn_dir)/yast.xsl $< > $@;
-	  @echo "Created $@ for YaST HTML target."
+yast-html: $(yast_profiled_file)
+	$(xsltproc_command) $(daps_xslt_rn_dir)/yast.xsl $< > $@
+	@echo "Created $@ for YaST HTML target."
 
-# xsltproc by itself does not support profiling, so we need to do this
-# beforehand for YaST HTML
-profile: $(yast_profiled_file)
-$(yast_profiled_file): $(prereqs)
-	$(daps_command) -vv -d $< \
-	  $(profile_params) \
-	  profile
-
-text: build/release-notes/release-notes.txt
 # We need the text in ASCII to avoid issues when this is shown in text-only
 # YaST.
-build/release-notes/release-notes.txt: $(prereqs)
-	$(daps_command) -d $< \
-	  $(profile_params) \
-	  text $(text_params)
-	iconv -f UTF-8 -t ASCII//TRANSLIT -o /dev/stdout $@ > $@.tmp
-	mv $@.tmp $@
+text: $(txt_file)
+	iconv -f UTF-8 -t ASCII//TRANSLIT -o /dev/stdout $< > $<.tmp
+	mv $<.tmp $<
+
+$(yast_profiled_file): $(dc_file) $(src_files)
+	$(daps_command) -vv -d $< $(profile_params) profile
+
+
+$(txt_file): $(dc_file) $(src_files)
+	$(daps_command) -d $< $(profile_params) text $(text_params)
 
 clean:
 	rm -rf build/
