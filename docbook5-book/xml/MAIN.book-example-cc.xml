@@ -34,6 +34,7 @@
      <dm:product>Product Name</dm:product>
      <dm:assignee>assignee@suse.com</dm:assignee>
     </dm:bugtracker>
+    <dm:editurl>GitHub URL (path to xml directory)</dm:editurl>
     <dm:translation>yes</dm:translation>
    </dm:docmanager>
  </info>
