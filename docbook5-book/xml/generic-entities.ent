@@ -74,6 +74,8 @@
 <!ENTITY sles4sap               "&sls; for &sap; Applications">
 <!ENTITY s4s                    "&sles4sap;">
 <!ENTITY slem                   "&sle; Micro">
+<!ENTITY bci                    "&slsa; Base Container Image">
+<!ENTITY bcia                   "&slsa; BCI">
 
 
 <!-- SLE HA -->
