@@ -276,7 +276,7 @@ use &deng;! -->
 <!ENTITY kg                     "kGraft">
 <!ENTITY klp                    "Kernel Live Patching">
 <!ENTITY klpa                   "KLP">
-<!ENTITY ulp                    "userspace live patching">
+<!ENTITY ulp                    "user space live patching">
 <!ENTITY ulpa                   "ULP">
 <!ENTITY kiwi                   "KIWI">
 <!ENTITY kprobes                "Kprobes">
