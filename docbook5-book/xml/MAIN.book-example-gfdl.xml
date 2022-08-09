@@ -51,6 +51,5 @@
   <xi:include href="cha_example_two.xml"/>
  </part>
 
- <xi:include href="example_doc_updates.xml"/>
  <xi:include href="common_legal.xml"/>
 </book>
