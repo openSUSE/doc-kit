@@ -17,9 +17,10 @@
   xmlns:xlink="http://www.w3.org/1999/xlink">
  <title>GNU Free Documentation License</title>
  <info>
-  <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager"></dm:docmanager>
-  <dm:bugtracker></dm:bugtracker>
-  <dm:translation>no</dm:translation>
+  <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
+   <dm:bugtracker></dm:bugtracker>
+   <dm:translation>no</dm:translation>
+  </dm:docmanager>
  </info>
 
 
