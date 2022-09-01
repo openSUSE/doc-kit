@@ -77,6 +77,8 @@
 <!ENTITY bci                    "&slea; Base Container Image">
 <!ENTITY bcia                   "&slea; BCI">
 
+<!-- ALP -->
+<!ENTITY alp                    "Adaptable Linux Platform">
 
 <!-- SLE HA -->
 <!ENTITY hasi                   "&ha; Extension">
@@ -282,6 +284,7 @@ use &deng;! -->
 <!ENTITY kprobes                "Kprobes">
 <!ENTITY krb                    "Kerberos">
 <!ENTITY kube                   "Kubernetes">
+<!ENTITY k3s                    "K3s">
 <!ENTITY kubevirt               "KubeVirt">
 <!ENTITY libo                   "LibreOffice">
 <!ENTITY lvmcache               "<systemitem xmlns='http://docbook.org/ns/docbook' class='resource'>lvmcache</systemitem>">
