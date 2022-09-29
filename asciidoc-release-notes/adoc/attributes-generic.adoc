@@ -233,3 +233,4 @@
 :rmt: RMT
 :rmtool: Repository Mirroring Tool
 :suseregistry: {suse} Registry
+:k8s: Kubernetes
