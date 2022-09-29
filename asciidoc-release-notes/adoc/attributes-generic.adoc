@@ -220,4 +220,16 @@
 :ultrascalereg: {ultrascale}*
 :zynq: Zynq
 :zynqreg: {zynq}*
-
+// Container-related attributes
+:podman: Podman
+:buildah: Buildah
+:docker: Docker
+:deng: {docker} Open Source Engine
+:dhub: {docker} Hub
+:dreg: {docker} Registry
+:bci: Base Container Image
+:bcia: BCI
+:kiwi: KIWI
+:rmt: RMT
+:rmtool: Repository Mirroring Tool
+:suseregistry: {suse} Registry
