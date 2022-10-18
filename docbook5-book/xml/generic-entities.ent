@@ -328,6 +328,8 @@ use &deng;! -->
 <!ENTITY pace                   "Pacemaker">
 <!ENTITY rear                   "ReaR">
 <!ENTITY stonith                "STONITH">
+<!ENTITY ingress                "Ingress">
+<!ENTITY keepalived             "Keepalived">
 
 
 
