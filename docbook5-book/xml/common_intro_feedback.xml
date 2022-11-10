@@ -67,7 +67,7 @@
     <para>
      To contribute to this documentation, click the <guimenu>Edit source
      document</guimenu> icon next to a headline in the HTML version of
-     this document. They take you to the source code on GitHub, where you
+     this document. This will take you to the source code on GitHub, where you
      can open a pull request.</para>
     <para>
      A GitHub account is required.
@@ -77,7 +77,7 @@
      <para>
       The <guimenu>Edit source document</guimenu> icons are only available for the
       English version of each document. For all other languages, use the
-      <guimenu>Report documentation issue</guimenu> icons instead.
+      <guimenu>Report an issue</guimenu> icons instead.
      </para>
     </note>
     <para>
