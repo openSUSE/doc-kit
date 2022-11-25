@@ -48,7 +48,7 @@
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <xsl:import href="../common/copy.xsl"/>
+  <xsl:import href="/usr/share/daps/daps-xslt/common/copy.xsl"/>
   <xsl:output indent="yes"/>
 
   <xsl:template match="d:authorinitials"/>
