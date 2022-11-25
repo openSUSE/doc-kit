@@ -31,11 +31,19 @@
 
 :suse: SUSE
 
+:suseconnect: SUSEConnect
+
 :selinux: SELinux
+:apparmor: AppArmor
+
+:k3s: K3s
+:rancher: Rancher
+:rke: {rancher} Kubernetes Engine (RKE)
 
 :x64: x86-64
 :aarch64: AArch64
 :ppc: PowerPC
+:vmware: VMware
 
 :opensuse: open{suse}
 :sle: {suse} Linux Enterprise
@@ -43,6 +51,8 @@
 :sles: {sle} Server
 :ses: {suse} Enterprise Storage
 :jeos: JeOS
+:minvm: Minimal-VM
+:minimg: Minimal-Image
 :sleha: {sle} High Availability Extension
 :slehag: Geo Clustering for {sleha}
 :slert: {sle} Real Time
@@ -68,6 +78,9 @@
 :leap: {opensuse} Leap
 :tw: {opensuse} Tumbleweed
 :scc: {suse} Customer Center
+:sccfull: {suse} Customer Center (SCC)
+:rmt: Repository Mirroring Tool
+:rmtfull: Repository Mirroring Tool (RMT)
 :ph: {suse} Package Hub
 :ibmz: IBM Z
 :sap: SAP
