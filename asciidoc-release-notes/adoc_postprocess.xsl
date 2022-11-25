@@ -259,4 +259,17 @@
     </xsl:if>
   </xsl:template>
 
+  <!--
+  GeekoDoc doesn't accept underscores in IDs, but the default
+  XSLT stylesheet doesn't remove them.
+  To prevent having to manually set IDs for these IDs, the
+  below section will remove them automatically.
+  See https://github.com/openSUSE/geekodoc/issues/73
+  -->
+  <xsl:template match="@xml:id">
+    <xsl:attribute name="xml:id">
+      <xsl:value-of select="translate(., '_', '-')"></xsl:value-of>
+    </xsl:attribute>
+  </xsl:template>
+
 </xsl:stylesheet>
