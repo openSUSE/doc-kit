@@ -3,6 +3,7 @@
 
 <!-- PRODUCT NAME AND VERSIONS -->
 <!ENTITY productname   "PRODUCT">
+<!ENTITY productnameshort "ACRONYM">
 <!ENTITY productnumber "X.Y">
 
 
