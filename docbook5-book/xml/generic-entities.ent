@@ -195,6 +195,7 @@ use &deng;! -->
 <!ENTITY rhel                   "&rh; Enterprise Linux">
 <!ENTITY rhla                   "RHEL">
 <!ENTITY rpios                  "Raspberry&nbsp;Pi&nbsp;OS">
+<!ENTITY centos                 "CentOS">
 
 
 
