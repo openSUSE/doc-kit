@@ -417,6 +417,7 @@ use &deng;! -->
 <!ENTITY rook                   "Rook">
 <!ENTITY grafana                "Grafana">
 <!ENTITY prometheus             "Prometheus">
+<!ENTITY fuelignition           "Fuel Ignition">
 
 
 
