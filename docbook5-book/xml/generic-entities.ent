@@ -463,7 +463,7 @@ use &deng;! -->
 <!ENTITY cis                    "Center for Internet Security">
 <!ENTITY cisa                   "CIS">
 <!ENTITY hipaa                  "Health Insurance Portability and Accountability Act">
-<!ENTITY hipaaa                 "HIPAA"
+<!ENTITY hipaaa                 "HIPAA">
 <!ENTITY uefisecboot            "UEFI Secure Boot">
 
 
