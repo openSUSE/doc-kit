@@ -461,6 +461,7 @@ use &deng;! -->
 <!ENTITY stig                   "Security Technical Implementation Guide">
 <!ENTITY stiga                  "STIG">
 <!ENTITY cis                    "Center for Internet Security">
+<!ENTITY cisa                   "CIS">
 <!ENTITY hippa                  "Health Insurance Portability and Accountability Act">
 <!ENTITY hippaa                 "HIPAA"
 <!ENTITY uefisecboot            "UEFI Secure Boot">
