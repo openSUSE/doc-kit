@@ -303,7 +303,7 @@ use &deng;! -->
 <!ENTITY rmtool                 "Repository Mirroring Tool">
 <!ENTITY salt                   "Salt">
 <!ENTITY samba                  "Samba">
-<!ENTITY scc-hypercollector     "<command xmlns='http://docbook.org/ns/docbook'>scc-hypervisor-collector</command>">
+<!ENTITY scchvc                 "<command xmlns='http://docbook.org/ns/docbook'>scc-hypervisor-collector</command>">
 <!ENTITY selnx                  "SELinux">
 <!ENTITY smaster                "&salt; Master">
 <!ENTITY sminion                "&salt; Minion">
