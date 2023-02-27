@@ -456,6 +456,7 @@ use &deng;! -->
 
 <!-- Security -->
 <!ENTITY openscap               "OpenSCAP">
+<!ENTITY ssg                    "SCAP Security Guide">
 <!ENTITY pcidss                 "Payment Card Industry Data Security Standard">
 <!ENTITY pcidssa                "PCI DSS">
 <!ENTITY disa                   "Defense Information Systems Agency">
