@@ -54,12 +54,12 @@
    <listitem>
     <para>
       For offline use, the release notes are also available under
-      <filename>/usr/share/doc/release-notes</filename> in your system.
-      Documentation for individual packages is available at
+      <filename>/usr/share/doc/release-notes</filename> on your system.
+      The documentation for individual packages is available at
       <filename>/usr/share/doc/packages</filename>.
     </para>
     <para>
-      Many commands are also described in detail in their <emphasis>manual
+      Many commands are also described in their <emphasis>manual
       pages</emphasis>. To view them, run <command>man</command>, followed
       by a specific command name. If the <command>man</command> command is
       not installed on your system, install it with <command>sudo zypper
