@@ -288,7 +288,7 @@ use &deng;! -->
 <!ENTITY klpa                   "KLP">
 <!ENTITY ulp                    "user space live patching">
 <!ENTITY ulpa                   "ULP">
-<!ENTITY kiwi                   "KIWI">
+<!ENTITY kiwi                   "KIWI&#xa0;NG">
 <!ENTITY kprobes                "Kprobes">
 <!ENTITY krb                    "Kerberos">
 <!ENTITY kube                   "Kubernetes">

@@ -242,7 +242,7 @@
 :dreg: {docker} Registry
 :bci: Base Container Image
 :bcia: BCI
-:kiwi: KIWI
+:kiwi: KIWI NG
 :rmt: RMT
 :rmtool: Repository Mirroring Tool
 :suseregistry: {suse} Registry
