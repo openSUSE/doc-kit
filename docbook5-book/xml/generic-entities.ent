@@ -77,16 +77,16 @@
 <!ENTITY sles4sap               "&sls; for &sap; Applications">
 <!ENTITY s4s                    "&sles4sap;">
 <!ENTITY slem                   "&sle; Micro">
-<!ENTITY bci                    "&slea; Base Container Image">
+<!ENTITY bci                    "&slea; Base Container Images">
 <!ENTITY bcia                   "&slea; BCI">
-<!ENTITY dinstaller             "D-Installer">
+<!ENTITY dinstaller             "Agama">
 
 <!-- ALP -->
 <!ENTITY alp                    "Adaptable Linux Platform">
 <!ENTITY alpshort               "ALP">
 
 <!-- SLE HA -->
-<!ENTITY hasi                   "&ha; Extension">
+<!ENTITY hasi                   "&ha;">
 <!ENTITY sleha                  "&sle; &hasi;">
 <!ENTITY hageo                  "Geo Clustering for &sleha;">
 
@@ -103,24 +103,24 @@
 <!ENTITY slea                   "SLE">
 <!ENTITY sleda                  "SLED">
 <!ENTITY slsa                   "SLES">
-<!ENTITY slehaa                 "SLE-HA">
-<!ENTITY slehaga                "SLE-HA-GEO"> <!-- This one is not officially defined. -->
-<!ENTITY slehpca                "SLE-HPC">
-<!ENTITY sles4sapa              "SLES-SAP">
+<!ENTITY slehaa                 "SLE HA">
+<!ENTITY slehaga                "SLE HA GEO"> <!-- This one is not officially defined. -->
+<!ENTITY slehpca                "SLE HPC">
+<!ENTITY sles4sapa              "SLES for SAP">
 <!ENTITY s4sa                   "&sles4sapa;">
-<!ENTITY sleposa                "SLE-POS">
-<!ENTITY slerta                 "SLE-RT">
-<!ENTITY slewea                 "SLE-WE">
-<!ENTITY slelpa                 "SLE-LP">
+<!ENTITY sleposa                "SLE POS">
+<!ENTITY slerta                 "SLE RT">
+<!ENTITY slewea                 "SLE WE">
+<!ENTITY slelpa                 "SLE LP">
 <!ENTITY slema                  "&slea; Micro">
-<!ENTITY vmdpa                  "SLE-VMDP">
+<!ENTITY vmdpa                  "SLE VMDP">
 <!ENTITY sesa                   "SES">
 <!ENTITY soca                   "SOC">
-<!ENTITY capa                   "SUSE-CAP">
-<!ENTITY caaspa                 "SUSE-CaaSP">
+<!ENTITY capa                   "SUSE CAP">
+<!ENTITY caaspa                 "SUSE CaaSP">
 <!ENTITY caspa                  "&caaspa;">
 <!ENTITY sumaa                  "SUMA">
-<!ENTITY smra                   "SUMA-Retail">
+<!ENTITY smra                   "SUMA for Retail">
 
 
 <!-- PRODUCT NAMES WITH (R) SIGN (incomplete) -->
