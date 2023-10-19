@@ -103,17 +103,17 @@
 <!ENTITY slea                   "SLE">
 <!ENTITY sleda                  "SLED">
 <!ENTITY slsa                   "SLES">
-<!ENTITY slehaa                 "SLE HA">
-<!ENTITY slehaga                "SLE HA GEO"> <!-- This one is not officially defined. -->
-<!ENTITY slehpca                "SLE HPC">
+<!ENTITY slehaa                 "SLE&#xa0;HA">
+<!ENTITY slehaga                "SLE&#xa0;HA&#xa0;GEO"> <!-- This one is not officially defined. -->
+<!ENTITY slehpca                "SLE&#xa0;HPC">
 <!ENTITY sles4sapa              "SLES for SAP">
 <!ENTITY s4sa                   "&sles4sapa;">
-<!ENTITY sleposa                "SLE POS">
-<!ENTITY slerta                 "SLE RT">
-<!ENTITY slewea                 "SLE WE">
-<!ENTITY slelpa                 "SLE LP">
+<!ENTITY sleposa                "SLE&#xa0;POS">
+<!ENTITY slerta                 "SLE&#xa0;RT">
+<!ENTITY slewea                 "SLE&#xa0;WE">
+<!ENTITY slelpa                 "SLE&#xa0;LP">
 <!ENTITY slema                  "&slea; Micro">
-<!ENTITY vmdpa                  "SLE VMDP">
+<!ENTITY vmdpa                  "SLE&#xa0;VMDP">
 <!ENTITY sesa                   "SES">
 <!ENTITY soca                   "SOC">
 <!ENTITY capa                   "SUSE CAP">
