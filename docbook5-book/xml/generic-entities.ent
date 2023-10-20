@@ -86,8 +86,8 @@
 <!ENTITY alpshort               "ALP">
 
 <!-- SLE HA -->
-<!ENTITY hasi                   "&ha;">
-<!ENTITY sleha                  "&sle; &hasi;">
+
+<!ENTITY sleha                  "&sle; &ha;">
 <!ENTITY hageo                  "Geo Clustering for &sleha;">
 
 <!-- SUSE Manager -->
@@ -98,7 +98,7 @@
 <!ENTITY smr                    "&susemgr; for Retail">
 
 
-<!-- SUSE PRODUCT ACRONYMS (Scott Corfield via news@suse.com, 2019-03-25) -->
+<!-- SUSE PRODUCT ACRONYMS (as approved in TermWeb 2023) -->
 
 <!ENTITY slea                   "SLE">
 <!ENTITY sleda                  "SLED">
@@ -600,3 +600,6 @@ use &deng;! -->
 <!-- SLE, old guide names -->
 <!ENTITY sle_jeos_quick        "&jeos; Quick Start">
 <!ENTITY smtguide              "Subscription Management Tool Guide">
+
+<!-- SLE HA, old productname entity -->
+<!ENTITY hasi                   "&ha;">
