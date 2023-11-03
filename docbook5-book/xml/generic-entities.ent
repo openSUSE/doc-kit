@@ -549,14 +549,14 @@ use &deng;! -->
 
 <!-- DOCBOOK 4 ENTITITES -->
 
-<!ENTITY dash             "&#x02010;" >
-<!ENTITY ndash            "&#x02013;" >
-<!ENTITY trade            "&#x02122;" >
-<!ENTITY copy             "&#x000A9;" >
-<!ENTITY sol              "&#x0002F;" >
-<!ENTITY rdquo            "&#x0201D;" >
-<!ENTITY ldquo            "&#x0201C;" >
-<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY dash             "&#x02010;" ><!--HYPHEN -->
+<!ENTITY ndash            "&#x02013;" ><!--EN DASH -->
+<!ENTITY trade            "&#x02122;" ><!--TRADE MARK SIGN --
+<!ENTITY copy             "&#x000A9;" ><!--COPYRIGHT SIGN -->
+<!ENTITY sol              "&#x0002F;" ><!--SOLIDUS -->
+<!ENTITY rdquo            "&#x0201D;" ><!--RIGHT DOUBLE QUOTATION MARK -->
+<!ENTITY ldquo            "&#x0201C;" ><!--LEFT DOUBLE QUOTATION MARK -->
+<!ENTITY nbsp             "&#x000A0;" ><!--NO-BREAK SPACE -->
 
 <!-- LEGACY COMPATIBILITY ENTITIES -->
 <!-- Do not use in new documentation. -->
