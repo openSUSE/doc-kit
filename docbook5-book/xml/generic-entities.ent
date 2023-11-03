@@ -547,6 +547,16 @@ use &deng;! -->
 <!ENTITY % dbcent PUBLIC        "-//OASIS//ENTITIES DocBook Character Entities V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/dbcentx.mod">
   %dbcent;
 
+<!-- DOCBOOK 4 ENTITITES -->
+
+<!ENTITY dash             "&#x02010;" >
+<!ENTITY ndash            "&#x02013;" >
+<!ENTITY trade            "&#x02122;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY sol              "&#x0002F;" >
+<!ENTITY rdquo            "&#x0201D;" >
+<!ENTITY ldquo            "&#x0201C;" >
+<!ENTITY nbsp             "&#x000A0;" >
 
 <!-- LEGACY COMPATIBILITY ENTITIES -->
 <!-- Do not use in new documentation. -->
