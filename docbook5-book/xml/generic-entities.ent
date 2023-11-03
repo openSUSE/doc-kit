@@ -551,7 +551,7 @@ use &deng;! -->
 
 <!ENTITY dash             "&#x02010;" ><!--HYPHEN -->
 <!ENTITY ndash            "&#x02013;" ><!--EN DASH -->
-<!ENTITY trade            "&#x02122;" ><!--TRADE MARK SIGN --
+<!ENTITY trade            "&#x02122;" ><!--TRADE MARK SIGN -->
 <!ENTITY copy             "&#x000A9;" ><!--COPYRIGHT SIGN -->
 <!ENTITY sol              "&#x0002F;" ><!--SOLIDUS -->
 <!ENTITY rdquo            "&#x0201D;" ><!--RIGHT DOUBLE QUOTATION MARK -->
