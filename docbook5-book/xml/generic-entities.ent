@@ -103,24 +103,24 @@
 <!ENTITY slea                   "SLE">
 <!ENTITY sleda                  "SLED">
 <!ENTITY slsa                   "SLES">
-<!ENTITY slehaa                 "SLE&#xa0;HA">
-<!ENTITY slehaga                "SLE&#xa0;HA&#xa0;GEO"> <!-- This one is not officially defined. -->
-<!ENTITY slehpca                "SLE&#xa0;HPC">
-<!ENTITY sles4sapa              "SLES for SAP">
+<!ENTITY slehaa                 "SLE&nbsp;HA">
+<!ENTITY slehaga                "SLE&nbsp;HA&nbsp;GEO"> <!-- This one is not officially defined. -->
+<!ENTITY slehpca                "SLE&nbsp;HPC">
+<!ENTITY sles4sapa              "SLES&nbsp;for&nbsp;SAP">
 <!ENTITY s4sa                   "&sles4sapa;">
-<!ENTITY sleposa                "SLE&#xa0;POS">
-<!ENTITY slerta                 "SLE&#xa0;RT">
-<!ENTITY slewea                 "SLE&#xa0;WE">
-<!ENTITY slelpa                 "SLE&#xa0;LP">
-<!ENTITY slema                  "&slea; Micro">
-<!ENTITY vmdpa                  "SLE&#xa0;VMDP">
+<!ENTITY sleposa                "SLE&nbsp;POS">
+<!ENTITY slerta                 "SLE&nbsp;RT">
+<!ENTITY slewea                 "SLE&nbsp;WE">
+<!ENTITY slelpa                 "SLE&nbsp;LP">
+<!ENTITY slema                  "&slea;&nbsp;Micro">
+<!ENTITY vmdpa                  "SLE&nbsp;VMDP">
 <!ENTITY sesa                   "SES">
 <!ENTITY soca                   "SOC">
-<!ENTITY capa                   "SUSE CAP">
-<!ENTITY caaspa                 "SUSE CaaSP">
+<!ENTITY capa                   "SUSE&nbsp;CAP">
+<!ENTITY caaspa                 "SUSE&nbsp;CaaSP">
 <!ENTITY caspa                  "&caaspa;">
 <!ENTITY sumaa                  "SUMA">
-<!ENTITY smra                   "SUMA for Retail">
+<!ENTITY smra                   "SUMA&nbsp;for&nbsp;Retail">
 
 
 <!-- PRODUCT NAMES WITH (R) SIGN (incomplete) -->
@@ -288,7 +288,7 @@ use &deng;! -->
 <!ENTITY klpa                   "KLP">
 <!ENTITY ulp                    "user space live patching">
 <!ENTITY ulpa                   "ULP">
-<!ENTITY kiwi                   "KIWI&#xa0;NG">
+<!ENTITY kiwi                   "KIWI&nbsp;NG">
 <!ENTITY kprobes                "Kprobes">
 <!ENTITY krb                    "Kerberos">
 <!ENTITY kube                   "Kubernetes">
