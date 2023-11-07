@@ -12,7 +12,7 @@ always: glues/glue.xml -> templates/glues/glue.xml
 always: images/example.png -> templates/images/example.png
 always: references/reference.xml -> templates/references/reference.xml
 always: snippets/snippet_warning.xml -> templates/snippets/snippet_warning.xml
-always: initial: tasks/task.xml -> templates/initial: tasks/task.xml
+always: tasks/task.xml -> templates/tasks/task.xml
 
 initial: common/product-entities.ent
 always: common/generic-entities.ent
