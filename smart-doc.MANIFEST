@@ -14,9 +14,9 @@ always: references/reference.xml -> templates/references/reference.xml
 always: snippets/snippet_warning.xml -> templates/snippets/snippet_warning.xml
 always: tasks/task.xml -> templates/tasks/task.xml
 
-initial: common/product-entities.ent
-always: common/generic-entities.ent
-always: common/network-entities.ent
+initial:../product-entities-gfdl.ent -> common/product-entities.ent
+always: ../generic-entities.ent -> common/generic-entities.ent
+always: ../network-entities.ent -> common/network-entities.ent
 always: common/legal.xml
 always: common/license_gfdl1.2.xml
 
