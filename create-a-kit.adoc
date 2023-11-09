@@ -58,14 +58,14 @@ For example, `my-kit.MANIFEST`.
 
 . Test your new kit:
 
-.. Create an empty test directory and initialize it with Git:
+.. Create and initialize an empty test directory `my-kit-test` with Git:
 `git init my-kit-test`
 
 .. Change to the directory, then create an initial commit:
 `git commit --allow-empty .`
 
 .. Run {prjname} on your branch:
-`DOCKIT_BRANCH=my-test-branch doc-kit`.
+`DOCKIT_BRANCH=my-test-branch /LOCALPATH/doc-kit/bin/doc-kit`.
 Select your new kit and wait for it to download.
 
 .. If the kit works, manually review it and eventually merge it to the `main` branch.
