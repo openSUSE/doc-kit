@@ -69,6 +69,7 @@ The DC file name must match the assembly file's root ID.
 ### File naming conventions
 
 Always start with the overarching topic. In doing so, ensure that articles belonging to the same topic can be easily spotted by someone looking for existing articles. If necessary, add a subtopic (append with `_`):
+
 ```
 autoyast
 systemd
@@ -125,18 +126,20 @@ for images that you use for topic files.
 ```
 <NAME> := <TOPIC>[-<SUBTOPIC]-<SNIPPET-TOPIC>-<TITLE>
 ```
+
 ## Version info
 
-We maintain a changelog for each article. Add a version to the changelog whenever there is a 
-*release* of your article, i.e. whenever you ask for a rebuild and repost of said article. Do not 
+We maintain a changelog (revision history) for each article. Add an entry to the
+`revhistory` element in the assemby whenever you have done substantial content updates
+to the article and ask for a rebuild and repost of said article. Do not
 artificially bloat the changelog by entering every single commit. Also, provide concise and 
 meaningful version information that the reader benefits from. This information might one day end up 
 being sent out to readers as update notifications on content they subscribed to.
 
 ## Metadata
 
-Once your article is done, add a metadata layer to the assembly file. Check the `assembly.asm.xml` 
-file for XML synthax and possible values. The following metadata types are currently supported:
+After your article is done, add a metadata layer to the assembly file. Check the `assembly.asm.xml`
+file for XML syntax and possible values. The following metadata types are currently supported:
 
 * Internal
 * SEO
@@ -155,12 +158,14 @@ you keep both docs in sync. This is done using a plain XML comment.
 ### SEO
 
 Add some search engine-related information to your file:
+
 1. `title`- 29-55 characters
 1. `description` - max. 150 characters
 
 ### Search
 
 Add as much search-related data to your article as possible. Choose the appropriate tags:
+
 * `productname`
 * `productversion`
 * `architecture`
