@@ -560,7 +560,9 @@ use &deng;! -->
 <!ENTITY nbsp             "&#x000A0;" ><!--NO-BREAK SPACE -->
 <!ENTITY reg              "&#x000AE;" ><!--REGISTERED SIG -->
 <!ENTITY hellip           "&#x02026;" ><!--HORIZONTAL ELLIPSIS -->
-
+<!ENTITY asymp            "&#x02248;" ><!--ALMOST EQUAL TO -->
+<!ENTITY ast              "&#x0002A;" ><!--ASTERISK -->
+<!ENTITY commat           "&#x00040;" ><!--COMMERCIAL AT -->
 <!-- LEGACY COMPATIBILITY ENTITIES -->
 <!-- Do not use in new documentation. -->
 
