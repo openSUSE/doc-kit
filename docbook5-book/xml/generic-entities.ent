@@ -558,6 +558,8 @@ use &deng;! -->
 <!ENTITY rdquo            "&#x0201D;" ><!--RIGHT DOUBLE QUOTATION MARK -->
 <!ENTITY ldquo            "&#x0201C;" ><!--LEFT DOUBLE QUOTATION MARK -->
 <!ENTITY nbsp             "&#x000A0;" ><!--NO-BREAK SPACE -->
+<!ENTITY reg              "&#x000AE;" ><!--REGISTERED SIG -->
+<!ENTITY hellip           "&#x02026;" ><!--HORIZONTAL ELLIPSIS -->
 
 <!-- LEGACY COMPATIBILITY ENTITIES -->
 <!-- Do not use in new documentation. -->
