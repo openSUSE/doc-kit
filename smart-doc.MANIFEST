@@ -4,7 +4,7 @@ always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
 always: _DC-article -> templates/_DC-article
-always: article/assembly.asm.xml -> templates/article/assembly.asm.xml
+always: articles/assembly.asm.xml -> templates/article/assembly.asm.xml
 always: concepts/concept.xml -> templates/concepts/concept.xml
 always: glues/glue-more-info.xml -> templates/glues/glue-more-info.xml
 always: glues/glue-whats-next.xml -> templates/glues/glue-whats-next.xml
@@ -14,14 +14,16 @@ always: references/reference.xml -> templates/references/reference.xml
 always: snippets/snippet_warning.xml -> templates/snippets/snippet_warning.xml
 always: tasks/task.xml -> templates/tasks/task.xml
 
-initial: common/product-entities.ent
-always: common/generic-entities.ent
-always: common/network-entities.ent
+
+initial(license-gfdl): ../product-entities-gfdl.ent -> common/product-entities.ent
+initial(license-cc): ../product-entities-cc.ent -> common/product-entities.ent
+always: ../generic-entities.ent -> common/generic-entities.ent
+always: ../network-entities.ent -> common/network-entities.ent
 always: common/legal.xml
 always: common/license_gfdl1.2.xml
 
 initial: _DC-article
-initial: article/assembly.asm.xml
+initial: articles/assembly.asm.xml
 initial: concepts/concept.xml
 initial: glues/glue-more-info.xml
 initial: glues/glue-whats-next.xml

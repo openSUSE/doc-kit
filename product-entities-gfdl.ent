@@ -1,12 +1,10 @@
 <!-- This file originates from the project https://github.com/openSUSE/doc-kit -->
-<!-- This file needs to be edited downstream. -->
+<!-- This file can be edited downstream. -->
 
 <!-- PRODUCT NAME AND VERSIONS -->
 <!ENTITY productname            "PRODUCT">
 <!ENTITY productnameshort       "ACRONYM">
 <!ENTITY productnumber          "X.Y">
-<!ENTITY product-ga             "CODESTREAM">
-<!ENTITY product-sp             "NUMBER">
 
 
 <!-- PROJECT REPOSITORY URL -->
@@ -20,4 +18,7 @@
 <!ENTITY rn-url                 "&sc-rn;/x86_64/[PRODUCT]/[VERSION]">
 
 
-
+<!-- START YEAR OF COPYRIGHT -->
+<!ENTITY copyrightstart         "20XX">
+<!-- COPYRIGHT HOLDER(S) -->
+<!ENTITY copyrightholder        "SUSE LLC">
