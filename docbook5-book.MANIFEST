@@ -5,8 +5,8 @@ always: ../.editorconfig -> .editorconfig
 
 initial(license-gfdl): ../product-entities-gfdl.ent -> xml/product-entities.ent
 initial(license-cc): ../product-entities-cc.ent -> xml/product-entities.ent
-always: ../generic-entities.ent
-always: ../network-entities.ent
+always: ../generic-entities.ent -> xml/generic-entities.ent
+always: ../network-entities.ent -> xml/network-entities.ent
 
 initial: DC-example
 
