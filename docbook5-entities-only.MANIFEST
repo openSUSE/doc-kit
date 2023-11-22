@@ -3,7 +3,7 @@ v0.2
 always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
-initial(license-gfdl): ../docbook5-book/xml/product-entities-gfdl.ent -> xml/product-entities.ent
-initial(license-cc): ../docbook5-book/xml/product-entities-cc.ent -> xml/product-entities.ent
-always: ../docbook5-book/xml/generic-entities.ent -> xml/generic-entities.ent
-always: ../docbook5-book/xml/network-entities.ent -> xml/network-entities.ent
+initial(license-gfdl): ../entities/product-entities-gfdl.ent -> xml/product-entities.ent
+initial(license-cc): ../entities/product-entities-cc.ent -> xml/product-entities.ent
+always: ../entities/generic-entities.ent -> xml/generic-entities.ent
+always: ../entities/network-entities.ent -> xml/network-entities.ent
