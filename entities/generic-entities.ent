@@ -77,8 +77,7 @@
 <!ENTITY sles4sap               "&sls; for &sap; Applications">
 <!ENTITY s4s                    "&sles4sap;">
 <!ENTITY slem                   "&sle; Micro">
-<!ENTITY bci                    "&slea; Base Container Images">
-<!ENTITY bcia                   "&slea; BCI">
+<!ENTITY bci-product            "&slea; Base Container Images">
 <!ENTITY dinstaller             "Agama">
 
 <!-- ALP -->
@@ -180,7 +179,6 @@ use &deng;! -->
 <!ENTITY redhat                 "&rh;">
 <!ENTITY sap                    "SAP">
 <!ENTITY vmware                 "VMware">
-
 
 <!-- THIRD-PARTY PRODUCTS -->
 
@@ -357,6 +355,8 @@ use &deng;! -->
 <!ENTITY podman                 "Podman">
 <!ENTITY buildah                "Buildah">
 <!ENTITY k8s                    "Kubernetes">
+<!ENTITY bci                    "&slea; Base Container Image">
+<!ENTITY bcia                   "&slea; BCI">
 
 
 
