@@ -84,7 +84,7 @@
 <!-- ALP -->
 <!ENTITY alp                    "Adaptable Linux Platform">
 <!ENTITY alpshort               "ALP">
-<!ENTITY alp-dolomite           "ALP&nbsp;Dolomite">
+<!ENTITY alp-dolomite           "&alpshort;&nbsp;Dolomite">
 
 
 <!-- SLE HA -->
@@ -273,7 +273,7 @@ use &deng;! -->
 <!ENTITY ada                    "AD">
 <!ENTITY aide                   "AIDE">
 <!ENTITY alp-installer          "Agama">
-<!ENTITY dinstaller             "Agama">
+<!ENTITY dinstaller             "&alp-installer;">
 <!ENTITY ansible                "Ansible">
 <!ENTITY ay                     "AutoYaST">
 <!ENTITY bcache                 "<systemitem xmlns='http://docbook.org/ns/docbook' class='resource'>bcache</systemitem>">
@@ -556,7 +556,7 @@ use &deng;! -->
 
 
 <!-- CHARACTER ENTITIES -->
-
+<!ENTITY checkmark              "&#x2714;">
 <!ENTITY euro                   "&#x20AC;">
 <!ENTITY thrdmrk                "*">
 
