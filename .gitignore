@@ -11,6 +11,7 @@ build/
 *.code-workspace
 .vimrc
 .editorconfig
+doc-kit.conf
 
 # docbook5
 xml/generic-entities.ent
