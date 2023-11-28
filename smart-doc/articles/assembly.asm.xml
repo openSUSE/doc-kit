@@ -63,7 +63,6 @@
       <subtitle>Subtitle if necessary</subtitle>
       <!-- Create revision history to enable versioning; add most recent entries at the top. -->
       <!-- Check https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-revhistory for detailed instructions-->
-      <!-- -->
       <revhistory xml:id="rh-USE-ROOT-ID">
         <revision><date>2054-11-14</date>
           <revdescription>
@@ -80,14 +79,14 @@
               </listitem>
               <listitem><para>Removed sections:</para>
                 <itemizedlist>
-                    <listitem><para>Removed section on <quote>foo1</quote> to resolve issue <uri>bsc#12346</uri></para></listitem>
-                    <listitem><para>Removed section on <quote>foo1 bar</quote></para></listitem>
+                  <listitem><para>Removed section on <quote>foo1</quote> to resolve issue <uri>bsc#12346</uri></para></listitem>
+                  <listitem><para>Removed section on <quote>foo1 bar</quote></para></listitem>
                 </itemizedlist>
               </listitem>
               <listitem><para>Changed sections:</para>
                 <itemizedlist>
-                    <listitem><para>Changed section on <quote>foo2</quote> to resolve issue <uri>bsc#12347</uri></para></listitem>
-                    <listitem><para>Changed section on <quote>foo2 bar</quote></para></listitem>
+                  <listitem><para>Changed section on <quote>foo2</quote> to resolve issue <uri>bsc#12347</uri></para></listitem>
+                  <listitem><para>Changed section on <quote>foo2 bar</quote></para></listitem>
                 </itemizedlist>
               </listitem>
             </itemizedlist>
