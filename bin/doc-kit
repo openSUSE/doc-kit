@@ -237,6 +237,12 @@ while [[ "$cleanmanifest" ]]; do
         newfiles+="\nfile: "$(sha1sum "$to")
       else
         echo "Someone ignored the warnings in the file $to and changed it downstream since the last update via $self."
+        tmp_diff_file=`mktemp -p /tmp`
+        #echo -e "wget -q -O $tmp_diff_file \"${repo}/${branch}/$to\""
+        wget -q -O $tmp_diff_file "${repo}/${branch}/$to"
+        #echo -e "diff $tmp_diff_file $to"
+        git diff $tmp_diff_file $to
+        rm $tmp_diff_file
         decide "Replace file [r] or skip file temporarily [s]" "r s" 0 0
         if [[ "$decision" == "r" ]]; then
           forcereplace=1
