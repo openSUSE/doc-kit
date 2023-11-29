@@ -237,6 +237,14 @@ while [[ "$cleanmanifest" ]]; do
         newfiles+="\nfile: "$(sha1sum "$to")
       else
         echo "Someone ignored the warnings in the file $to and changed it downstream since the last update via $self."
+        # create & download temp file, compare & remove it
+        tmp_diff_file=$(mktemp $to.XXX)
+        wget -q -O $tmp_diff_file "${repo}/${branch}/${configtype}/${from}"
+        echo -e "diff $tmp_diff_file $to"
+        echo -e "\n-------- $to DIFF begins -------"
+        diff -U 3 $tmp_diff_file $to
+        echo -e "-------- $to DIFF ends ----------\n"
+        rm $tmp_diff_file
         decide "Replace file [r] or skip file temporarily [s]" "r s" 0 0
         if [[ "$decision" == "r" ]]; then
           forcereplace=1
