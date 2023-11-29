@@ -241,9 +241,9 @@ while [[ "$cleanmanifest" ]]; do
         tmp_diff_file=$(mktemp $to.XXX)
         wget -q -O $tmp_diff_file "${repo}/${branch}/${configtype}/${from}"
         echo -e "diff $tmp_diff_file $to"
-        echo -e "\n-------- $to DIFF begins -------"
-        diff -U 3 $tmp_diff_file $to
-        echo -e "-------- $to DIFF ends ----------\n"
+        echo -e "\n-------- Proposed changes to $to begin -------"
+        diff -U 3 $to $tmp_diff_file
+        echo -e "-------- Proposed changes to $to end ---------\n"
         rm $tmp_diff_file
         decide "Replace file [r] or skip file temporarily [s]" "r s" 0 0
         if [[ "$decision" == "r" ]]; then
