@@ -5,7 +5,7 @@ Since the doc-kit update on Nov 29, 2023, upstream-managed files were added to
 `.gitignore` to separate doc-kit managed files from git. This change slightly
 influences the way we work with files in a git repository.
 
-Cleaning an existing git repository
+Cleaning an existing doc repository
 -----------------------------------
 Because many files that belong to doc-kit are unfortunately already part of git
 repository as well, you need to 'clean it'. The following procedure updates a
