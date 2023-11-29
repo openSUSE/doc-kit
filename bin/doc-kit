@@ -238,7 +238,7 @@ while [[ "$cleanmanifest" ]]; do
       else
         echo "Someone ignored the warnings in the file $to and changed it downstream since the last update via $self."
         # create & download temp file, compare & remove it
-        tmp_diff_file=`mktemp $to.XXX`
+        tmp_diff_file=$(mktemp $to.XXX)
         wget -q -O $tmp_diff_file "${repo}/${branch}/${configtype}/${from}"
         echo -e "diff $tmp_diff_file $to"
         echo -e "\n-------- $to DIFF begins -------"
