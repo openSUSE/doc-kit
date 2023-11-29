@@ -1,0 +1,55 @@
+Separating doc-kit- and git- managed files
+------------------------------------------
+
+Since doc-kit update on Nov 29, 2023, upstream-managed files were added to
+.gitignore to separate doc-kit- and git- managed files.  Because many files
+that belong to doc-kit are unfortunately part of git repository as well, here
+is the procedure to update to the new doc-kit version of files and clean the
+git repository off them.
+
+
+1. Update the branch you are updating.
+  $ git pull
+
+2. Run doc-kit.
+  $ doc-kit
+
+3. Check the git status to see modified files.
+  $ git status
+
+4. If .gitignore was modified, stash and commit it.
+  $ git add .gitignore && git commit -m 'adding updated .gitignore'
+
+5. Remove doc-kit-managed files from git repository. Replace the path with your
+doc-kit checkout.
+  $ ~/devel/doc-kit/bin/clean-git-index.sh
+
+6. Check the git status to see doc-kit files to be removed, fir example:
+  $ git status
+  On branch main
+  Your branch is up to date with 'origin/main'.
+
+  Changes to be committed:
+    (use "git restore --staged <file>..." to unstage)
+    deleted:    .editorconfig
+    deleted:    common/generic-entities.ent
+    deleted:    common/legal.xml
+    deleted:    common/license_gfdl1.2.xml
+    deleted:    common/network-entities.ent
+    deleted:    doc-kit.conf
+    deleted:    templates/_DC-article
+    deleted:    templates/articles/assembly.asm.xml
+    deleted:    templates/concepts/concept.xml
+    deleted:    templates/glues/glue-more-info.xml
+    deleted:    templates/glues/glue-whats-next.xml
+    deleted:    templates/glues/glue.xml
+    deleted:    templates/images/example.png
+    deleted:    templates/references/reference.xml
+    deleted:    templates/snippets/snippet_warning.xml
+    deleted:    templates/tasks/task.xml
+    deleted:    xml/common_copyright_gfdl.xml
+    deleted:    xml/generic-entities.ent
+    deleted:    xml/network-entities.ent
+
+7. Commit and push the changes.
+  $ git commit -am 'removing doc-kit files from git && git push'
