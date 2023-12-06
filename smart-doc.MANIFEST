@@ -13,8 +13,6 @@ always: images/example.png -> templates/images/example.png
 always: references/reference.xml -> templates/references/reference.xml
 always: snippets/snippet_warning.xml -> templates/snippets/snippet_warning.xml
 always: tasks/task.xml -> templates/tasks/task.xml
-always: topicmaps/example.xmind
-always: topicmaps/example.png
 
 initial(license-gfdl): ../entities/product-entities-gfdl.ent -> common/product-entities.ent
 initial(license-cc): ../entities/product-entities-cc.ent -> common/product-entities.ent
@@ -33,3 +31,5 @@ initial: images/example.png
 initial: references/reference.xml
 initial: snippets/snippet_warning.xml
 initial: tasks/task.xml
+initial: topicmaps/example.xmind
+initial: topicmaps/example.png
