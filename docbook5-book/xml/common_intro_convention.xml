@@ -104,6 +104,15 @@
   </listitem>
   <listitem>
    <para>
+    Long commands are split into two or multiple lines by adding an <literal>\</literal> at
+    the end of a line. The character <literal>\</literal> informs the shell that
+    the command invocation will continue after the end of the line.
+   </para>
+   <screen>&prompt.sudo;<command>systemd-run</command> --on-active="2hours" /usr/local/bin/helloworld.sh \
+--language=pt_BR</screen>
+  </listitem>
+  <listitem>
+   <para>
     Notices
    </para>
    <warning>
