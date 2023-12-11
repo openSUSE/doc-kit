@@ -112,6 +112,14 @@
 --language=pt_BR</screen>
   </listitem>
   <listitem>
+    <para>
+     A code block that shows both a command (preceded by a prompt)
+     and the respective output returned by the shell:
+    </para>
+    <screen>&prompt.user;<command>command</command>
+output</screen>
+  </listitem>
+  <listitem>
    <para>
     Notices
    </para>
