@@ -104,8 +104,8 @@
   </listitem>
   <listitem>
    <para>
-    Commands can be split into two or multiple lines by a <literal>\</literal> at
-    the end of a line. The character <literal>\</literal> informs the shell that
+    Commands can be split into two or multiple lines by a backslash character
+    (<literal>\</literal>) at the end of a line. The backslash informs the shell that
     the command invocation will continue after the line's end:
    </para>
    <screen>&prompt.user;<command>echo</command> a b \
