@@ -11,7 +11,7 @@ Describe the overall goals of this pull request.
 ### PR creator: Due diligence for entity changes
 
 If you request an entity change: Please check all doc repositories for
-occurences of this entity (including all suported maintenance branches).
+occurrences of this entity (including all supported maintenance branches).
 If there are any side-effects that come with the entity change
 (for example, indefinite articles in front of the entity need to be changed
 from 'a' to 'an' or vice versa), please fix those in the affected repositories
