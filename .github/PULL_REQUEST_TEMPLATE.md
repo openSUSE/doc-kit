@@ -8,22 +8,22 @@ Describe the overall goals of this pull request.
 * bsc#...
 * jsc#...
 
-### PR creator: Due diligence for entity changes
+### PR creator: In case of entity changes
 
 If you request an entity change: Please check all doc repositories for
 occurrences of this entity (including all supported maintenance branches).
-If there are any side-effects that come with the entity change
-(for example, indefinite articles in front of the entity need to be changed
-from 'a' to 'an' or vice versa), please fix those in the affected repositories
-and branches (after this PR has been accepted and rolled out via doc-kit).
+If there are any side-effects that come with the entity change you need to fix
+those (after this PR has been accepted and rolled out via doc-kit).
 
 - [ ] all related fixes in the affected doc repositories and branches are done
 
-### PR reviewer: Due diligence for entity changes
+### PR reviewer: Due diligence
 
-In case this PR includes entity changes:
+- [ ] I have tested the changes in a test repository
 
-- [ ] I have checked the entity change against our terminology database and found no conflicts
+In case of entity changes (product names etc.):
+
+- [ ] I have checked the changes against our terminology database and found no conflicts
 
 
 
