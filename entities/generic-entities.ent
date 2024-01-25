@@ -360,6 +360,7 @@ use &deng;! -->
 <!ENTITY bci                    "&slea; Base Container Image">
 <!ENTITY bcia                   "&slea; BCI">
 <!ENTITY netavark               "Netavark">
+<!ENTITY compose                "Compose">
 
 
 
