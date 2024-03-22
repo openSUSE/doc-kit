@@ -83,7 +83,7 @@
 
 
 <!-- ALP/SUSE Linux Framework One -->
-<!ENTITY alp                    "&suselinux; Framework One">
+<!ENTITY slfo                   "&suselinux; Framework One">
 <!ENTITY sl-micro               "&suselinux; Micro">
 <!ENTITY slcc                   "&suselinux; Container Collection">
 <!ENTITY slcs                   "&suselinux; Container Solution">
@@ -622,5 +622,4 @@ use &deng;! -->
 <!ENTITY hasi                   "&ha;">
 
 <!-- ALP, old entities -->
-<!ENTITY alpshort               "ALP">
 <!ENTITY alp-dolomite           "&alpshort;&nbsp;Dolomite">
