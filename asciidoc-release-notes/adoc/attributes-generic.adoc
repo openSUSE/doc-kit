@@ -51,9 +51,9 @@
 :sles: {sle} Server
 :ses: {suse} Enterprise Storage
 :jeos: JeOS
-:minvm: Minimal-VM
-:minimg: Minimal-Image
-:sleha: {sle} High Availability Extension
+:minvm: Minimal VM
+:minimg: Minimal Image
+:sleha: {sle} High Availability
 :slehag: Geo Clustering for {sleha}
 :slert: {sle} Real Time
 :slerta: {sle} RT
@@ -71,8 +71,8 @@
 :slesa: {slsa}
 :haa: {slea} HA
 :haga: {slea} HA Geo
-:slewea: {sle}-WE
-:sdka: {slea}-{sdk}
+:slewea: {sle} WE
+:sdka: {slea} {sdk}
 :sdka: {slea} {sdk}
 :suma: {suse} Manager
 :leap: {opensuse} Leap
@@ -85,7 +85,7 @@
 :ibmz: IBM Z
 :sap: SAP
 :slessap: {sles} for {sap} Applications
-:slessapa: {slea}S-{sap}
+:slessapa: {slesa} for {sap}
 :hana: {sap} HANA
 :nw: {sap} NetWeaver
 :s4hana: {sap} S/4HANA
@@ -240,7 +240,7 @@
 :deng: {docker} Open Source Engine
 :dhub: {docker} Hub
 :dreg: {docker} Registry
-:bci: Base Container Image
+:bci: Base Container Images
 :bcia: BCI
 :kiwi: KIWI NG
 :rmt: RMT
