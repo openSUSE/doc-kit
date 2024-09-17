@@ -62,35 +62,24 @@
     <merge>
       <title>Your title, limit to 55 characters, if possible</title>
       <subtitle>Subtitle if necessary</subtitle>
-      <!-- Create revision history to enable versioning; add most recent entries at the top. -->
+      <!-- Create revision history to enable versioning: adjust the placeholder revhistory ID,
+           for each entry add the date of when the updated article will be published,
+           list most recent date/entry at the top -->
       <!-- Check https://documentation.suse.com/style/current/single-html/docu_styleguide/#sec-revhistory for detailed instructions-->
       <revhistory xml:id="rh-USE-ROOT-ID">
-        <revision><date>2054-11-14</date>
+        <revision><date>YYYY-MM-DD</date>
           <revdescription>
-            <itemizedlist>
-              <!-- Group by type of change (added/removed/changed)-->
-              <listitem><para>Added sections:</para>
-                <itemizedlist>
-                <!-- Reference, but don't link to tracker items-->
-                <!-- Follow https://en.opensuse.org/openSUSE:Packaging_Patches_guidelines#Current_set_of_abbreviations for tracker item references-->
-                  <listitem><para>New section on <quote>foo</quote> to resolve issue <uri>bsc#12345</uri></para></listitem>
-                  <!-- Name sections, but don't insert links -->
-                  <listitem><para>New section on <quote>foo bar</quote></para></listitem>
-                </itemizedlist>
-              </listitem>
-              <listitem><para>Removed sections:</para>
-                <itemizedlist>
-                  <listitem><para>Removed section on <quote>foo1</quote> to resolve issue <uri>bsc#12346</uri></para></listitem>
-                  <listitem><para>Removed section on <quote>foo1 bar</quote></para></listitem>
-                </itemizedlist>
-              </listitem>
-              <listitem><para>Changed sections:</para>
-                <itemizedlist>
-                  <listitem><para>Changed section on <quote>foo2</quote> to resolve issue <uri>bsc#12347</uri></para></listitem>
-                  <listitem><para>Changed section on <quote>foo2 bar</quote></para></listitem>
-                </itemizedlist>
-              </listitem>
-            </itemizedlist>
+            <!-- briefly sum up the major changes for the reader-->
+            <para>
+              Updated CONTENT, extended CONTENT, removed CONTENT
+            </para>
+          </revdescription>
+        </revision>
+        <revision><date>YYYY-MM-DD</date>
+          <revdescription>
+            <para>
+              Updated for the initial release of &productname; &productnumber;
+            </para>
           </revdescription>
         </revision>
       </revhistory>
