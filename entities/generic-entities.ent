@@ -213,6 +213,7 @@ use &deng;! -->
 <!ENTITY milvus                 "Milvus">
 <!ENTITY chromadb               "ChromaDB">
 <!ENTITY helm                   "Helm">
+<!ENTITY nvoperator            "&nvidia; GPU Operator">
 
 
 <!-- SLE DVD IMAGE NAMES -->
