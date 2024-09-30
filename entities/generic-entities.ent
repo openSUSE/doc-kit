@@ -58,15 +58,16 @@
 <!-- SUSE PRODUCTS -->
 
 <!ENTITY sliberty               "&suse; Liberty Linux">
-<!ENTITY neuvector              "NeuVector">
+<!ENTITY neuvector              "&suse; NeuVector">
+<!ENTITY observability          "&suse; Observability">
 <!ENTITY ranchelemental         "Rancher Elemental">
 <!ENTITY suseaifoundation       "&suse; AI Foundation">
 <!ENTITY suseaiapps             "&suse; AI Apps">
 <!ENTITY suseai                 "&suse; AI">
 <!ENTITY rke2                   "RKE2">
-<!ENTITY ranchermanager          "Rancher Manager">
-<!ENTITY rancherappco            "Rancher Application Collection">
-<!ENTITY rancherprime            "Rancher Prime">
+<!ENTITY ranchermanager         "Rancher Manager">
+<!ENTITY rancherappco           "Rancher Application Collection">
+<!ENTITY rancherprime           "Rancher Prime">
 
 <!-- SLE -->
 <!ENTITY jeos                   "JeOS"><!-- Just enough OS -->
