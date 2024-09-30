@@ -64,9 +64,9 @@
 <!ENTITY suseaiapps             "&suse; AI Apps">
 <!ENTITY suseai                 "&suse; AI">
 <!ENTITY rke2                   "RKE2">
-<!ENTITY ranchemanager          "Rancher Manager">
-<!ENTITY rancheappco            "Rancher Application Collection">
-<!ENTITY rancheprime            "Rancher Prime">
+<!ENTITY ranchermanager          "Rancher Manager">
+<!ENTITY rancherappco            "Rancher Application Collection">
+<!ENTITY rancherprime            "Rancher Prime">
 
 <!-- SLE -->
 <!ENTITY jeos                   "JeOS"><!-- Just enough OS -->
