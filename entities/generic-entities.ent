@@ -60,7 +60,7 @@
 <!ENTITY sliberty               "&suse; Liberty Linux">
 <!ENTITY neuvector              "NeuVector">
 <!ENTITY sobservability         "&suse; Observability">
-<!ENTITY security               "&suse; Security">
+<!ENTITY ssecurity              "&suse; Security">
 <!ENTITY ranchelemental         "Rancher Elemental">
 <!ENTITY suseaifoundation       "&suse; AI Foundation">
 <!ENTITY suseaiapps             "&suse; AI Apps">
