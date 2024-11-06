@@ -220,6 +220,7 @@ use &deng;! -->
 <!ENTITY helm                   "Helm">
 <!ENTITY nvoperator             "&nvidia; GPU Operator">
 <!ENTITY containerd             "containerd">
+<!ENTITY langchain              "LangChain">
 
 
 <!-- SLE DVD IMAGE NAMES -->
