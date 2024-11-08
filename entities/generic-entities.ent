@@ -221,6 +221,7 @@ use &deng;! -->
 <!ENTITY nvoperator             "&nvidia; GPU Operator">
 <!ENTITY containerd             "containerd">
 <!ENTITY langchain              "LangChain">
+<!ENTITY apulsar                "Apache Pulsar">
 
 
 <!-- SLE DVD IMAGE NAMES -->
