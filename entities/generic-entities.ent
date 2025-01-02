@@ -17,7 +17,6 @@
 %network-entities;
 
 
-
 <!-- USERS AND GROUPS -->
 
 <!ENTITY exampleuser            "<systemitem xmlns='http://docbook.org/ns/docbook' class='username'>&exampleuser_plain;</systemitem>">
@@ -38,14 +37,12 @@
 <!ENTITY rootuser               "<systemitem xmlns='http://docbook.org/ns/docbook' class='username'>root</systemitem>">
 
 
-
 <!-- PROMPTS -->
 
 <!ENTITY prompt.root            "<prompt role='root' xmlns='http://docbook.org/ns/docbook'># </prompt>">
 <!ENTITY prompt.user            "<prompt xmlns='http://docbook.org/ns/docbook'>&gt; </prompt>">
 <!ENTITY prompt.sudo            "<prompt xmlns='http://docbook.org/ns/docbook'>&gt; </prompt><command xmlns='http://docbook.org/ns/docbook'>sudo</command> ">
 <!ENTITY prompt.tr-up           "<prompt role='root' xmlns='http://docbook.org/ns/docbook'>transactional update # </prompt>">
-
 
 
 <!-- COMPANY -->
@@ -55,7 +52,17 @@
 <!ENTITY suselinux              "&suse; Linux">
 
 
-<!-- SUSE PRODUCTS -->
+<!-- SUSE PRODUCT NAMES WITH (R) SIGN (incomplete) -->
+
+<!ENTITY slereg                 "&suse;&reg; Linux Enterprise">
+<!ENTITY sledreg                "&slereg; Desktop">
+<!ENTITY slehpcreg              "&slereg; High Performance Computing">
+<!ENTITY slertreg               "&slereg; Real Time">
+<!ENTITY slsreg                 "&slereg; Server">
+<!ENTITY sles4sapreg            "&slsreg; for &sap; Applications">
+
+
+<!-- SUSE PRODUCTNAMES -->
 
 <!ENTITY sliberty               "&suse; Liberty Linux">
 <!ENTITY neuvector              "&ssecurity;">
@@ -74,10 +81,8 @@
 <!ENTITY rancherprime           "&suse; Rancher Prime">
 
 <!-- SLE -->
-<!ENTITY jeos                   "JeOS"><!-- Just enough OS -->
-<!ENTITY jeosfirstboot          "&jeos; Firstboot">
+
 <!ENTITY minvm                  "&slsa; Minimal VM">
-<!ENTITY leanos                 "Unified Installer">
 <!ENTITY sle                    "&suse; Linux Enterprise">
 <!ENTITY sled                   "&sle; Desktop">
 <!ENTITY slehpc                 "&sle; High Performance Computing">
@@ -91,12 +96,13 @@
 <!ENTITY sls                    "&sles;">
 <!ENTITY sles4sap               "&sls; for &sap; Applications">
 <!ENTITY s4s                    "&sles4sap;">
-<!ENTITY slem                   "&sle; Micro">
 <!ENTITY bci-product            "&slea; Base Container Images">
 
 
 <!-- ALP/SUSE Linux Framework One -->
+
 <!ENTITY slm                    "&suselinux; Micro">
+
 
 <!-- SLE HA -->
 
@@ -105,6 +111,7 @@
 
 
 <!-- SUSE Manager -->
+
 <!ENTITY susemgr                "&suse; Manager">
 <!ENTITY suma                   "&susemgr;">
 <!ENTITY susemgrdb              "&suse; Manager with Database">
@@ -137,18 +144,6 @@
 <!ENTITY smra                   "SUMA&nbsp;for&nbsp;Retail">
 <!ENTITY suseaia                "&suse; AI">
 
-
-<!-- PRODUCT NAMES WITH (R) SIGN (incomplete) -->
-
-<!ENTITY slereg                 "&suse;&reg; Linux Enterprise">
-<!ENTITY sledreg                "&slereg; Desktop">
-<!ENTITY slehpcreg              "&slereg; High Performance Computing">
-<!ENTITY slertreg               "&slereg; Real Time">
-<!ENTITY slsreg                 "&slereg; Server">
-<!ENTITY sles4sapreg            "&slsreg; for &sap; Applications">
-<!ENTITY slemreg                "&slereg; Micro">
-<!ENTITY susemgrreg             "&suse;&reg; Manager">
-
 <!-- openSUSE VARIANTS -->
 
 <!ENTITY opensuse               "openSUSE">
@@ -174,7 +169,6 @@
 <!ENTITY soliddriver            "&suse; SolidDriver">
 <!-- Do not abbreviate "registry" to "reg"! &susereg; = SUSE(R) -->
 <!ENTITY suseregistry           "&suse; Registry">
-
 
 
 <!-- THIRD-PARTY VENDORS -->
@@ -311,6 +305,7 @@ use &deng;! -->
 <!ENTITY kube                   "Kubernetes">
 <!ENTITY k3s                    "&rancherprime;: K3s">
 <!ENTITY kubevirt               "KubeVirt">
+<!ENTITY leanos                 "Unified Installer">
 <!ENTITY libo                   "LibreOffice">
 <!ENTITY lvmcache               "<systemitem xmlns='http://docbook.org/ns/docbook' class='resource'>lvmcache</systemitem>">
 <!ENTITY nm                     "NetworkManager">
@@ -339,6 +334,7 @@ use &deng;! -->
 
 
 <!-- ALP/SUSE Linux Framework One -->
+
 <!ENTITY fuelignition-dld-site   "https://ignite.opensuse.org">
 <!ENTITY virt-scenario           "<command xmlns='http://docbook.org/ns/docbook'>virt-scenario</command>">
 
@@ -612,33 +608,47 @@ use &deng;! -->
 <!ENTITY caasp                  "&suse; CaaS Platform">
 <!ENTITY cap                    "&suse; Cloud Application Platform">
 
-
 <!-- Studio -->
 
 <!ENTITY susestudio             "&suse; Studio">
 <!ENTITY studioexpress          "&susestudio; Express">
 <!ENTITY suseonsite             "&susestudio; Onsite">
 
+<!-- SLE, old product names or entities -->
 
+<!ENTITY hasi                   "&ha;">
+<!ENTITY slemreg                "&slereg; Micro">
+<!ENTITY slem                   "&sle; Micro">
 
-<!ENTITY ipseries               "&power;">
-<!ENTITY ppc                    "&power;">
+<!-- SLE, old guide names -->
 
-<!ENTITY smt                    "SMT">
-<!ENTITY smtool                 "Subscription Management Tool">
-<!ENTITY susefirewall           "SuSEfirewall2">
-<!ENTITY susefirewallfiles      "SuSEfirewall2">
-<!ENTITY mysql                  "&mariadb;">
+<!ENTITY sle_jeos_quick        "&jeos; Quick Start">
+<!ENTITY smtguide              "Subscription Management Tool Guide">
+
+<!-- SUSE Manager, old product names -->
+
+<!ENTITY susemgrreg             "&suse;&reg; Manager">
+<!ENTITY susemgr                "&suse; Manager">
+<!ENTITY suma                   "&susemgr;">
+<!ENTITY susemgrdb              "&suse; Manager with Database">
+<!ENTITY susemgrproxy           "&susemgr; Proxy">
+<!ENTITY smr                    "&susemgr; for Retail">
 
 <!--SUSE Manager, old guide names -->
+
 <!ENTITY mgrclientconfguide     "Client Configuration Guide">
 <!ENTITY mgrinstguide           "Installation &amp; Troubleshooting Guide">
 <!ENTITY mgrproxyquick          "Proxy Quick Start">
 <!ENTITY mgrquick               "Quick Start">
 
-<!-- SLE, old guide names -->
-<!ENTITY sle_jeos_quick        "&jeos; Quick Start">
-<!ENTITY smtguide              "Subscription Management Tool Guide">
+<!-- Miscellaneous -->
 
-<!-- SLE HA, old productname entity -->
-<!ENTITY hasi                   "&ha;">
+<!ENTITY ipseries               "&power;">
+<!ENTITY ppc                    "&power;">
+<!ENTITY smt                    "SMT">
+<!ENTITY smtool                 "Subscription Management Tool">
+<!ENTITY susefirewall           "SuSEfirewall2">
+<!ENTITY susefirewallfiles      "SuSEfirewall2">
+<!ENTITY mysql                  "&mariadb;">
+<!ENTITY jeos                   "JeOS"><!-- Just enough OS -->
+<!ENTITY jeosfirstboot          "&jeos; Firstboot">
