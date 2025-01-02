@@ -64,7 +64,7 @@
 
 <!-- SUSE PRODUCTNAMES -->
 
-<!ENTITY sliberty               "&suse; Liberty Linux">
+<!ENTITY smlsupport             "&suse; Multi-Linux Support">
 <!ENTITY neuvector              "&ssecurity;">
 <!ENTITY sobservability         "&suse; Observability">
 <!ENTITY ssecurity              "&suse; Security">
@@ -110,13 +110,13 @@
 <!ENTITY hageo                  "Geo Clustering for &sleha;">
 
 
-<!-- SUSE Manager -->
+<!-- Multi-Linux Manager -->
 
-<!ENTITY susemgr                "&suse; Manager">
-<!ENTITY suma                   "&susemgr;">
-<!ENTITY susemgrdb              "&suse; Manager with Database">
-<!ENTITY susemgrproxy           "&susemgr; Proxy">
-<!ENTITY smr                    "&susemgr; for Retail">
+<!ENTITY smlmanager             "&suse; Multi-Linux Manager">
+<!--are the following still needed?-->
+<!ENTITY smlmanagerdb           "&smlmanager; with Database">
+<!ENTITY smlmanagerproxy        "&smlmanager; Proxy">
+<!ENTITY smlmanagerretail       "&smlmanager; for Retail">
 
 
 <!-- SUSE PRODUCT ACRONYMS (as approved in TermWeb 2023) -->
@@ -640,6 +640,9 @@ use &deng;! -->
 <!ENTITY mgrinstguide           "Installation &amp; Troubleshooting Guide">
 <!ENTITY mgrproxyquick          "Proxy Quick Start">
 <!ENTITY mgrquick               "Quick Start">
+
+<!-- Liberty Linux -->
+<!ENTITY sliberty               "&suse; Liberty Linux">
 
 <!-- Miscellaneous -->
 
