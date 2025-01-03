@@ -62,7 +62,7 @@
 <!ENTITY sles4sapreg            "&slsreg; for &sap; Applications">
 
 
-<!-- SUSE PRODUCTNAMES -->
+<!-- Cloud native products -->
 
 <!ENTITY smlsupport             "&suse; Multi-Linux Support">
 <!ENTITY neuvector              "&ssecurity;">
@@ -80,7 +80,7 @@
 <!ENTITY rancherappco           "&rancherprime; Application Collection">
 <!ENTITY rancherprime           "&suse; Rancher Prime">
 
-<!-- SLE -->
+<!-- SLE family products -->
 
 <!ENTITY minvm                  "&slsa; Minimal VM">
 <!ENTITY sle                    "&suse; Linux Enterprise">
@@ -96,18 +96,14 @@
 <!ENTITY sls                    "&sles;">
 <!ENTITY sles4sap               "&sls; for &sap; Applications">
 <!ENTITY s4s                    "&sles4sap;">
+<!ENTITY sleha                  "&sle; &ha;">
+<!ENTITY hageo                  "Geo Clustering for &sleha;">
 <!ENTITY bci-product            "&slea; Base Container Images">
 
 
-<!-- ALP/SUSE Linux Framework One -->
+<!-- Framework One products  -->
 
 <!ENTITY slm                    "&suselinux; Micro">
-
-
-<!-- SLE HA -->
-
-<!ENTITY sleha                  "&sle; &ha;">
-<!ENTITY hageo                  "Geo Clustering for &sleha;">
 
 
 <!-- Multi-Linux Manager -->
@@ -119,7 +115,7 @@
 <!ENTITY smlmanagerretail       "&smlmanager; for Retail">
 
 
-<!-- SUSE PRODUCT ACRONYMS (as approved in TermWeb 2023) -->
+<!-- SUSE PRODUCT ACRONYMS (as approved in TermWeb) -->
 
 <!ENTITY slea                   "SLE">
 <!ENTITY sleda                  "SLED">
