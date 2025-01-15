@@ -64,8 +64,6 @@
 <!ENTITY sstorage               "&suse; Storage">
 <!ENTITY svirtualization        "&suse; Virtualization">
 <!ENTITY ranchelemental         "&rancherprime;: OS Manager">
-<!ENTITY suseaifoundation       "&suse; AI Foundation">
-<!ENTITY suseailibrary          "&suse; AI Library">
 <!ENTITY ailibrary              "AI Library">
 <!ENTITY suseaisuite            "&suse; AI Suite">
 <!ENTITY suseai                 "&suse; AI">
