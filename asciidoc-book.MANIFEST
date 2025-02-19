@@ -10,6 +10,7 @@ initial: DC-example
 
 initial: adoc/example_book.adoc
 initial: adoc/example_introduction.adoc
+initial: adoc/example_appendix.adoc
 initial: images/example.png
 always: adoc/legal.adoc
 always: adoc/source-code.adoc

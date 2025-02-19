@@ -22,10 +22,7 @@ include::example_introduction.adoc[]
 
 // Appendix
 [appendix]
-include::example_appendix1.adoc[]
-
-[appendix]
-include::example_appendix2.adoc[]
+include::example_appendix.adoc[]
 
 include::source-code.adoc[]
 
