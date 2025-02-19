@@ -4,7 +4,7 @@
 // Doctype should always be article
 :doctype: article
 
-include::product-attributes.adoc
+include::product-attributes.adoc[]
 
 // Formatting in GitLab
 :toc:
