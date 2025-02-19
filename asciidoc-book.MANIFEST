@@ -3,8 +3,8 @@ v0.2
 always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
-always: ../entities/generic-entities.adoc -> adoc/generic-entities.adoc
-initial: ../entities/product-entities.adoc -> adoc/product-entities.adoc
+always: ../entities/generic-attributes.adoc -> adoc/generic-attributes.adoc
+initial: ../entities/product-attributes.adoc -> adoc/product-attributes.adoc
 
 initial: DC-example
 
