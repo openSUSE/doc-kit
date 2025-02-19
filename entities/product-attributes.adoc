@@ -10,7 +10,8 @@ ifeval::["{lifecycle}" != "beta"]
 :label-pre:
 endif::[]
 
-:product: ProductName
+:productname: ProductName
+:product: {productname}
 :productnameshort: PN
 
 :this-ga: 01
