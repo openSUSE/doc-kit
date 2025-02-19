@@ -1,0 +1,32 @@
+:doctype: book
+:experimental:
+:docinfo:
+:toc: left
+
+include::generic-attributes.adoc[]
+
+= {productname} Documentation
+
+ifdef::env-github[]
+:imagesdir: ../images/
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+// Introduction
+include::example_introduction.adoc[]
+
+
+// Appendix
+[appendix]
+include::example_appendix1.adoc[]
+
+[appendix]
+include::example_appendix2.adoc[]
+
+include::source-code.adoc[]
+
+include::legal.adoc[]
