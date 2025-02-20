@@ -28,6 +28,14 @@ include::product-attributes.adoc[]
 :sup: &#43;
 :uns: ‒
 
+// Attributes used in other attributes definitions must go first
+:kube: Kubernetes
+:slsa: SLES
+:sap: SAP
+:slea: SLE
+
+
+
 // users and groups
 :exampleuserfull:   Tux Linux
 :exampleuser:       tux
@@ -105,9 +113,7 @@ include::product-attributes.adoc[]
 :smr: {susemgr} for Retail
 
 // SUSE PRODUCT ACRONYMS
-:slea: SLE
 :sleda: SLED
-:slsa: SLES
 :slehaa: SLE{nbsp}HA
 :slehaga: SLE{nbsp}HA{nbsp}GEO
 :slehpca: SLE{nbsp}HPC
@@ -168,7 +174,7 @@ include::product-attributes.adoc[]
 :nvidiareg: {nvidia}(R)
 :rh: Red Hat
 :redhat: {rh}
-:sap: SAP
+
 :vmware: VMware
 :hana: {sap} HANA
 :macos: macOS
@@ -274,7 +280,6 @@ include::product-attributes.adoc[]
 :kiwi: KIWI{nbsp}NG
 :kprobes: Kprobes
 :krb: Kerberos
-:kube: Kubernetes
 :k3s: {rancherprime}: K3s
 :kubevirt: KubeVirt
 :libo: LibreOffice
