@@ -2,3 +2,5 @@ include::generic-attributes.adoc[]
 
 [#example-appendix]
 == Example appendix
+
+This is an example appendix.
