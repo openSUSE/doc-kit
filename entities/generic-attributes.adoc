@@ -4,8 +4,6 @@
 // Doctype should always be article
 :doctype: article
 
-include::product-attributes.adoc[]
-
 // Formatting in GitLab
 :toc:
 :toc-placement: auto
@@ -258,3 +256,5 @@ include::product-attributes.adoc[]
 :ingress: Ingress
 :postgresql: PostgreSQL
 :redis: Redis
+
+include::product-attributes.adoc[]
