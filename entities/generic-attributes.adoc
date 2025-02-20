@@ -157,6 +157,7 @@ include::product-attributes.adoc[]
 
 // SUSE SERVICES
 :scc: {suse} Customer Center
+:scca: SCC
 :sccreg: {susereg} Customer Center
 :obs: Open Build Service
 :osbs: {os} Build Service
@@ -164,6 +165,7 @@ include::product-attributes.adoc[]
 :ph: {suse} Package Hub
 :soliddriver: {suse} SolidDriver
 :suseregistry: {suse} Registry
+:sregistry: {suseregistry}
 
 // Third party vendors
 :docker: Docker
