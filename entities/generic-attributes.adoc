@@ -222,11 +222,9 @@ include::product-attributes.adoc[]
 
 // HARDWARE ARCHITECTURES AND PLATFORMS
 :x86: x86
-
 :intel64: Intel{nbsp}64
 :amd64: AMD64
 :x86-64: {amd64}/{intel64}
-
 :arm: Arm
 :armreg: Arm(R)
 :armv7: Armv7
@@ -415,22 +413,18 @@ include::product-attributes.adoc[]
 :fcnvme: FC-NVMe
 :dmmpio: DM-Multipathing
 :mpio: multipath I/O
-
 :hdmi: HDMI
 :hdmireg: {hdmi}(R)
 :mipireg: MIPI(R)
 :mipidsireg: {mipireg} DSI(R)
 :openglreg: OpenGL(R)
 :openglesreg: {openglreg} ES
-
 :microsd: microSD
 :microsdhc: microSDHC
 :bt: Bluetooth
 :btreg: Bluetooth(R)
-
 :usbflashdrive: USB flash drive
 :usbflashdrivecap: USB Flash Drive
-
 :infiniband: InfiniBand
 
 // NETWORK PROTOCOLS
