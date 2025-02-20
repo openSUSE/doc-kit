@@ -28,14 +28,6 @@ include::product-attributes.adoc[]
 :sup: &#43;
 :uns: ‒
 
-// Attributes used in other attributes definitions must go first
-:kube: Kubernetes
-:slsa: SLES
-:sap: SAP
-:slea: SLE
-
-
-
 // users and groups
 :exampleuserfull:   Tux Linux
 :exampleuser:       tux
@@ -66,6 +58,7 @@ include::product-attributes.adoc[]
 :ailibrary:         AI Library
 :suseaisuite:       {suse} AI Suite
 :suseai:            {suse} AI
+:kube: Kubernetes
 :rke: {rancher} {kube} Engine (RKE)
 :rke2:              {rancherprime}: RKE2
 :ranchermanager:    {rancherprime}
@@ -74,6 +67,7 @@ include::product-attributes.adoc[]
 // SLE
 :jeos:              JeOS
 :jeosfirstboot:     {jeos} Firstboot
+:slsa: SLES
 :minvm:             {slsa} Minimal VM
 :leanos:            Unified Installer
 :sle:               {suse} Linux Enterprise
@@ -87,6 +81,7 @@ include::product-attributes.adoc[]
 :sdk:               {suse} Software Development Kit
 :sles:              {sle} Server
 :sls:               {sles}
+:sap: SAP
 :sles4sap:          {sls} for {sap} Applications
 :s4s:               {sles4sap}
 :slem:              {sle} Micro
@@ -105,7 +100,6 @@ include::product-attributes.adoc[]
 :hageo: Geo Clustering for {sleha}
 
 // SUSE Manager
-:suse: SUSE
 :susemgr: {suse} Manager
 :suma: {susemgr}
 :susemgrdb: {suse} Manager with Database
@@ -123,6 +117,7 @@ include::product-attributes.adoc[]
 :slerta: SLE{nbsp}RT
 :slewea: SLE{nbsp}WE
 :slelpa: SLE{nbsp}LP
+:slea: SLE
 :slema: {slea} Micro
 :vmdpa: SLE{nbsp}VMDP
 :sesa: SES
