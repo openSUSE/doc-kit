@@ -3,7 +3,7 @@
 
 :docinfo:
 // Doctype should always be article
-:doctype: article
+:doctype:     article
 
 // PRODUCT-SPECIFIC ENTITIES
 include::product-attributes.adoc[]
@@ -29,422 +29,422 @@ include::product-attributes.adoc[]
 :uns: ‒
 
 // users and groups
-:exampleuserfull:   Tux Linux
-:exampleuser:       tux
-:examplegroup:      users
-:rootuser:          root
+:exampleuserfull:            Tux Linux
+:exampleuser:                tux
+:examplegroup:               users
+:rootuser:                   root
 
 // prompts
-:prompt_root:       #{nbsp}
-:prompt_user:       >{nbsp}
-:prompt_sudo:       >{nbsp}sudo{nbsp}
-:prompt_tr-up:      transactional{nbsp}update{nbsp}#{nbsp}
+:prompt_root:                #{nbsp}
+:prompt_user:                >{nbsp}
+:prompt_sudo:                >{nbsp}sudo{nbsp}
+:prompt_tr-up:               transactional{nbsp}update{nbsp}#{nbsp}
 
 //company
-:suse:              SUSE
-:susereg:           {suse}(R)
-:suselinux:         {suse} Linux
+:suse:                       SUSE
+:susereg:                    {suse}(R)
+:suselinux:                  {suse} Linux
 
 // SUSE products
-:sliberty:          {suse} Liberty Linux
-:neuvector:         Neuvector
-:sobservability:    {suse} Observability
-:ssecurity:         {suse} Security
-:sstorage:          {suse} Storage
-:svirtualization:   {suse} Virtualization
-:rancherprime:      {suse} Rancher Prime
-:rancher: {rancherprime}
-:ranchelemental:    {rancherprime}: OS Manager
-:ailibrary:         AI Library
-:suseaisuite:       {suse} AI Suite
-:suseai:            {suse} AI
-:kube: Kubernetes
-:rke: {rancher} {kube} Engine (RKE)
-:rke2:              {rancherprime}: RKE2
-:ranchermanager:    {rancherprime}
-:rancherappco:      {rancherprime} Application Collection
+:sliberty:                   {suse} Liberty Linux
+:neuvector:                  Neuvector
+:sobservability:             {suse} Observability
+:ssecurity:                  {suse} Security
+:sstorage:                   {suse} Storage
+:svirtualization:            {suse} Virtualization
+:rancherprime:               {suse} Rancher Prime
+:rancher:                    {rancherprime}
+:ranchelemental:             {rancherprime}: OS Manager
+:ailibrary:                  AI Library
+:suseaisuite:                {suse} AI Suite
+:suseai:                     {suse} AI
+:kube:                       Kubernetes
+:rke:                        {rancher} {kube} Engine (RKE)
+:rke2:                       {rancherprime}: RKE2
+:ranchermanager:             {rancherprime}
+:rancherappco:               {rancherprime} Application Collection
 
 // SLE
-:jeos:              JeOS
-:jeosfirstboot:     {jeos} Firstboot
-:slsa: SLES
-:minvm:             {slsa} Minimal VM
-:leanos:            Unified Installer
-:sle:               {suse} Linux Enterprise
-:sled:              {sle} Desktop
-:slehpc:            {sle} High Performance Computing
-:slepos:            {sle} Point of Service
-:slewe:             {sle} Workstation Extension
-:vmdp:              {sle} Virtual Machine Driver Pack
-:slelp:             {sle} Live Patching
-:slert:             {sle} Real Time
-:sdk:               {suse} Software Development Kit
-:sles:              {sle} Server
-:sls:               {sles}
-:sap: SAP
-:sles4sap:          {sls} for {sap} Applications
-:s4s:               {sles4sap}
-:slem:              {sle} Micro
-:bci-product:       {slea} Base Container Images
+:jeos:                       JeOS
+:jeosfirstboot:              {jeos} Firstboot
+:slsa:                       SLES
+:minvm:                      {slsa} Minimal VM
+:leanos:                     Unified Installer
+:sle:                        {suse} Linux Enterprise
+:sled:                       {sle} Desktop
+:slehpc:                     {sle} High Performance Computing
+:slepos:                     {sle} Point of Service
+:slewe:                      {sle} Workstation Extension
+:vmdp:                       {sle} Virtual Machine Driver Pack
+:slelp:                      {sle} Live Patching
+:slert:                      {sle} Real Time
+:sdk:                        {suse} Software Development Kit
+:sles:                       {sle} Server
+:sls:                        {sles}
+:sap:                        SAP
+:sles4sap:                   {sls} for {sap} Applications
+:s4s:                        {sles4sap}
+:slem:                       {sle} Micro
+:slea:                       SLE
+:bci-product:                {slea} Base Container Images
 
 // ALP/SUSE Linux Framework One
-:suselinux: SUSE Linux
-:slm: {suselinux} Micro
-:slcc: {suselinux} Container Collection
-:slcs: {suselinux} Container Solution
+:suselinux:                  SUSE Linux
+:slm:                        {suselinux} Micro
+:slcc:                       {suselinux} Container Collection
+:slcs:                       {suselinux} Container Solution
 
 // SLE HA
-:sle: SLE
-:ha: HA
-:sleha: {sle} {ha}
-:hageo: Geo Clustering for {sleha}
+:sle:                        SLE
+:ha:                         HA
+:sleha:                      {sle} {ha}
+:hageo:                      Geo Clustering for {sleha}
 
 // SUSE Manager
-:susemgr: {suse} Manager
-:suma: {susemgr}
-:susemgrdb: {suse} Manager with Database
-:susemgrproxy: {susemgr} Proxy
-:smr: {susemgr} for Retail
+:susemgr:                    {suse} Manager
+:suma:                       {susemgr}
+:susemgrdb:                  {suse} Manager with Database
+:susemgrproxy:               {susemgr} Proxy
+:smr:                        {susemgr} for Retail
 
 // SUSE PRODUCT ACRONYMS
-:sleda: SLED
-:slehaa: SLE{nbsp}HA
-:slehaga: SLE{nbsp}HA{nbsp}GEO
-:slehpca: SLE{nbsp}HPC
-:sles4sapa: SLES{nbsp}for{nbsp}SAP
-:s4sa: {sles4sapa}
-:sleposa: SLE{nbsp}POS
-:slerta: SLE{nbsp}RT
-:slewea: SLE{nbsp}WE
-:slelpa: SLE{nbsp}LP
-:slea: SLE
-:slema: {slea} Micro
-:vmdpa: SLE{nbsp}VMDP
-:sesa: SES
-:soca: SOC
-:capa: SUSE{nbsp}CAP
-:caaspa: SUSE{nbsp}CaaSP
-:caspa: {caaspa}
-:sumaa: SUMA
-:smra: SUMA{nbsp}for{nbsp}Retail
-:suseaia: {suse} AI
+:sleda:                      SLED
+:slehaa:                     SLE{nbsp}HA
+:slehaga:                    SLE{nbsp}HA{nbsp}GEO
+:slehpca:                    SLE{nbsp}HPC
+:sles4sapa:                  SLES{nbsp}for{nbsp}SAP
+:s4sa:                       {sles4sapa}
+:sleposa:                    SLE{nbsp}POS
+:slerta:                     SLE{nbsp}RT
+:slewea:                     SLE{nbsp}WE
+:slelpa:                     SLE{nbsp}LP
+:slema:                      {slea} Micro
+:vmdpa:                      SLE{nbsp}VMDP
+:sesa:                       SES
+:soca:                       SOC
+:capa:                       SUSE{nbsp}CAP
+:caaspa:                     SUSE{nbsp}CaaSP
+:caspa:                      {caaspa}
+:sumaa:                      SUMA
+:smra:                       SUMA{nbsp}for{nbsp}Retail
+:suseaia:                    {suse} AI
 
 // PRODUCT NAMES WITH (R) SIGN
-:susereg: {suse}(R)
-:slereg: {susereg} Linux Enterprise
-:sledreg: {slereg} Desktop
-:slehpcreg: {slereg} High Performance Computing
-:slertreg: {slereg} Real Time
-:slsreg: {slereg} Server
-:sles4sapreg: {slsreg} for SAP Applications
-:slemreg: {slereg} Micro
-:susemgrreg: {susereg} Manager
+:susereg:                    {suse}(R)
+:slereg:                     {susereg} Linux Enterprise
+:sledreg:                    {slereg} Desktop
+:slehpcreg:                  {slereg} High Performance Computing
+:slertreg:                   {slereg} Real Time
+:slsreg:                     {slereg} Server
+:sles4sapreg:                {slsreg} for SAP Applications
+:slemreg:                    {slereg} Micro
+:susemgrreg:                 {susereg} Manager
 
 // openSUSE VARIANTS
-:opensuse: openSUSE
-:osuse: {opensuse}
-:os: {opensuse}
-:opensusereg: openSUSE(R)
-:leap: {os} Leap
-:tw: {os} Tumbleweed
-:kubic: {os} Kubic
-:osuse-micro: {os} MicroOS
+:opensuse:                   openSUSE
+:osuse:                      {opensuse}
+:os:                         {opensuse}
+:opensusereg:                openSUSE(R)
+:leap:                       {os} Leap
+:tw:                         {os} Tumbleweed
+:kubic:                      {os} Kubic
+:osuse-micro:                {os} MicroOS
 
 // SUSE SERVICES
-:scc: {suse} Customer Center
-:scca: SCC
-:sccreg: {susereg} Customer Center
-:obs: Open Build Service
-:osbs: {os} Build Service
-:obsa: OBS
-:ph: {suse} Package Hub
-:soliddriver: {suse} SolidDriver
-:suseregistry: {suse} Registry
-:sregistry: {suseregistry}
+:scc:                        {suse} Customer Center
+:scca:                       SCC
+:sccreg:                     {susereg} Customer Center
+:obs:                        Open Build Service
+:osbs:                       {os} Build Service
+:obsa:                       OBS
+:ph:                         {suse} Package Hub
+:soliddriver:                {suse} SolidDriver
+:suseregistry:               {suse} Registry
+:sregistry:                  {suseregistry}
 
 // Third party vendors
-:docker: Docker
-:hpe: HPE
-:ibm: IBM
-:ms: Microsoft
-:nvidia: NVIDIA
-:nvidiareg: {nvidia}(R)
-:rh: Red Hat
-:redhat: {rh}
+:docker:                     Docker
+:hpe:                        HPE
+:ibm:                        IBM
+:ms:                         Microsoft
+:nvidia:                     NVIDIA
+:nvidiareg:                  {nvidia}(R)
+:rh:                         Red Hat
+:redhat:                     {rh}
 
-:vmware: VMware
-:hana: {sap} HANA
-:macos: macOS
-:mswin: {ms} Windows
-:netware: NetWare
-:netweaver: {sap} NetWeaver
-:ostack: OpenStack
-:powerkvm: PowerKVM
-:powerlinux: PowerLinux
-:rhel: {rh} Enterprise Linux
-:rhla: RHEL
-:rpios: Raspberry{nbsp}Pi{nbsp}OS
-:centos: CentOS
-:stackstate: StackState
-:ollama: Ollama
-:owui: Open WebUI
-:milvus: Milvus
-:chromadb: ChromaDB
-:helm: Helm
-:nvoperator: {nvidia} GPU Operator
-:containerd: containerd
-:langchain: LangChain
-:apulsar: Apache Pulsar
-:etcd: etcd
-:minio: MinIO
-:okta: Okta
-:harbor: Harbor
-:redis: Redis
-:ingress: Ingress
-:postgresql: PostgreSQL
+:vmware:                     VMware
+:hana:                       {sap} HANA
+:macos:                      macOS
+:mswin:                      {ms} Windows
+:netware:                    NetWare
+:netweaver:                  {sap} NetWeaver
+:ostack:                     OpenStack
+:powerkvm:                   PowerKVM
+:powerlinux:                 PowerLinux
+:rhel:                       {rh} Enterprise Linux
+:rhla:                       RHEL
+:rpios:                      Raspberry{nbsp}Pi{nbsp}OS
+:centos:                     CentOS
+:stackstate:                 StackState
+:ollama:                     Ollama
+:owui:                       Open WebUI
+:milvus:                     Milvus
+:chromadb:                   ChromaDB
+:helm:                       Helm
+:nvoperator:                 {nvidia} GPU Operator
+:containerd:                 containerd
+:langchain:                  LangChain
+:apulsar:                    Apache Pulsar
+:etcd:                       etcd
+:minio:                      MinIO
+:okta:                       Okta
+:harbor:                     Harbor
+:redis:                      Redis
+:ingress:                    Ingress
+:postgresql:                 PostgreSQL
 
 // NVIDIA products
-:cuda: CUDA
-:cudareg: {cuda}(R)
-:jetson: Jetson
-:jetsonreg: {jetson}(R)
-:jetpack: JetPack
-:jetpackreg: {jetpack}(R)
-:xavier: Xavier
-:xavierreg: {xavier}(R)
-:orin: Orin
-:orinreg: {orin}(R)
+:cuda:                       CUDA
+:cudareg:                    {cuda}(R)
+:jetson:                     Jetson
+:jetsonreg:                  {jetson}(R)
+:jetpack:                    JetPack
+:jetpackreg:                 {jetpack}(R)
+:xavier:                     Xavier
+:xavierreg:                  {xavier}(R)
+:orin:                       Orin
+:orinreg:                    {orin}(R)
 
 // HARDWARE ARCHITECTURES AND PLATFORMS
-:x86: x86
-:intel64: Intel{nbsp}64
-:amd64: AMD64
-:x86-64: {amd64}/{intel64}
-:arm: Arm
-:armreg: Arm(R)
-:armv7: Armv7
-:armv8: Armv8
-:aarch64: AArch64
-:arm64: {arm}{nbsp}{aarch64}
-:cortex: {arm}{nbsp}Cortex
-:cortexreg: {armreg}{nbsp}Cortex(R)
-:vc: Broadcom VideoCore
-:vcreg: {vc}{nbsp}(R)
-:vc4reg: {vcreg}{nbsp}IV
-:rpi: Raspberry{nbsp}Pi
-:rpireg: Raspberry{nbsp}Pi(R)
-:rpi3: Raspberry{nbsp}Pi{nbsp}3
-:rpi4: Raspberry{nbsp}Pi{nbsp}4
-:power: POWER
-:ppc64le: ppc64le
-:zseries: {ibm}{nbsp}Z
-:zsystems: {zseries}
-:linuxone: {ibm} LinuxONE
+:x86:                        x86
+:intel64:                    Intel{nbsp}64
+:amd64:                      AMD64
+:x86-64:                     {amd64}/{intel64}
+:arm:                        Arm
+:armreg:                     Arm(R)
+:armv7:                      Armv7
+:armv8:                      Armv8
+:aarch64:                    AArch64
+:arm64:                      {arm}{nbsp}{aarch64}
+:cortex:                     {arm}{nbsp}Cortex
+:cortexreg:                  {armreg}{nbsp}Cortex(R)
+:vc:                         Broadcom VideoCore
+:vcreg:                      {vc}{nbsp}(R)
+:vc4reg:                     {vcreg}{nbsp}IV
+:rpi:                        Raspberry{nbsp}Pi
+:rpireg:                     Raspberry{nbsp}Pi(R)
+:rpi3:                       Raspberry{nbsp}Pi{nbsp}3
+:rpi4:                       Raspberry{nbsp}Pi{nbsp}4
+:power:                      POWER
+:ppc64le:                    ppc64le
+:zseries:                    {ibm}{nbsp}Z
+:zsystems:                   {zseries}
+:linuxone:                   {ibm} LinuxONE
 
 // SYSTEM COMPONENTS
-:ds389: 389 Directory Server
-:ds389a: 389 DS
-:aa: AppArmor
-:apparmor: {aa}
-:aareg: AppArmor(R)
-:ad: Active Directory
-:ada: AD
-:aide: AIDE
-:agama: Agama
-:ansible: Ansible
-:ay: AutoYaST
-:autoyast: {ay}
-:bcache: bcache
-:chrony: chrony
-:chronyc: chronyc
-:debuginfod: debuginfod
-:gnome: GNOME
-:gdm: {gnome} Display Manager
-:gdmshort: GDM
-:grub: GRUB{nbsp}2
-:grub-efi: GRUB{nbsp}2 for EFI
-:kdump: Kdump
-:kea: Kea
-:kexec: Kexec
-:kg: kGraft
-:klp: Kernel Live Patching
-:klpa: KLP
-:ulp: user space live patching
-:ulpa: ULP
-:keylime: Keylime
-:kiwi: KIWI{nbsp}NG
-:kprobes: Kprobes
-:krb: Kerberos
-:k3s: {rancherprime}: K3s
-:kubevirt: KubeVirt
-:libo: LibreOffice
-:lvmcache: lvmcache
-:nm: NetworkManager
-:ovs: Open vSwitch
-:pk: Polkit
-:rmt: RMT
-:rmtool: Repository Mirroring Tool
-:salt: Salt
-:samba: Samba
-:scchvc: scc-hypervisor-collector
-:selnx: SELinux
-:selinux: {selnx}
-:smaster: {salt} Master
-:sminion: {salt} Minion
-:snapper: Snapper
-:sudo: sudo
-:suseconnect: SUSEConnect
-:tr-up: transactional-update
-:tr-up-shell: transactional-update shell
-:tr-up-run: transactional-update run
-:xgeneric: X Window System
-:xvendor: X.Org
-:yast: YaST
-:yastcc: {yast} Control Center
-:ycc_runlevel: Services Manager
-:yelp: Help
+:ds389:                      389 Directory Server
+:ds389a:                     389 DS
+:aa:                         AppArmor
+:apparmor:                   {aa}
+:aareg:                      AppArmor(R)
+:ad:                         Active Directory
+:ada:                        AD
+:aide:                       AIDE
+:agama:                      Agama
+:ansible:                    Ansible
+:ay:                         AutoYaST
+:autoyast:                   {ay}
+:bcache:                     bcache
+:chrony:                     chrony
+:chronyc:                    chronyc
+:debuginfod:                 debuginfod
+:gnome:                      GNOME
+:gdm:                        {gnome} Display Manager
+:gdmshort:                   GDM
+:grub:                       GRUB{nbsp}2
+:grub-efi:                   GRUB{nbsp}2 for EFI
+:kdump:                      Kdump
+:kea:                        Kea
+:kexec:                      Kexec
+:kg:                         kGraft
+:klp:                        Kernel Live Patching
+:klpa:                       KLP
+:ulp:                        user space live patching
+:ulpa:                       ULP
+:keylime:                    Keylime
+:kiwi:                       KIWI{nbsp}NG
+:kprobes:                    Kprobes
+:krb:                        Kerberos
+:k3s:                        {rancherprime}: K3s
+:kubevirt:                   KubeVirt
+:libo:                       LibreOffice
+:lvmcache:                   lvmcache
+:nm:                         NetworkManager
+:ovs:                        Open vSwitch
+:pk:                         Polkit
+:rmt:                        RMT
+:rmtool:                     Repository Mirroring Tool
+:salt:                       Salt
+:samba:                      Samba
+:scchvc:                     scc-hypervisor-collector
+:selnx:                      SELinux
+:selinux:                    {selnx}
+:smaster:                    {salt} Master
+:sminion:                    {salt} Minion
+:snapper:                    Snapper
+:sudo:                       sudo
+:suseconnect:                SUSEConnect
+:tr-up:                      transactional-update
+:tr-up-shell:                transactional-update shell
+:tr-up-run:                  transactional-update run
+:xgeneric:                   X Window System
+:xvendor:                    X.Org
+:yast:                       YaST
+:yastcc:                     {yast} Control Center
+:ycc_runlevel:               Services Manager
+:yelp:                       Help
 
 // HA
-:ais: OpenAIS
-:corosync: Corosync
-:csync: Csync2
-:ha: High Availability
-:haproxy: HAProxy
-:hasetup: HA setup
-:haweb: HA Web Console
-:hawk: Hawk
-:hb: Heartbeat
-:hbvs: Heartbeat 2
-:lvs: Linux Virtual Server
-:pace: Pacemaker
-:rear: ReaR
-:stonith: STONITH
-:ingress: Ingress
-:keepalived: Keepalived
+:ais:                        OpenAIS
+:corosync:                   Corosync
+:csync:                      Csync2
+:ha:                         High Availability
+:haproxy:                    HAProxy
+:hasetup:                    HA setup
+:haweb:                      HA Web Console
+:hawk:                       Hawk
+:hb:                         Heartbeat
+:hbvs:                       Heartbeat 2
+:lvs:                        Linux Virtual Server
+:pace:                       Pacemaker
+:rear:                       ReaR
+:stonith:                    STONITH
+:ingress:                    Ingress
+:keepalived:                 Keepalived
 
 // HPC
-:hpc: High Performance Computing
-:hpcm: HPC module
+:hpc:                        High Performance Computing
+:hpcm:                       HPC module
 
 // SLES FOR SAP
-:sapconf: sapconf
-:saptune: saptune
+:sapconf:                    sapconf
+:saptune:                    saptune
 
 // CONTAINERS
-:deng: {docker} Open Source Engine
-:dhub: {docker} Hub
-:dreg: {docker} Registry
-:lxc: LXC
-:podman: Podman
-:buildah: Buildah
-:k8s: Kubernetes
-:bci: {slea} Base Container Image
-:bcia: {slea} BCI
-:netavark: Netavark
-:compose: docker-compose
+:deng:                       {docker} Open Source Engine
+:dhub:                       {docker} Hub
+:dreg:                       {docker} Registry
+:lxc:                        LXC
+:podman:                     Podman
+:buildah:                    Buildah
+:k8s:                        Kubernetes
+:bci:                        {slea} Base Container Image
+:bcia:                       {slea} BCI
+:netavark:                   Netavark
+:compose:                    docker-compose
 
 // VIRTUALIZATION
-:amdsev: AMD SEV
-:dom0: Dom0
-:esx: {vmware} ESX
-:gpuback: GPU Pass-Through
-:hyperv: {ms} Hyper-V
-:kvm: KVM
-:kvmserver: {kvm} Server
-:kvmclient: {kvm} Client
-:libvirt: libvirt
-:pciback: PCI Pass-Through
-:qemu: QEMU
-:qemusystemarch: qemu-system-ARCH
-:usbback: USB Pass-Through
-:vagrant: Vagrant
-:vagrantfile: Vagrantfile
-:vbox: VirtualBox
-:virtualbox: {vbox}
-:virsh: virsh
-:vgaback: VGA Pass-Through
-:vmguest: VM Guest
-:vmhost: VM Host Server
-:vmm: Virtual Machine Manager
-:xcat: xCAT
-:xen: Xen
-:xenreg: Xen(R)
-:xenstore: XenStore
+:amdsev:                     AMD SEV
+:dom0:                       Dom0
+:esx:                        {vmware} ESX
+:gpuback:                    GPU Pass-Through
+:hyperv:                     {ms} Hyper-V
+:kvm:                        KVM
+:kvmserver:                  {kvm} Server
+:kvmclient:                  {kvm} Client
+:libvirt:                    libvirt
+:pciback:                    PCI Pass-Through
+:qemu:                       QEMU
+:qemusystemarch:             qemu-system-ARCH
+:usbback:                    USB Pass-Through
+:vagrant:                    Vagrant
+:vagrantfile:                Vagrantfile
+:vbox:                       VirtualBox
+:virtualbox:                 {vbox}
+:virsh:                      virsh
+:vgaback:                    VGA Pass-Through
+:vmguest:                    VM Guest
+:vmhost:                     VM Host Server
+:vmm:                        Virtual Machine Manager
+:xcat:                       xCAT
+:xen:                        Xen
+:xenreg:                     Xen(R)
+:xenstore:                   XenStore
 
 // DAEMONS
-:chronyd: chronyd
-:crond: cron
-:firewalld: firewalld
-:libvirtd: libvirtd
-:oprofd: oprofile
-:systemd: systemd
-:systemdcd: systemd-coredump
-:tuned: tuned
+:chronyd:                    chronyd
+:crond:                      cron
+:firewalld:                  firewalld
+:libvirtd:                   libvirtd
+:oprofd:                     oprofile
+:systemd:                    systemd
+:systemdcd:                  systemd-coredump
+:tuned:                      tuned
 
 // APPLICATIONS
-:clamav: ClamAV
-:cpufreq: CPUfreq
-:gpg: GPG
-:mariadb: MariaDB
-:nautilus: {gnome} Files
-:oprof: OProfile
-:postgresql: PostgreSQL
-:powertop: powerTOP
-:stap: SystemTap
-:zypper: Zypper
-:cockpit: Cockpit
-:ignition: Ignition
-:combustion: Combustion
-:ceph: Ceph
-:rook: Rook
-:grafana: Grafana
-:prometheus: Prometheus
-:fuelignition: Fuel Ignition
+:clamav:                     ClamAV
+:cpufreq:                    CPUfreq
+:gpg:                        GPG
+:mariadb:                    MariaDB
+:nautilus:                   {gnome} Files
+:oprof:                      OProfile
+:postgresql:                 PostgreSQL
+:powertop:                   powerTOP
+:stap:                       SystemTap
+:zypper:                     Zypper
+:cockpit:                    Cockpit
+:ignition:                   Ignition
+:combustion:                 Combustion
+:ceph:                       Ceph
+:rook:                       Rook
+:grafana:                    Grafana
+:prometheus:                 Prometheus
+:fuelignition:               Fuel Ignition
 
 // HARDWARE TECHNOLOGIES
-:nvme: NVMe
-:nvmeof: NVMe-oF
-:nvmeoff: NVMe over Fabrics
-:fcnvme: FC-NVMe
-:dmmpio: DM-Multipathing
-:mpio: multipath I/O
-:hdmi: HDMI
-:hdmireg: {hdmi}(R)
-:mipireg: MIPI(R)
-:mipidsireg: {mipireg} DSI(R)
-:openglreg: OpenGL(R)
-:openglesreg: {openglreg} ES
-:microsd: microSD
-:microsdhc: microSDHC
-:bt: Bluetooth
-:btreg: Bluetooth(R)
-:usbflashdrive: USB flash drive
-:usbflashdrivecap: USB Flash Drive
-:infiniband: InfiniBand
+:nvme:                       NVMe
+:nvmeof:                     NVMe-oF
+:nvmeoff:                    NVMe over Fabrics
+:fcnvme:                     FC-NVMe
+:dmmpio:                     DM-Multipathing
+:mpio:                       multipath I/O
+:hdmi:                       HDMI
+:hdmireg:                    {hdmi}(R)
+:mipireg:                    MIPI(R)
+:mipidsireg:                 {mipireg} DSI(R)
+:openglreg:                  OpenGL(R)
+:openglesreg:                {openglreg} ES
+:microsd:                    microSD
+:microsdhc:                  microSDHC
+:bt:                         Bluetooth
+:btreg:                      Bluetooth(R)
+:usbflashdrive:              USB flash drive
+:usbflashdrivecap:           USB Flash Drive
+:infiniband:                 InfiniBand
 
 // NETWORK PROTOCOLS
-:ptp: Precision Time Protocol
-:ntp: Network Time Protocol
-:nts: Network Time Security
+:ptp:                        Precision Time Protocol
+:ntp:                        Network Time Protocol
+:nts:                        Network Time Security
 
 // Security
-:openscap: OpenSCAP
-:ssg: SCAP Security Guide
-:pcidss: Payment Card Industry Data Security Standard
-:pcidssa: PCI DSS
-:disa: Defense Information Systems Agency
-:disaa: DISA
-:stig: Security Technical Implementation Guide
-:stiga: STIG
-:stigviewer: {disaa} {stiga} Viewer
-:cis: Center for Internet Security
-:cisa: CIS
-:hipaa: Health Insurance Portability and Accountability Act
-:hipaaa: HIPAA
-:uefisecboot: UEFI Secure Boot
+:openscap:                   OpenSCAP
+:ssg:                        SCAP Security Guide
+:pcidss:                     Payment Card Industry Data Security Standard
+:pcidssa:                    PCI DSS
+:disa:                       Defense Information Systems Agency
+:disaa:                      DISA
+:stig:                       Security Technical Implementation Guide
+:stiga:                      STIG
+:stigviewer:                 {disaa} {stiga} Viewer
+:cis:                        Center for Internet Security
+:cisa:                       CIS
+:hipaa:                      Health Insurance Portability and Accountability Act
+:hipaaa:                     HIPAA
+:uefisecboot:                UEFI Secure Boot
 
 // MISCELLANEOUS
-:iscsi: iSCSI
-:netteam: Network Teaming
-:opensm: opensm
-:subnetmanager: Subnet Manager
+:iscsi:                      iSCSI
+:netteam:                    Network Teaming
+:opensm:                     opensm
+:subnetmanager:              Subnet Manager
