@@ -26,7 +26,3 @@ include::example_introduction.adoc[]
 // Appendix
 [appendix]
 include::example_appendix.adoc[]
-
-include::source-code.adoc[]
-
-include::legal.adoc[]
