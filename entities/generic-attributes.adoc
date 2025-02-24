@@ -171,7 +171,6 @@ include::product-attributes.adoc[]
 :nvidiareg:                  {nvidia}(R)
 :rh:                         Red Hat
 :redhat:                     {rh}
-
 :vmware:                     VMware
 :hana:                       {sap} HANA
 :macos:                      macOS
@@ -202,6 +201,8 @@ include::product-attributes.adoc[]
 :redis:                      Redis
 :ingress:                    Ingress
 :postgresql:                 PostgreSQL
+:nginx:                      nginx
+:trivy:                      Trivy
 
 // NVIDIA products
 :cuda:                       CUDA
