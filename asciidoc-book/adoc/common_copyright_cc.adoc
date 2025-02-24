@@ -8,7 +8,7 @@ All rights reserved.
 
 Except where otherwise noted, this document is licensed under {license} ({license-acronym}): {license-url}.
 
-For {suse} trademarks, see https://www.suse.com/company/legal/".
+For {suse} trademarks, see https://www.suse.com/company/legal/.
 All third-party trademarks are the property of their respective owners.
 Trademark symbols ((R), (TM) etc.) denote trademarks of {suse} and its affiliates.
 Asterisks (*) denote third-party trademarks.
