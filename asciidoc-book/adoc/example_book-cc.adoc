@@ -5,7 +5,6 @@
 :experimental:
 :docinfo:
 :toc: left
-:timestamp: {date}
 
 include::generic-attributes.adoc[]
 

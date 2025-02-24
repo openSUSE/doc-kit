@@ -12,6 +12,7 @@
 :doo:                        https://doc.opensuse.org
 :sc-rn:                      https://www.suse.com/releasenotes
 :sccurl:                     https://scc.suse.com/
+:ndash:                      &#x02013;
 
 // PRODUCT-SPECIFIC ENTITIES
 include::product-attributes.adoc[]

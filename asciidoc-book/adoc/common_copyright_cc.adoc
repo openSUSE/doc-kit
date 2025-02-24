@@ -3,15 +3,15 @@
 
 include::generic-attributes.adoc[]
 
-Copyright {copy} {copyrightstart}{ndash}{timestamp} {copyrightholder} and contributors.
+Copyright (C) {copyrightstart}{ndash}{localdate} {copyrightholder} and contributors.
 All rights reserved.
 
 Except where otherwise noted, this document is licensed under {license} ({license-acronym}): {license-url}.
 
 For {suse} trademarks, see https://www.suse.com/company/legal/".
 All third-party trademarks are the property of their respective owners.
-Trademark symbols ({reg}, {trade} etc.) denote trademarks of {suse} and its affiliates.
-Asterisks ({thrdmrk}) denote third-party trademarks.
+Trademark symbols ((R), (TM) etc.) denote trademarks of {suse} and its affiliates.
+Asterisks (*) denote third-party trademarks.
 
 All information found in this book has been compiled with utmost attention to detail.
 However, this does not guarantee complete accuracy.
