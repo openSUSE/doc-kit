@@ -8,7 +8,13 @@ initial: ../entities/product-attributes.adoc -> adoc/product-attributes.adoc
 
 initial: DC-example
 
-initial: adoc/example_book.adoc
+initial(license-gfdl): adoc/example_book-gfdl.adoc -> adoc/example_book.adoc
+initial(license-cc): adoc/example_book-cc.adoc -> adoc/example_book.adoc
 initial: adoc/example_introduction.adoc
 initial: adoc/example_appendix.adoc
 initial: images/example.png
+
+always(license-gfdl): adoc/common_copyright_gfdl.adoc
+always(license-gfdl): adoc/common_legal.adoc
+always(license-gfdl): adoc/common_license_gfdl1.2.adoc
+always(license-cc): adoc/common_copyright_cc.adoc

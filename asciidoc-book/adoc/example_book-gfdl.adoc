@@ -5,10 +5,13 @@
 :experimental:
 :docinfo:
 :toc: left
+:timestamp: {date}
 
 include::generic-attributes.adoc[]
 
 = {productname} Documentation
+
+include::common_copyright_gfdl.adoc[]
 
 ifdef::env-github[]
 :imagesdir: ../images/
@@ -26,5 +29,8 @@ include::example_introduction.adoc[]
 // Appendix
 [appendix]
 include::example_appendix.adoc[]
+
+[appendix]
+include::common_legal.adoc[]
 
 // TODO tbazant: create variants for GFDL and CC licenses:common_license_gfdl1.2.xml + common_copyright_gfdl.xml + common_copyright_cc.xml
