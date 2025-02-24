@@ -3,8 +3,8 @@ v0.2
 always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
-initial(license-gfdl): ../adoc/product-attributes-gfdl.adoc -> adoc/product-attributes.adoc
-initial(license-cc): ../adoc/product-attributes-cc.adoc -> adoc/product-attributes.adoc
+initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> adoc/product-attributes.adoc
+initial(license-cc): ../entities/product-attributes-cc.adoc -> adoc/product-attributes.adoc
 always: ../entities/generic-attributes.adoc -> adoc/generic-attributes.adoc
 
 initial: DC-example
