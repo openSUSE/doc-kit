@@ -30,6 +30,6 @@ include::example_introduction.adoc[]
 include::example_appendix.adoc[]
 
 [appendix]
-include::common_legal.adoc[]
+include::common_license_gfdl1.2.adoc[]
 
 // TODO tbazant: create variants for GFDL and CC licenses:common_license_gfdl1.2.xml + common_copyright_gfdl.xml + common_copyright_cc.xml
