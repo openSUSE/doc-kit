@@ -6,4 +6,4 @@ include::generic-attributes.adoc[]
 == GNU licenses
 This appendix contains the GNU Free Documentation License version 1.2.
 
-include::common_license_gfdl1.2.adoc[]
+include::common_license_gfdl1.2.adoc[leveloffset=+1]
