@@ -212,6 +212,7 @@ include::product-attributes.adoc[]
 :postgresql:                 PostgreSQL
 :nginx:                      nginx
 :trivy:                      Trivy
+:valkey:                     Valkey
 
 // NVIDIA products
 :cuda:                       CUDA
