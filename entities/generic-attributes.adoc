@@ -213,6 +213,7 @@ include::product-attributes.adoc[]
 :nginx:                      nginx
 :trivy:                      Trivy
 :valkey:                     Valkey
+:certmanager:                cert-manager
 
 // NVIDIA products
 :cuda:                       CUDA
