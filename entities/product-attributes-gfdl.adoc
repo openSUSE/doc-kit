@@ -1,0 +1,23 @@
+// This file originates from the project https://github.com/openSUSE/doc-kit
+// This file can be edited downstream
+
+// PRODUCT NAME AND VERSIONS
+:productname:       PRODUCT
+:productnameshort:  ACRONYM
+:productnumber:     X.Y
+
+
+// PROJECT REPOSITORY URL
+:repo-url:          https://github.com/SUSE/doc-[PRODUCT]
+:repo-readme:       {repo-url}/blob/main/README.adoc
+
+// DOCUMENTATION.SUSE.COM PRODUCT URL
+:doc-url: {dsc}/[PRODUCT]/[VERSION]
+
+// RELEASE NOTES URL
+:rn-url: {sc-rn}/x86_64/[PRODUCT]/[VERSION]
+
+
+// START YEAR OF COPYRIGHT
+:copyrightstart:  20XX
+:copyrightholder: SUSE LLC
