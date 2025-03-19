@@ -10,6 +10,7 @@ include::generic-attributes.adoc[]
 
 = {productname} Documentation
 
+[preface]
 include::common_copyright_gfdl.adoc[]
 
 ifdef::env-github[]
