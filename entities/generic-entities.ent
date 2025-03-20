@@ -105,15 +105,16 @@
 <!ENTITY hageo                  "Geo Clustering for &sleha;">
 
 
-<!-- SUSE Manager -->
-<!ENTITY susemgr                "&suse; Manager">
-<!ENTITY suma                   "&susemgr;">
-<!ENTITY susemgrdb              "&suse; Manager with Database">
-<!ENTITY susemgrproxy           "&susemgr; Proxy">
-<!ENTITY smr                    "&susemgr; for Retail">
+<!-- Multi-Linux Manager -->
+
+<!ENTITY smlm             "&suse; Multi-Linux Manager">
+<!--are the following still needed?-->
+<!ENTITY smlm-db           "&smlm; with Database">
+<!ENTITY smlm-proxy        "&smlm; Proxy">
+<!ENTITY smlm-retail       "&smlm; for Retail">
 
 
-<!-- SUSE PRODUCT ACRONYMS (as approved in TermWeb 2023) -->
+<!-- SUSE PRODUCT ACRONYMS (as approved in TemWeb 2023) -->
 
 <!ENTITY slea                   "SLE">
 <!ENTITY sleda                  "SLED">
@@ -134,8 +135,6 @@
 <!ENTITY capa                   "SUSE&nbsp;CAP">
 <!ENTITY caaspa                 "SUSE&nbsp;CaaSP">
 <!ENTITY caspa                  "&caaspa;">
-<!ENTITY sumaa                  "SUMA">
-<!ENTITY smra                   "SUMA&nbsp;for&nbsp;Retail">
 <!ENTITY suseaia                "&suse; AI">
 
 
@@ -644,6 +643,17 @@ use &deng;! -->
 <!ENTITY susefirewall           "SuSEfirewall2">
 <!ENTITY susefirewallfiles      "SuSEfirewall2">
 <!ENTITY mysql                  "&mariadb;">
+
+
+<!-- SUSE Manager -->
+<!ENTITY susemgr                "&suse; Manager">
+<!ENTITY suma                   "&susemgr;">
+<!ENTITY susemgrdb              "&suse; Manager with Database">
+<!ENTITY susemgrproxy           "&susemgr; Proxy">
+<!ENTITY smr                    "&susemgr; for Retail">
+<!ENTITY sumaa                  "SUMA">
+<!ENTITY smra                   "SUMA&nbsp;for&nbsp;Retail">
+
 
 <!--SUSE Manager, old guide names -->
 <!ENTITY mgrclientconfguide     "Client Configuration Guide">
