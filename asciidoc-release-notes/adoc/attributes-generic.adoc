@@ -84,7 +84,7 @@
 :ph: {suse} Package Hub
 :ibmz: IBM Z
 :sap: SAP
-:slessap: {sles} for {sap} Applications
+:slessap: {sles} for {sap} applications
 :slessapa: {slesa} for {sap}
 :hana: {sap} HANA
 :nw: {sap} NetWeaver
