@@ -63,6 +63,7 @@
 <!ENTITY ssecurity              "&suse; Security">
 <!ENTITY sstorage               "&suse; Storage">
 <!ENTITY svirtualization        "&suse; Virtualization">
+<!ENTITY sappco                 "&suse; Application Collection">
 <!ENTITY ranchelemental         "&rancherprime;: OS Manager">
 <!ENTITY ailibrary              "AI Library">
 <!ENTITY suseaisuite            "&suse; AI Suite">
