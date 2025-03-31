@@ -91,7 +91,7 @@ include::product-attributes.adoc[]
 :sles:                       {sle} Server
 :sls:                        {sles}
 :sap:                        SAP
-:sles4sap:                   {sls} for {sap} Applications
+:sles4sap:                   {sls} for {sap} applications
 :s4s:                        {sles4sap}
 :slem:                       {sle} Micro
 :slea:                       SLE
@@ -145,7 +145,7 @@ include::product-attributes.adoc[]
 :slehpcreg:                  {slereg} High Performance Computing
 :slertreg:                   {slereg} Real Time
 :slsreg:                     {slereg} Server
-:sles4sapreg:                {slsreg} for SAP Applications
+:sles4sapreg:                {slsreg} for SAP applications
 :slemreg:                    {slereg} Micro
 :susemgrreg:                 {susereg} Manager
 
