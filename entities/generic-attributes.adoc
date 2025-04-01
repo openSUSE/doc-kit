@@ -110,12 +110,11 @@ include::product-attributes.adoc[]
 :sleha:                      {sle} {ha}
 :hageo:                      Geo Clustering for {sleha}
 
-// SUSE Manager
-:susemgr:                    {suse} Manager
-:suma:                       {susemgr}
-:susemgrdb:                  {suse} Manager with Database
-:susemgrproxy:               {susemgr} Proxy
-:smr:                        {susemgr} for Retail
+// SUSE Multi-Linux Manager
+:smlm:                    {suse} Multi-Linux Manager
+:smlm-db:                 {smlm} with Database
+:smlm-proxy:              {smlm} Proxy
+:smlm-retail:             {smlm} for Retail
 
 // SUSE PRODUCT ACRONYMS
 :sleda:                      SLED
@@ -135,8 +134,6 @@ include::product-attributes.adoc[]
 :capa:                       SUSE{nbsp}CAP
 :caaspa:                     SUSE{nbsp}CaaSP
 :caspa:                      {caaspa}
-:sumaa:                      SUMA
-:smra:                       SUMA{nbsp}for{nbsp}Retail
 :suseaia:                    {suse} AI
 
 // PRODUCT NAMES WITH (R) SIGN
