@@ -57,7 +57,7 @@
 
 <!-- SUSE PRODUCTS -->
 
-<!ENTITY sliberty               "&suse; Liberty Linux">
+<!ENTITY sliberty               "&suse; Multi-Linux Support">
 <!ENTITY neuvector              "&ssecurity;">
 <!ENTITY sobservability         "&suse; Observability">
 <!ENTITY ssecurity              "&suse; Security">
