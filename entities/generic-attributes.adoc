@@ -201,6 +201,7 @@ include::product-attributes.adoc[]
 :containerd:                 containerd
 :langchain:                  LangChain
 :apulsar:                    Apache Pulsar
+:akafka:                     Apache Kafka
 :etcd:                       etcd
 :minio:                      MinIO
 :okta:                       Okta
