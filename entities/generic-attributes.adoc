@@ -213,6 +213,7 @@ include::product-attributes.adoc[]
 :trivy:                      Trivy
 :valkey:                     Valkey
 :certmanager:                cert-manager
+:otelemetry:                 OpenTelemetry
 
 // NVIDIA products
 :cuda:                       CUDA
