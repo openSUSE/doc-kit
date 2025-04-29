@@ -214,6 +214,7 @@ include::product-attributes.adoc[]
 :valkey:                     Valkey
 :certmanager:                cert-manager
 :otelemetry:                 OpenTelemetry
+:openlit:                    OpenLIT
 
 // NVIDIA products
 :cuda:                       CUDA
