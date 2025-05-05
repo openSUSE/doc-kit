@@ -178,6 +178,7 @@ include::product-attributes.adoc[]
 :nvidiareg:                  {nvidia}(R)
 :rh:                         Red Hat
 :redhat:                     {rh}
+:ubuntu:                     Ubuntu
 :vmware:                     VMware
 :hana:                       {sap} HANA
 :macos:                      macOS
