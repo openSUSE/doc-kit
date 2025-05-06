@@ -230,6 +230,8 @@ use &deng;! -->
 <!ENTITY certmanager            "cert-manager">
 <!ENTITY otelemetry             "OpenTelemetry">
 <!ENTITY openlit                "OpenLIT">
+<!ENTITY mlflow                 "MLflow">
+<!ENTITY pytorch                "PyTorch">
 
 
 <!-- NVIDIA products -->

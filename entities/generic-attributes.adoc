@@ -216,6 +216,8 @@ include::product-attributes.adoc[]
 :certmanager:                cert-manager
 :otelemetry:                 OpenTelemetry
 :openlit:                    OpenLIT
+:mlflow:                     MLflow
+:pytorch:                    PyTorch
 
 // NVIDIA products
 :cuda:                       CUDA
