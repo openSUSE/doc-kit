@@ -181,6 +181,7 @@ include::product-attributes.adoc[]
 :ubuntu:                     Ubuntu
 :vmware:                     VMware
 :hana:                       {sap} HANA
+:s4h:                        {sap} S/4HANA
 :macos:                      macOS
 :mswin:                      {ms} Windows
 :netware:                    NetWare
@@ -322,18 +323,33 @@ include::product-attributes.adoc[]
 
 // HA
 :ais:                        OpenAIS
+:clvm:                       Cluster LVM
+:clustermd:                  Cluster MD
+:clustermd.long:             Cluster multi-device
 :corosync:                   Corosync
+:crmsh:                      crmsh
+:crmshell:                   crm shell
 :csync:                      Csync2
+:dlm:                        DLM
+:dlm.long:                   Distributed Lock Manager
+:drbd:                       DRBD
+:gfs:                        GFS2
 :ha:                         High Availability
 :haproxy:                    HAProxy
 :hasetup:                    HA setup
 :haweb:                      HA Web Console
 :hawk:                       Hawk
+:hawk2:                      Hawk2
 :hb:                         Heartbeat
 :hbvs:                       Heartbeat 2
 :lvs:                        Linux Virtual Server
 :pace:                       Pacemaker
+:qdevice:                    QDevice
+:qnet:                       QNetd
 :rear:                       ReaR
+:rear.long:                  Relax-and-Recover
+:sbd:                        SBD
+:sbd.long:                   {stonith} Block Device
 :stonith:                    STONITH
 :ingress:                    Ingress
 :keepalived:                 Keepalived
