@@ -337,7 +337,7 @@ include::product-attributes.adoc[]
 :ha:                         High Availability
 :haproxy:                    HAProxy
 :hasetup:                    HA setup
-:haweb:                      HA Web Console
+:haweb:                      HA Web Konsole
 :hawk:                       Hawk
 :hawk2:                      Hawk2
 :hb:                         Heartbeat
