@@ -196,6 +196,7 @@ include::product-attributes.adoc[]
 :stackstate:                 StackState
 :ollama:                     Ollama
 :huggingface:                Hugging Face
+:openai:                     OpenAI
 :owui:                       Open WebUI
 :milvus:                     Milvus
 :chromadb:                   ChromaDB

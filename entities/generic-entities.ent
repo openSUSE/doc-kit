@@ -217,6 +217,7 @@ use &deng;! -->
 <!ENTITY stackstate             "StackState">
 <!ENTITY ollama                 "Ollama">
 <!ENTITY huggingface            "Hugging Face">
+<!ENTITY openai                 "OpenAI">
 <!ENTITY owui                   "Open WebUI">
 <!ENTITY milvus                 "Milvus">
 <!ENTITY chromadb               "ChromaDB">
