@@ -195,6 +195,7 @@ include::product-attributes.adoc[]
 :centos:                     CentOS
 :stackstate:                 StackState
 :ollama:                     Ollama
+:huggingface:                Hugging Face
 :owui:                       Open WebUI
 :milvus:                     Milvus
 :chromadb:                   ChromaDB

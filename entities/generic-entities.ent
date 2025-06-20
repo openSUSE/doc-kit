@@ -216,6 +216,7 @@ use &deng;! -->
 <!ENTITY centos                 "CentOS">
 <!ENTITY stackstate             "StackState">
 <!ENTITY ollama                 "Ollama">
+<!ENTITY huggingface            "Hugging Face">
 <!ENTITY owui                   "Open WebUI">
 <!ENTITY milvus                 "Milvus">
 <!ENTITY chromadb               "ChromaDB">
