@@ -66,6 +66,7 @@ include::product-attributes.adoc[]
 :rancher:                    {rancherprime}
 :ranchelemental:             {rancherprime}: OS Manager
 :ailibrary:                  AI Library
+:saideployer:                {suse} Deployer
 :suseaisuite:                {suse} AI Suite
 :suseai:                     {suse} AI
 :kube:                       Kubernetes
