@@ -38,17 +38,45 @@
     <dm:editurl>GitHub URL (path to xml directory)</dm:editurl>
     <dm:translation>yes</dm:translation>
    </dm:docmanager>
+  <revhistory xml:id="rh-book-example">
+   <revision>
+    <date>2000-01-01</date>
+    <revdescription>
+     <para/>
+    </revdescription>
+   </revision>
+  </revhistory>
  </info>
 
  <xi:include href="preface_example.xml"/>
 
  <part xml:id="part-one">
   <title>One</title>
+  <info>
+   <revhistory xml:id="rh-part-one">
+    <revision>
+     <date>YYYY-MM-DD</date>
+     <revdescription>
+      <para/>
+     </revdescription>
+    </revision>
+   </revhistory>
+  </info>
   <xi:include href="cha_example_one.xml"/>
  </part>
 
  <part xml:id="part-two">
   <title>Two</title>
+  <info>
+   <revhistory xml:id="rh-part-two">
+    <revision>
+     <date>YYYY-MM-DD</date>
+     <revdescription>
+      <para/>
+     </revdescription>
+    </revision>
+   </revhistory>
+  </info>
   <xi:include href="cha_example_two.xml"/>
  </part>
 

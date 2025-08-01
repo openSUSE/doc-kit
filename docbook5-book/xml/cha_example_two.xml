@@ -26,6 +26,14 @@
    <dm:bugtracker></dm:bugtracker>
    <dm:translation>yes</dm:translation>
   </dm:docmanager>
+  <revhistory xml:id="rh-cha-example-two">
+   <revision>
+    <date>YYYY-MM-DD</date>
+    <revdescription>
+     <para/>
+    </revdescription>
+   </revision>
+  </revhistory>
  </info>
  <sect1 xml:id="sec-example-two-one">
   <title>Section one</title>

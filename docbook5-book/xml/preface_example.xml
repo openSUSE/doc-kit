@@ -20,6 +20,14 @@
   <dm:docmanager xmlns:dm="urn:x-suse:ns:docmanager">
    <dm:translation>yes</dm:translation>
   </dm:docmanager>
+  <revhistory xml:id="rh-pre-example">
+   <revision>
+    <date>YYYY-MM-DD</date>
+    <revdescription>
+     <para/>
+    </revdescription>
+   </revision>
+  </revhistory>
  </info>
  <xi:include href="common_intro_available_doc.xml"/>
  <xi:include href="common_intro_feedback.xml"/>
