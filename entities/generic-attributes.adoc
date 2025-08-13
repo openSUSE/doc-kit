@@ -331,7 +331,7 @@ include::product-attributes.adoc[]
 :clustermd.long:             Cluster multi-device
 :corosync:                   Corosync
 :crmsh:                      crmsh
-:crmshell:                   crm shell
+:crmshell:                   CRM Shell
 :csync:                      Csync2
 :dlm:                        DLM
 :dlm.long:                   Distributed Lock Manager
