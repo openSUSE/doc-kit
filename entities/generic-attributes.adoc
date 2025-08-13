@@ -330,6 +330,7 @@ include::product-attributes.adoc[]
 :clustermd:                  Cluster MD
 :clustermd.long:             Cluster multi-device
 :corosync:                   Corosync
+:cce:                        {corosync} Cluster Engine
 :crmsh:                      crmsh
 :crmshell:                   CRM Shell
 :csync:                      Csync2

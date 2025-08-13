@@ -373,7 +373,8 @@ use &deng;! -->
 <!ENTITY clustermd              "Cluster MD">
 <!ENTITY clustermd.long         "Cluster multi-device">
 <!ENTITY corosync               "Corosync">
-<!ENTITY crmsh                  "<systemitem>crmsh</systemitem>">
+<!ENTITY cce                    "&corosync; Cluster Engine">
+<!ENTITY crmsh                  "<systemitem xmlns='http://docbook.org/ns/docbook'>crmsh</systemitem>">
 <!ENTITY crmshell               "CRM Shell">
 <!ENTITY csync                  "Csync2">
 <!ENTITY dlm                    "DLM">
