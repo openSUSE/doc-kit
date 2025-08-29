@@ -353,8 +353,8 @@ include::product-attributes.adoc[]
 :rear:                       ReaR
 :rear.long:                  Relax-and-Recover
 :sbd:                        SBD
-:sbd.long:                   {stonith} Block Device
 :stonith:                    STONITH
+:sbd.long:                   {stonith} Block Device
 :ingress:                    Ingress
 :keepalived:                 Keepalived
 
