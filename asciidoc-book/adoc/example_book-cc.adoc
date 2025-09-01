@@ -9,6 +9,8 @@
 include::generic-attributes.adoc[]
 
 = {productname} Documentation
+:revdate: 2025-03-19
+:page-revdate: {revdate}
 
 include::common_copyright_cc.adoc[]
 

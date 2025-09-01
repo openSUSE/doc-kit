@@ -5,5 +5,7 @@ include::generic-attributes.adoc[]
 
 [#example-appendix]
 == Example appendix
+:revdate: 2025-03-19
+:page-revdate: {revdate}
 
 This is an example appendix.
