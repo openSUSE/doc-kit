@@ -200,6 +200,7 @@ include::product-attributes.adoc[]
 :openai:                     OpenAI
 :owui:                       Open WebUI
 :milvus:                     Milvus
+:vllm:                       vLLM
 :chromadb:                   ChromaDB
 :helm:                       Helm
 :nvoperator:                 {nvidia} GPU Operator
