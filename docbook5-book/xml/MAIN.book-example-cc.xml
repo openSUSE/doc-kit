@@ -14,10 +14,13 @@
 <book xml:id="book-example" xml:lang="en"
  xmlns="http://docbook.org/ns/docbook" version="5.1"
  xmlns:xi="http://www.w3.org/2001/XInclude"
- xmlns:xlink="http://www.w3.org/1999/xlink">
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:its="http://www.w3.org/2005/11/its">
 
  <info>
-   <title>Example guide</title>
+   <title>Example Guide</title>
+    <!--for SEO reasons: title length between 29-55 chars (incl. whitespace and
+    incl. resolved product names and numbers as listed in the next elements)-->
    <productname>&productname;</productname>
    <productnumber>&productnumber;</productnumber>
    <productname role="abbrev">&productnameshort;</productname>
@@ -38,13 +41,27 @@
     <dm:editurl>GitHub URL (path to xml directory)</dm:editurl>
     <dm:translation>yes</dm:translation>
    </dm:docmanager>
-  <revhistory xml:id="rh-book-example">
-   <revision>
-    <date>2000-01-01</date>
-    <revdescription>
-     <para/>
-    </revdescription>
-   </revision>
+
+   <meta name="title" its:translate="yes">title for SEO/social media, max. 55 chars (incl. whitespace), keep in sync with book title</meta>
+   <meta name="series" its:translate="no">Products &amp; Solutions</meta>
+   <meta name="description" its:translate="yes">short description, max. 155 chars (incl. whitespace), no full stop: How to perform task xyz</meta>
+   <meta name="social-descr" its:translate="yes">ultrashort description for social media, max. 55 chars (incl. whitespace), no full stop: Perform task xyz</meta>
+   <meta name="task" its:translate="no">
+    <!--Used for the 'filter by task' tab on the index pages. Only a fixed set of values is currently supported.
+    You may define multiple entries here.-->
+    <phrase></phrase>
+   </meta>
+
+   <revhistory xml:id="rh-book-example">
+    <!--see https://documentation.suse.com/style/current/html/style-guide-db/sec-smartdocs.html#sec-revhistory for instructions-->
+    <revision><date>YYYY-MM-DD</date>
+      <revdescription>
+        <!-- briefly sum up the major changes for the reader -->
+        <para>
+          Updated CONTENT, extended CONTENT, removed CONTENT
+        </para>
+      </revdescription>
+    </revision>
   </revhistory>
  </info>
 
