@@ -223,6 +223,7 @@ include::product-attributes.adoc[]
 :openlit:                    OpenLIT
 :mlflow:                     MLflow
 :pytorch:                    PyTorch
+:lmcache:                    LMCache
 
 // NVIDIA products
 :cuda:                       CUDA
