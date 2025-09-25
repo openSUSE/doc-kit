@@ -60,7 +60,7 @@
   <!-- S T R U C T U R E -->
   <structure renderas="article" xml:id="article-example" xml:lang="en">
     <merge>
-      <title>Your title (title style, min. length: 29 chars, max. length: 55 chars, incl. whitespace)</title>
+      <title>Your title (spelling: title style, length: 29-55 chars incl. whitespace)</title>
       <subtitle>Subtitle if necessary</subtitle>
       <!-- Create revision history to enable versioning: adjust the placeholder revhistory ID,
            for each entry add the date of when the updated article will be published,
