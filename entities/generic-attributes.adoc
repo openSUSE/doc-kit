@@ -76,6 +76,7 @@ include::product-attributes.adoc[]
 :rkea:                       RKE
 :ranchermanager:             {rancherprime}
 :rancherappco:               {rancherprime} Application Collection
+:ranchera:                   Rancher
 
 // SLE
 :jeos:                       JeOS

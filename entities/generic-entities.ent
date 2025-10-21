@@ -75,6 +75,7 @@
 <!ENTITY ranchermanager         "&rancherprime;">
 <!ENTITY rancherappco           "&rancherprime; Application Collection">
 <!ENTITY rancherprime           "&suse; Rancher Prime">
+<!ENTITY ranchera               "Rancher">
 
 <!-- SLE -->
 <!ENTITY jeos                   "JeOS"><!-- Just enough OS -->
