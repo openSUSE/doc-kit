@@ -72,6 +72,8 @@ include::product-attributes.adoc[]
 :kube:                       Kubernetes
 :rke:                        {rancher} {kube} Engine (RKE)
 :rke2:                       {rancherprime}: RKE2
+:rke2a:                      RKE2
+:rkea:                       RKE
 :ranchermanager:             {rancherprime}
 :rancherappco:               {rancherprime} Application Collection
 

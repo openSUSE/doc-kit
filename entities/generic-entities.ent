@@ -71,6 +71,7 @@
 <!ENTITY suseai                 "&suse; AI">
 <!ENTITY rke2                   "&rancherprime;: RKE2">
 <!ENTITY rke2a                  "RKE2">
+<!ENTITY rkea                   "RKE">
 <!ENTITY ranchermanager         "&rancherprime;">
 <!ENTITY rancherappco           "&rancherprime; Application Collection">
 <!ENTITY rancherprime           "&suse; Rancher Prime">
