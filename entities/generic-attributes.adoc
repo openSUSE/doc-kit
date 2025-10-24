@@ -227,6 +227,7 @@ include::product-attributes.adoc[]
 :mlflow:                     MLflow
 :pytorch:                    PyTorch
 :lmcache:                    LMCache
+:skopeo:                     Skopeo
 
 // NVIDIA products
 :cuda:                       CUDA
