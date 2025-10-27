@@ -228,6 +228,8 @@ include::product-attributes.adoc[]
 :pytorch:                    PyTorch
 :lmcache:                    LMCache
 :skopeo:                     Skopeo
+:mcpo:                       mcpo
+:mcp:                        MCP
 
 // NVIDIA products
 :cuda:                       CUDA
