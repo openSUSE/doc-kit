@@ -230,6 +230,7 @@ include::product-attributes.adoc[]
 :skopeo:                     Skopeo
 :mcpo:                       mcpo
 :mcp:                        MCP
+:opensearch:                 OpenSearch
 
 // NVIDIA products
 :cuda:                       CUDA
