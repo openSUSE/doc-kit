@@ -248,6 +248,7 @@ include::product-attributes.adoc[]
 :x86:                        x86
 :intel64:                    Intel{nbsp}64
 :amd64:                      AMD64
+:s390x:                      s390x
 :x86-64:                     {amd64}/{intel64}
 :arm:                        Arm
 :armreg:                     Arm(R)
