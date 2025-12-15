@@ -606,6 +606,7 @@ use &deng;! -->
 
 
 <!-- HA -->
+<!ENTITY geo                    "Geo">
 <!ENTITY haguide                "Administration Guide">
 <!ENTITY haquick                "Installation and Setup Quick Start">
 <!ENTITY geoguide               "&geo; Clustering Guide">

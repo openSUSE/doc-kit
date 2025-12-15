@@ -534,6 +534,7 @@ include::product-attributes.adoc[]
 
 
 // HA
+:geo:                    Geo
 :haguide:                Administration Guide
 :haquick:                Installation and Setup Quick Start
 :geoguide:               {geo} Clustering Guide
