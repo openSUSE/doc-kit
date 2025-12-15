@@ -349,6 +349,7 @@ include::product-attributes.adoc[]
 :drbd:                       DRBD
 :gfs:                        GFS2
 :ha:                         High Availability
+:hasi:                       {ha}
 :haproxy:                    HAProxy
 :hasetup:                    HA setup
 :haweb:                      HA Web Konsole
@@ -494,3 +495,56 @@ include::product-attributes.adoc[]
 :netteam:                    Network Teaming
 :opensm:                     opensm
 :subnetmanager:              Subnet Manager
+
+// BOOK NAMES
+
+// SLES/SLED/Leap
+:ayguide:                {ay} Guide
+:deploy:                 Deployment Guide
+:gnomeuser:              {gnome} User Guide
+:instquick:              Installation Quick Start
+:gnomequick:             {gnome} Quick Start
+:modulesquick:           Modules and Extensions Quick Start
+:rpiquick:               {rpi} Quick Start
+:admin:                  Administration Guide
+:reference:              Reference
+:startup:                Start-Up
+:storage_guide:          Storage Administration Guide
+:virtual:                Virtualization Guide
+:auditguide:             The Linux Audit Framework
+:tuning:                 System Analysis and Tuning Guide
+:secguide:               Security and Hardening Guide
+:rmtguide:               {rmtool} Guide
+:sle_rmt_guide_a:        {rmt} Guide
+:upgrade_guide:          Upgrade Guide
+:sle_vgpu_kvm_guide:     {nvidia} Virtual GPU for {kvm} Guests
+:sle_virt_bp_guide:      Virtualization Best Practices
+:sle_amd_sev_guide:      AMD Secure Encrypted Virtualization (AMD-SEV) Guide
+:sle_minvm_guide:        {minvm} Quick Start
+:sle_container_guide:    Container Guide
+:sle_pcidss_guide:       {pcidss} ({pcidssa}) Guide
+:sle_pcidss_guide_a:     {pcidssa} Guide
+:hpc_guide:              {hpc} Guide
+
+
+// SLE Micro-specific
+:micro_podman_guide:     Podman Guide
+:micro_upgrade_guide:    {upgrade_guide}
+:micro_deploy_guide:     {deploy}
+
+
+// HA
+:haguide:                Administration Guide
+:haquick:                Installation and Setup Quick Start
+:geoguide:               {geo} Clustering Guide
+:geoquick:               {geo} Clustering Quick Start
+:nfsquick:               Highly Available NFS Storage with DRBD and Pacemaker
+:pcmkremquick:           Pacemaker Remote Quick Start
+
+
+// SUSE Manager
+:mgradvtop:              Advanced Topics Guide
+:mgrbestpract:           Best Practices Guide
+:mgrgetstart:            Getting Started Guide
+:mgrrefguide:            Reference Guide
+:mgruserguide:           User Guide
