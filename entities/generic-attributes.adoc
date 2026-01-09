@@ -16,6 +16,7 @@
 
 // PRODUCT-SPECIFIC ENTITIES
 include::product-attributes.adoc[]
+include::network-attributes.adoc[]
 
 // Formatting in GitLab
 :toc:
