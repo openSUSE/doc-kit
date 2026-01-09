@@ -32,6 +32,6 @@ initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> common/produc
 initial(license-cc): ../entities/product-attributes-cc.adoc -> common/product-attributes.adoc
 always: ../entities/generic-attributes.adoc -> common/generic-attributes.adoc
 always: ../entities/network-attributes.adoc -> common/network-attributes.adoc
-always(license-gfdl): common/common_license_gfdl.adoc
+always(license-gfdl): common/common_copyright_gfdl.adoc
 always(license-gfdl): common/common_license_gfdl1.2.adoc
 always(license-cc): common/common_copyright_cc.adoc
