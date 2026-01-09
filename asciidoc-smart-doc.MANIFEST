@@ -17,7 +17,8 @@ always: tasks/task.adoc -> templates/tasks/task.adoc
 always: images/example.png -> templates/images/example.png
 
 initial: _DC-article
-initial: articles/article.adoc
+initial(license-gfdl): articles/article-gfdl.adoc -> articles/article.adoc
+initial(license-cc): articles/article-cc.adoc -> articles/article.adoc
 initial: concepts/concept.adoc
 initial: glues/glue-more-info.adoc
 initial: glues/glue-whats-next.adoc
