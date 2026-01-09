@@ -40,4 +40,4 @@ include::../tasks/task.adoc[leveloffset=+1]
 include::../references/reference.adoc[leveloffset=+1]
 
 [appendix]
-include::../common/copyright_cc.adoc[]
+include::../common/common_copyright_cc.adoc[]
