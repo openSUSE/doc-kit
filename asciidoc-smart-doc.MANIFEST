@@ -15,10 +15,10 @@ always: snippets/snippet_warning.adoc -> templates/snippets/snippet_warning.adoc
 always: tasks/task.adoc -> templates/tasks/task.adoc
 always: images/example.png -> templates/images/example.png
 
-initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> adoc/product-attributes.adoc
-initial(license-cc): ../entities/product-attributes-cc.adoc -> adoc/product-attributes.adoc
-always: ../entities/generic-attributes.adoc -> adoc/generic-attributes.adoc
-always: ../entities/network-attributes.adoc -> adoc/network-attributes.adoc
+initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> common/product-attributes.adoc
+initial(license-cc): ../entities/product-attributes-cc.adoc -> common/product-attributes.adoc
+always: ../entities/generic-attributes.adoc -> common/generic-attributes.adoc
+always: ../entities/network-attributes.adoc -> commonc/network-attributes.adoc
 always(license-gfdl): common/common_copyright_gfdl.adoc
 always(license-gfdl): common/common_license_gfdl1.2.adoc
 always(license-cc): common/common_copyright_cc.adoc
