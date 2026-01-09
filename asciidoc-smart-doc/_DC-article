@@ -1,4 +1,4 @@
-MAIN="ai-openwebui-configuring.adoc"
+MAIN="article.adoc"
 SRC_DIR="articles"
 IMG_SRC_DIR="images"
 
@@ -6,6 +6,7 @@ IMG_SRC_DIR="images"
 ADOC_POST=yes
 ADOC_TYPE=article
 ADOC_ATTRIBUTES=" --attribute env-daps=1"
+#ADOC_ATTRIBUTES+=" --attribute deployment_airgap"
 
 STYLEROOT="/usr/share/xml/docbook/stylesheet/suse2022-ns"
 FALLBACK_STYLEROOT="/usr/share/xml/docbook/stylesheet/suse-ns"
