@@ -5,7 +5,8 @@ always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
 always: _DC-article -> templates/_DC-article
-always: articles/article.adoc -> templates/articles/article.adoc
+always(license-gfdl): articles/article-gfdl.adoc -> templates/articles/article.adoc
+always(license-cc): articles/article-cc.adoc -> templates/articles/article.adoc
 always: concepts/concept.adoc -> templates/concepts/concept.adoc
 always: glues/glue-more-info.adoc -> templates/glues/glue-more-info.adoc
 always: glues/glue-whats-next.adoc -> templates/glues/glue-whats-next.adoc
@@ -30,7 +31,6 @@ initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> common/produc
 initial(license-cc): ../entities/product-attributes-cc.adoc -> common/product-attributes.adoc
 always: ../entities/generic-attributes.adoc -> common/generic-attributes.adoc
 always: ../entities/network-attributes.adoc -> common/network-attributes.adoc
-always(license-gfdl): common/common_copyright_gfdl.adoc
+always(license-gfdl): common/common_license_gfdl.adoc
 always(license-gfdl): common/common_license_gfdl1.2.adoc
 always(license-cc): common/common_copyright_cc.adoc
-always: common/legal.adoc
