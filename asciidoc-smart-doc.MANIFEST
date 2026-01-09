@@ -15,15 +15,6 @@ always: snippets/snippet_warning.adoc -> templates/snippets/snippet_warning.adoc
 always: tasks/task.adoc -> templates/tasks/task.adoc
 always: images/example.png -> templates/images/example.png
 
-initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> common/product-attributes.adoc
-initial(license-cc): ../entities/product-attributes-cc.adoc -> common/product-attributes.adoc
-always: ../entities/generic-attributes.adoc -> common/generic-attributes.adoc
-always: ../entities/network-attributes.adoc -> commonc/network-attributes.adoc
-always(license-gfdl): common/common_copyright_gfdl.adoc
-always(license-gfdl): common/common_license_gfdl1.2.adoc
-always(license-cc): common/common_copyright_cc.adoc
-always: common/legal.adoc
-
 initial: _DC-article
 initial: articles/article.adoc
 initial: concepts/concept.adoc
@@ -34,3 +25,12 @@ initial: references/reference.adoc
 initial: snippets/snippet_warning.adoc
 initial: tasks/task.adoc
 initial: images/example.png
+
+initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> common/product-attributes.adoc
+initial(license-cc): ../entities/product-attributes-cc.adoc -> common/product-attributes.adoc
+always: ../entities/generic-attributes.adoc -> common/generic-attributes.adoc
+always: ../entities/network-attributes.adoc -> common/network-attributes.adoc
+always(license-gfdl): common/common_copyright_gfdl.adoc
+always(license-gfdl): common/common_license_gfdl1.2.adoc
+always(license-cc): common/common_copyright_cc.adoc
+always: common/legal.adoc
