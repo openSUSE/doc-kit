@@ -32,6 +32,7 @@ include::product-attributes.adoc[]
 :nbsp:  
 :nbzwsp: ﻿
 :zwsp: ​
+:thrdmrk: *
 
 // For support tables: +supported/-unsupported character
 :sup: &#43;
