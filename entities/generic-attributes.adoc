@@ -15,8 +15,8 @@
 :ndash:                      &#x02013;
 
 // PRODUCT-SPECIFIC ENTITIES
-include::product-attributes.adoc[]
-include::network-attributes.adoc[]
+include::../common/product-attributes.adoc[]
+include::../common/network-attributes.adoc[]
 
 // Formatting in GitLab
 :toc:
