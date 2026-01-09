@@ -1,0 +1,28 @@
+[#example-section-id]
+ifdef::override-title[]
+= {override-title}
+endif::[]
+ifndef::override-title[]
+= Concept
+endif::[]
+
+Introductory text
+
+[#concept-example-what-is]
+== What is foo bar?
+
+A paragraph of text, answering the question above and explaining the aim/function of foo bar.
+
+[#concept-example-how-it-works]
+== How does foo bar work?
+
+A paragraph of text, answering the question above and explaining the mechanism behind foo bar.
+
+[#fg-one]
+.A figure
+image::example.png[alt="Figure showing an example",width=85%]
+
+[#concept-example-benefits]
+== Benefits of foo bar
+
+A paragraph of text, pointing out the benefits of foo bar.

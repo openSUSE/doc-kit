@@ -1,0 +1,36 @@
+v0.2
+--
+
+always: ../.gitignore -> .gitignore
+always: ../.editorconfig -> .editorconfig
+
+always: _DC-article -> templates/_DC-article
+always: articles/article.adoc -> templates/articles/article.adoc
+always: concepts/concept.adoc -> templates/concepts/concept.adoc
+always: glues/glue-more-info.adoc -> templates/glues/glue-more-info.adoc
+always: glues/glue-whats-next.adoc -> templates/glues/glue-whats-next.adoc
+always: glues/glue.adoc -> templates/glues/glue.adoc
+always: references/reference.adoc -> templates/references/reference.adoc
+always: snippets/snippet_warning.adoc -> templates/snippets/snippet_warning.adoc
+always: tasks/task.adoc -> templates/tasks/task.adoc
+always: images/example.png -> templates/images/example.png
+
+initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> adoc/product-attributes.adoc
+initial(license-cc): ../entities/product-attributes-cc.adoc -> adoc/product-attributes.adoc
+always: ../entities/generic-attributes.adoc -> adoc/generic-attributes.adoc
+always: ../entities/network-attributes.adoc -> adoc/network-attributes.adoc
+always(license-gfdl): common/common_copyright_gfdl.adoc
+always(license-gfdl): common/common_license_gfdl1.2.adoc
+always(license-cc): common/common_copyright_cc.adoc
+always: common/legal.adoc
+
+initial: _DC-article
+initial: articles/article.adoc
+initial: concepts/concept.adoc
+initial: glues/glue-more-info.adoc
+initial: glues/glue-whats-next.adoc
+initial: glues/glue.adoc
+initial: references/reference.adoc
+initial: snippets/snippet_warning.adoc
+initial: tasks/task.adoc
+initial: images/example.png

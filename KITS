@@ -2,6 +2,7 @@ v0.2
 --
 docbook5-book
 docbook5-entities-only
+smart-doc
 asciidoc-release-notes
 asciidoc-book
-smart-doc
+asciidoc-smart-doc
