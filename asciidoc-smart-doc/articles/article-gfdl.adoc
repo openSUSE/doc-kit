@@ -1,0 +1,46 @@
+include::../common/generic-attributes.adoc[]
+= Smartdoc article written in AsciiDoc
+
+:doctype: article
+:experimental:
+:docinfo:
+
+ifdef::env-github[]
+:imagesdir: ../images/
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+:revdate: 2025-012-02
+:page-revdate: {revdate}
+
+WHAT?::
+  Describe your topic in one sentence.
+
+WHY?::
+  State the reason why one should read this.
+
+EFFORT::
+  What's the effort one has to put in?
+
+GOAL::
+  What's the reader's take-away from this article?
+
+REQUIREMENTS::
+  List the requirements to accomplish the task(s) described below.
+
+include::../concepts/concept.adoc[leveloffset=+1]
+
+:override-title: Modified title of the included section.
+include::../tasks/task.adoc[leveloffset=+1]
+
+include::../references/reference.adoc[leveloffset=+1]
+
+[appendix]
+include::../common/common_copyright_gfdl.adoc[]
+
+[appendix]
+include::../common/common_license_gfdl1.2.adoc[]

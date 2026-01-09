@@ -1,0 +1,28 @@
+[#reference-example]
+ifdef::override-title[]
+= {override-title}
+endif::[]
+ifndef::override-title[]
+= Reference
+endif::[]
+
+Introductory text
+
+[#reference-example-section]
+== Section title
+
+A paragraph of text.
+
+.A title
+a command --with-options::
+  A paragraph of text.
+another command --with-options::
+  Another paragraph of text.
+
+.A table title
+[cols="1,1"]
+|===
+| an entry | another entry
+| an entry | another entry
+| an entry | another entry
+|===

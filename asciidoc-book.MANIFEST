@@ -6,6 +6,7 @@ always: ../.editorconfig -> .editorconfig
 initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> adoc/product-attributes.adoc
 initial(license-cc): ../entities/product-attributes-cc.adoc -> adoc/product-attributes.adoc
 always: ../entities/generic-attributes.adoc -> adoc/generic-attributes.adoc
+always: ../entities/network-attributes.adoc -> adoc/network-attributes.adoc
 
 initial: DC-example
 

@@ -40,7 +40,7 @@ out() {
 
 geturl() {
   # $1 = file name
-  wget -qO - "${repo}/${branch}/$1"
+  wget --no-cache --header="Cache-Control: no-cache" -qO - "${repo}/${branch}/$1"
 }
 
 saveurl() {
@@ -54,7 +54,7 @@ saveurl() {
     fi
     [[ -d "$dir" ]] || mkdir -p "$dir"
   fi
-  wget -q -O "$2" "${repo}/${branch}/$1"
+  wget --no-cache --header="Cache-Control: no-cache" -q -O "$2" "${repo}/${branch}/$1"
 }
 
 shortenattop() {
@@ -175,7 +175,7 @@ if [[ -f "$config" ]]; then # FIXME: validate config
   manifest=$(echo -e "$manifest" | tail -n +3)
 else
   echo "No $config file found: Running initial setup."
-  manifestindex=$(wget -qO - "${repo}/${branch}/${indexfile}")
+  manifestindex=$(wget --no-cache --header="Cache-Control: no-cache" -qO - "${repo}/${branch}/${indexfile}")
   checkmanifestcompatibility "$manifestindex"
   manifestindex=$(echo -e "$manifestindex" | tail -n +3 | sort -u)
   echo "Available document types:"
@@ -239,7 +239,7 @@ while [[ "$cleanmanifest" ]]; do
         echo "Someone ignored the warnings in the file $to and changed it downstream since the last update via $self."
         # create & download temp file, compare & remove it
         tmp_diff_file=$(mktemp $to.XXX)
-        wget -q -O $tmp_diff_file "${repo}/${branch}/${configtype}/${from}"
+        wget --no-cache --header="Cache-Control: no-cache" -q -O $tmp_diff_file "${repo}/${branch}/${configtype}/${from}"
         echo -e "diff $tmp_diff_file $to"
         echo -e "\n-------- Proposed changes to $to begin -------"
         diff -U 3 $to $tmp_diff_file
