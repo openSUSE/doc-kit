@@ -27,7 +27,6 @@ endif::[]
 // Introduction
 include::example_introduction.adoc[]
 
-
 // Appendix
 [appendix]
 include::example_appendix.adoc[]
