@@ -3,10 +3,10 @@ v0.2
 always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
-initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> adoc/product-attributes.adoc
-initial(license-cc): ../entities/product-attributes-cc.adoc -> adoc/product-attributes.adoc
-always: ../entities/generic-attributes.adoc -> adoc/generic-attributes.adoc
-always: ../entities/network-attributes.adoc -> adoc/network-attributes.adoc
+initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> common/product-attributes.adoc
+initial(license-cc): ../entities/product-attributes-cc.adoc -> common/product-attributes.adoc
+always: ../entities/generic-attributes.adoc -> common/generic-attributes.adoc
+always: ../entities/network-attributes.adoc -> common/network-attributes.adoc
 
 initial: DC-example
 
@@ -16,6 +16,6 @@ initial: adoc/example_introduction.adoc
 initial: adoc/example_appendix.adoc
 initial: images/example.png
 
-always(license-gfdl): adoc/common_copyright_gfdl.adoc
-always(license-gfdl): adoc/common_license_gfdl1.2.adoc
-always(license-cc): adoc/common_copyright_cc.adoc
+always(license-gfdl): common/common_copyright_gfdl.adoc
+always(license-gfdl): common/common_license_gfdl1.2.adoc
+always(license-cc): common/common_copyright_cc.adoc
