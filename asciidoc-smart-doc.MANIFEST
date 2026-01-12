@@ -1,10 +1,9 @@
 v0.2
 --
-
 always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
-always: _DC-article -> templates/_DC-article
+always: DC-article -> templates/DC-article
 always(license-gfdl): articles/article-gfdl.adoc -> templates/articles/article.adoc
 always(license-cc): articles/article-cc.adoc -> templates/articles/article.adoc
 always: concepts/concept.adoc -> templates/concepts/concept.adoc
@@ -16,7 +15,7 @@ always: snippets/snippet_warning.adoc -> templates/snippets/snippet_warning.adoc
 always: tasks/task.adoc -> templates/tasks/task.adoc
 always: images/example.png -> templates/images/example.png
 
-initial: _DC-article
+initial: DC-article
 initial(license-gfdl): articles/article-gfdl.adoc -> articles/article.adoc
 initial(license-cc): articles/article-cc.adoc -> articles/article.adoc
 initial: concepts/concept.adoc
