@@ -15,7 +15,8 @@
 :ndash:                      &#x02013;
 
 // PRODUCT-SPECIFIC ENTITIES
-include::product-attributes.adoc[]
+include::../common/product-attributes.adoc[]
+include::../common/network-attributes.adoc[]
 
 // Formatting in GitLab
 :toc:
@@ -32,6 +33,7 @@ include::product-attributes.adoc[]
 :nbsp:  
 :nbzwsp: ﻿
 :zwsp: ​
+:thrdmrk: *
 
 // For support tables: +supported/-unsupported character
 :sup: &#43;

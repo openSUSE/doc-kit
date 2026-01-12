@@ -1,0 +1,26 @@
+[#task-example]
+ifdef::override-title[]
+= {override-title}
+endif::[]
+ifndef::override-title[]
+= Executing task X (with tool Y)
+endif::[]
+
+Introductory text
+
+[#task-example-introduction]
+.Introduction
+
+A paragraph of text.
+
+.Requirements
+* requirement A
+* requirement B
+* requirement C
+
+--
+.The procedure
+. Step 1
+. Step 2
+. Step 3
+--

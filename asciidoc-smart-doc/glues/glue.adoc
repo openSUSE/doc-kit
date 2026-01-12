@@ -1,0 +1,14 @@
+[#glue-example]
+= Performing Task XYZ
+
+// This is an example of how a glue topic would look like.
+// If your task contains a large number of independent subtasks, make sure to include the glue topic to provide a means of navigation and to tie them together
+
+The following sections describe how to perform task XYZ.
+They are arranged in the sequence of a common workflow, but you can also perform most of them independently, if the prerequisites are in place.
+
+// As long as there is no linking framework in place, use web links here
+
+* A
+* list of links
+* to possible subtasks

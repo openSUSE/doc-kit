@@ -6,14 +6,14 @@
 :docinfo:
 :toc: left
 
-include::generic-attributes.adoc[]
+include::../common/generic-attributes.adoc[]
 
 = {productname} Documentation
 :revdate: 2025-03-19
 :page-revdate: {revdate}
 
 [preface]
-include::common_copyright_gfdl.adoc[]
+include::../common/common_copyright_gfdl.adoc[]
 
 ifdef::env-github[]
 :imagesdir: ../images/
@@ -27,10 +27,9 @@ endif::[]
 // Introduction
 include::example_introduction.adoc[]
 
-
 // Appendix
 [appendix]
 include::example_appendix.adoc[]
 
 [appendix]
-include::common_license_gfdl1.2.adoc[]
+include::../common/common_license_gfdl1.2.adoc[]
