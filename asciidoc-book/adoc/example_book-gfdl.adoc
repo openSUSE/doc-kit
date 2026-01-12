@@ -33,4 +33,4 @@ include::example_introduction.adoc[]
 include::example_appendix.adoc[]
 
 [appendix]
-include::../common/license_gfdl1.2.adoc[]
+include::../common/common_license_gfdl1.2.adoc[]
