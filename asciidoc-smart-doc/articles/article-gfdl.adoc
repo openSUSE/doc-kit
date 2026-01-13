@@ -18,19 +18,19 @@ endif::[]
 :page-revdate: {revdate}
 
 WHAT?::
-  Describe your topic in one sentence.
+  Provide an objective, one-sentence definition of the product, feature or solution.
 
 WHY?::
-  State the reason why one should read this.
+  Explain why the reader should care and what problem or benefit this content addresses.
 
 EFFORT::
-  What's the effort one has to put in?
+  State the expected time investment and any required background knowledge.
 
 GOAL::
-  What's the reader's take-away from this article?
+  Describe the concrete outcome after the reader finishes this article.
 
 REQUIREMENTS::
-  List the requirements to accomplish the task(s) described below.
+  List prerequisites needed to complete the tasks described in this article.
 
 include::../concepts/concept.adoc[leveloffset=+1]
 
