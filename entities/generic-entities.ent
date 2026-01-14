@@ -66,9 +66,10 @@
 <!ENTITY sappco                 "&suse; Application Collection">
 <!ENTITY ranchelemental         "&rancherprime;: OS Manager">
 <!ENTITY ailibrary              "AI Library">
-<!ENTITY saideployer            "&suse; AI Deployer">
 <!ENTITY suseaisuite            "&suse; AI Suite">
 <!ENTITY suseai                 "&suse; AI">
+<!ENTITY saideployer            "&suseai; Deployer">
+<!ENTITY sainodeinstaller       "&suseai; Node Installer">
 <!ENTITY rke2                   "&rancherprime;: RKE2">
 <!ENTITY rke2a                  "RKE2">
 <!ENTITY rkea                   "RKE">

@@ -58,9 +58,10 @@ include::../common/network-attributes.adoc[]
 :rancher:                    {rancherprime}
 :ranchelemental:             {rancherprime}: OS Manager
 :ailibrary:                  AI Library
-:saideployer:                {suse} Deployer
 :suseaisuite:                {suse} AI Suite
 :suseai:                     {suse} AI
+:saideployer:                {suseai} Deployer
+:sainodeinstaller:           {suseai} Node Installer
 :kube:                       Kubernetes
 :rke:                        {rancher} {kube} Engine (RKE)
 :rke2:                       {rancherprime}: RKE2
