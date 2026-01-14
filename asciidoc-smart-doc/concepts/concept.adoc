@@ -1,11 +1,11 @@
 [#example-section-id]
 ifdef::override-title[]
 = {override-title}
-:override-title!:
 endif::[]
 ifndef::override-title[]
 = Concept
 endif::[]
+:override-title!:
 
 Introductory text
 

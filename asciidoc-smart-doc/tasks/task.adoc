@@ -1,11 +1,11 @@
 [#task-example]
 ifdef::override-title[]
 = {override-title}
-:override-title!:
 endif::[]
 ifndef::override-title[]
 = Executing task X (with tool Y)
 endif::[]
+:override-title!:
 
 Introductory text
 

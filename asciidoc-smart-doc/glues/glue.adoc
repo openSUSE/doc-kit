@@ -1,11 +1,11 @@
 [#glue-example]
 ifdef::override-title[]
 = {override-title}
-:override-title!:
 endif::[]
 ifndef::override-title[]
 = Performing Task XYZ
 endif::[]
+:override-title!:
 
 // This is an example of how a glue topic would look like.
 // If your task contains a large number of independent subtasks, make sure to include the glue topic to provide a means of navigation and to tie them together

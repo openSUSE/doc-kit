@@ -1,10 +1,10 @@
 [#glue-more-info]
 ifdef::override-title[]
 = {override-title}
-:override-title!:
 endif::[]
 ifndef::override-title[]
 = For more information
 endif::[]
+:override-title!:
 
 Add web links to external sources or other SUSE articles.
