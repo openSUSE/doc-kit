@@ -19,7 +19,7 @@ Once you have named the files accordingly, integrate them into the article file.
 
 Write the new content and adapt the IDs.
 
-In a final step, add suitable metadata information to your article docinfo.adoc file.
+In the final step, add suitable metadata information to your article docinfo.adoc file.
 Stick to the conventions outlined below.
 
 
@@ -33,8 +33,8 @@ We provide five different types of information units:
 * `reference.adoc`: Reference (e.g., list of options, table with config files, default settings)
 * `glue.adoc`: Combines texts or structures that do not fit into any of the other categories. 
 
-Typical glue topics include the intro section to your article, the "For more information" and the "What's next" sections.
-Also use glue topics to add an additional layer of navigation to your article.
+Typical glue topics include the intro section of your article, the "For more information" and the "What's next" sections.
+Also, use glue topics to add an additional layer of navigation to your article.
 This is outlined in the `glue.adoc` example file.
 
 
@@ -58,7 +58,7 @@ We keep separate directories for each topic type, for common files and articles.
 
       common/<NAME>.adoc
 
-* Any topic's name consists of the following elements that are explained below:
+* A topic's name consists of the following elements that are explained below:
 
       <NAME> := <TOPIC>[-<SUBTOPIC]-<SNIPPET-TOPIC>-<TITLE>
 
@@ -80,8 +80,8 @@ network
 ```
 
 The second component for concept, reference, task, glue should be the topic of the snippet.
-For tasks, use a verb in gerund.
-For descriptive topics (concepts, references) opt for noun-based:
+For tasks, use a verb in the gerund form.
+For descriptive topics (concepts, references), opt for noun-based:
 
 ```
 references/autoyast-partitioner-syntax.adoc
