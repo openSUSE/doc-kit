@@ -1,4 +1,10 @@
 [#glue-whats-next]
+ifdef::override-title[]
+= {override-title}
+:override-title!:
+endif::[]
+ifndef::override-title[]
 = What's next?
+endif::[]
 
 Add list of web links to articles relating to this topic that the user might need.

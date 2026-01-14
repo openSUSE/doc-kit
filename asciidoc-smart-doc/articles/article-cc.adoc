@@ -14,7 +14,7 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-:revdate: 2025-012-02
+:revdate: 2025-12-14
 :page-revdate: {revdate}
 
 WHAT?::
