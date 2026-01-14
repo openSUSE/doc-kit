@@ -95,7 +95,7 @@ glues/systemd-timer-more-info.adoc
 ```
 
 The second component of the article should be an abbreviated title.
-As our articles are intended to address specific problems and tasks, use verbs in gerund here as well:
+As our articles are intended to address specific problems and tasks, use verbs in the gerund form here as well:
 
 ```
 articles/systemd-timer-working-with.adoc
@@ -135,7 +135,7 @@ The following metadata types are currently supported:
 ### Internal 
 
 1. Add maintainer info (e-mail address) to the `docinfo.xml`.
-   Use this information to contact the original author, in case you want to reuse a piece and would like to start a conversation on changing the file.
+   Use this information to contact the original author if you want to reuse a piece and would like to start a conversation on changing the file.
 
 1. Determine whether the article needs to be translated and add a list of languages.
 
