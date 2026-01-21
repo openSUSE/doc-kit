@@ -54,6 +54,7 @@ include::../common/network-attributes.adoc[]
 :sstorage:                   {suse} Storage
 :svirtualization:            {suse} Virtualization
 :sappco:                     {suse} Application Collection
+:ranchera:                   Rancher
 :rancherprime:               {suse} Rancher Prime
 :rancher:                    {rancherprime}
 :ranchelemental:             {rancherprime}: OS Manager
@@ -70,7 +71,6 @@ include::../common/network-attributes.adoc[]
 :rkea:                       RKE
 :ranchermanager:             {rancherprime}
 :rancherappco:               {rancherprime} Application Collection
-:ranchera:                   Rancher
 
 // SLE
 :jeos:                       JeOS
