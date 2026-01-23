@@ -70,7 +70,7 @@
 <!ENTITY suseai                 "&suse; AI">
 <!ENTITY saideployer            "&suseai; Deployer">
 <!ENTITY sainodeinstaller       "&suseai; Node Installer">
-<!ENTITY sairancherextension    "&suseai; &ranchera; Extension">
+<!ENTITY sailifecyclemanager    "&suseai; Lifecycle Manager">
 <!ENTITY rke2                   "&rancherprime;: RKE2">
 <!ENTITY rke2a                  "RKE2">
 <!ENTITY rkea                   "RKE">
