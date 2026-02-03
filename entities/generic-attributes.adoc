@@ -225,6 +225,7 @@ include::../common/network-attributes.adoc[]
 :mcpo:                       mcpo
 :mcp:                        MCP
 :opensearch:                 OpenSearch
+:qdrant:                     Qdrant
 
 // NVIDIA products
 :cuda:                       CUDA
