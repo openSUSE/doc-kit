@@ -35,6 +35,8 @@ REQUIREMENTS::
 include::../concepts/concept.adoc[leveloffset=+1]
 
 :override-title: Modified title of the included section
+:override-abstract:
+  Introductory text that you want to use instead of the one included in the topic file.
 include::../tasks/task.adoc[leveloffset=+1]
 
 include::../references/reference.adoc[leveloffset=+1]
