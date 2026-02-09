@@ -1,10 +1,25 @@
 [#glue-whats-next]
+include::../common/generic-attributes.adoc[]
+// overridden title?
 ifdef::override-title[]
 = {override-title}
 endif::[]
 ifndef::override-title[]
-= What's next?
+= Glue
 endif::[]
+// overridden abstract?
+ifdef::override-abstract[]
+{override-abstract}
+endif::[]
+ifndef::override-abstract[]
+An introductory paragraph.
+endif::[]
+
+// erase the flag for future overrides
+:override-abstract!:
 :override-title!:
+
+:revdate: YYYY-MM-DD
+:page-revdate: {revdate}
 
 Add list of web links to articles relating to this topic that the user might need.

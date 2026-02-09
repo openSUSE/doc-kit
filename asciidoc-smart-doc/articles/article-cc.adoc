@@ -1,6 +1,3 @@
-include::../common/generic-attributes.adoc[]
-= Smartdoc article written in AsciiDoc
-
 :doctype: article
 :experimental:
 :docinfo:
@@ -14,8 +11,11 @@ ifdef::env-github[]
 :warning-caption: :warning:
 endif::[]
 
-:revdate: 2025-12-14
+:revdate: YYYY-MM-DD
 :page-revdate: {revdate}
+
+include::../common/generic-attributes.adoc[]
+= Smartdoc article written in AsciiDoc
 
 WHAT?::
   Provide an objective, one-sentence definition of the product, feature or solution.

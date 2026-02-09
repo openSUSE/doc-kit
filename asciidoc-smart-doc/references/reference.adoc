@@ -1,13 +1,26 @@
 [#reference-example]
+include::../common/generic-attributes.adoc[]
+// overridden title?
 ifdef::override-title[]
 = {override-title}
 endif::[]
 ifndef::override-title[]
 = Reference
 endif::[]
+// overridden abstract?
+ifdef::override-abstract[]
+{override-abstract}
+endif::[]
+ifndef::override-abstract[]
+An introductory paragraph.
+endif::[]
+
+// erase the flag for future overrides
+:override-abstract!:
 :override-title!:
 
-Introductory text
+:revdate: YYYY-MM-DD
+:page-revdate: {revdate}
 
 [#reference-example-section]
 == Section title

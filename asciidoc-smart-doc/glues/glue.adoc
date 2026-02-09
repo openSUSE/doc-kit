@@ -1,11 +1,26 @@
 [#glue-example]
+include::../common/generic-attributes.adoc[]
+// overridden title?
 ifdef::override-title[]
 = {override-title}
 endif::[]
 ifndef::override-title[]
-= Performing Task XYZ
+= Glue
 endif::[]
+// overridden abstract?
+ifdef::override-abstract[]
+{override-abstract}
+endif::[]
+ifndef::override-abstract[]
+An introductory paragraph.
+endif::[]
+
+// erase the flag for future overrides
+:override-abstract!:
 :override-title!:
+
+:revdate: YYYY-MM-DD
+:page-revdate: {revdate}
 
 // This is an example of how a glue topic would look like.
 // If your task contains a large number of independent subtasks, make sure to include the glue topic to provide a means of navigation and to tie them together

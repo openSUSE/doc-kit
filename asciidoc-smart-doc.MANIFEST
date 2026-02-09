@@ -26,6 +26,7 @@ initial: references/reference.adoc
 initial: snippets/snippet_warning.adoc
 initial: tasks/task.adoc
 initial: images/example.png
+initial: articles/article-docinfo.xml -> articles/article-docinfo.xml
 
 initial(license-gfdl): ../entities/product-attributes-gfdl.adoc -> common/product-attributes.adoc
 initial(license-cc): ../entities/product-attributes-cc.adoc -> common/product-attributes.adoc
