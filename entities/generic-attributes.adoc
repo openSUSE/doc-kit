@@ -226,6 +226,7 @@ include::../common/network-attributes.adoc[]
 :mcp:                        MCP
 :opensearch:                 OpenSearch
 :qdrant:                     Qdrant
+:litellm:                    LiteLLM
 
 // NVIDIA products
 :cuda:                       CUDA

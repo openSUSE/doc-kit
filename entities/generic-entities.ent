@@ -248,6 +248,7 @@ use &deng;! -->
 <!ENTITY mcp                    "MCP">
 <!ENTITY opensearch             "OpenSearch">
 <!ENTITY qdrant                 "Qdrant">
+<!ENTITY litellm                "LiteLLM">
 
 
 <!-- NVIDIA products -->
