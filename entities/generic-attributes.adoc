@@ -64,6 +64,7 @@ include::../common/network-attributes.adoc[]
 :saideployer:                {suseai} Deployer
 :sainodeinstaller:           {suseai} Node Installer
 :sailifecyclemanager:        {suseai} Lifecycle Manager
+:saioperator:                {suseai} Operator
 :kube:                       Kubernetes
 :rke:                        {rancher} {kube} Engine (RKE)
 :rke2:                       {rancherprime}: RKE2

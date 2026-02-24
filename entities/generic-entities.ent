@@ -71,6 +71,7 @@
 <!ENTITY saideployer            "&suseai; Deployer">
 <!ENTITY sainodeinstaller       "&suseai; Node Installer">
 <!ENTITY sailifecyclemanager    "&suseai; Lifecycle Manager">
+<!ENTITY saioperator            "&suseai; Operator">
 <!ENTITY rke2                   "&rancherprime;: RKE2">
 <!ENTITY rke2a                  "RKE2">
 <!ENTITY rkea                   "RKE">
