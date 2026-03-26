@@ -228,6 +228,7 @@ include::../common/network-attributes.adoc[]
 :opensearch:                 OpenSearch
 :qdrant:                     Qdrant
 :litellm:                    LiteLLM
+:kubeflow:                   Kubeflow
 
 // NVIDIA products
 :cuda:                       CUDA

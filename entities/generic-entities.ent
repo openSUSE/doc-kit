@@ -250,6 +250,7 @@ use &deng;! -->
 <!ENTITY opensearch             "OpenSearch">
 <!ENTITY qdrant                 "Qdrant">
 <!ENTITY litellm                "LiteLLM">
+<!ENTITY kubeflow               "Kubeflow">
 
 
 <!-- NVIDIA products -->
