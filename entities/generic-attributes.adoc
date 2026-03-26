@@ -229,6 +229,7 @@ include::../common/network-attributes.adoc[]
 :qdrant:                     Qdrant
 :litellm:                    LiteLLM
 :kubeflow:                   Kubeflow
+:istio:                      Istio
 
 // NVIDIA products
 :cuda:                       CUDA

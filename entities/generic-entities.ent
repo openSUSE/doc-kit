@@ -251,6 +251,7 @@ use &deng;! -->
 <!ENTITY qdrant                 "Qdrant">
 <!ENTITY litellm                "LiteLLM">
 <!ENTITY kubeflow               "Kubeflow">
+<!ENTITY istio                  "Istio">
 
 
 <!-- NVIDIA products -->
