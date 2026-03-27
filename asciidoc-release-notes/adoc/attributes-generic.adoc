@@ -205,6 +205,8 @@
 :jetsonagxxavierreg: {jetsonagxxavier}*
 :pegasus: Pegasus
 :pegasusreg: {pegasus}*
+:orin: Orin
+:orinreg: {orin}*
 // https://www.nxp.com/company/our-company/about-nxp/terms-of-use:TERMSOFUSE
 :nxp: NXP
 :nxpreg: {nxp}*
