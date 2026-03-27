@@ -243,6 +243,8 @@ include::../common/network-attributes.adoc[]
 :xavierreg:                  {xavier}{thrdmrk}
 :orin:                       Orin
 :orinreg:                    {orin}{thrdmrk}
+:thor:                       Thor
+:thorreg:                    {thor}{thrdmrk}
 
 // HARDWARE ARCHITECTURES AND PLATFORMS
 :x86:                        x86
