@@ -230,6 +230,7 @@ include::../common/network-attributes.adoc[]
 :litellm:                    LiteLLM
 :kubeflow:                   Kubeflow
 :istio:                      Istio
+:seaweedfs:                  SeaweedFS
 
 // NVIDIA products
 :cuda:                       CUDA
