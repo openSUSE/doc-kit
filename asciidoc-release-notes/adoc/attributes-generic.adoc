@@ -205,6 +205,10 @@
 :jetsonagxxavierreg: {jetsonagxxavier}*
 :pegasus: Pegasus
 :pegasusreg: {pegasus}*
+:orin: Orin
+:orinreg: {orin}*
+:thor: Thor
+:thorreg: {thor}*
 // https://www.nxp.com/company/our-company/about-nxp/terms-of-use:TERMSOFUSE
 :nxp: NXP
 :nxpreg: {nxp}*
