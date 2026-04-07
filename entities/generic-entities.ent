@@ -266,6 +266,8 @@ use &deng;! -->
 <!ENTITY xavierreg              "&xavier;*">
 <!ENTITY orin                   "Orin">
 <!ENTITY orinreg                "&orin;*">
+<!ENTITY thor                   "Thor">
+<!ENTITY thorreg                "&thor;*">
 
 <!-- SLE DVD IMAGE NAMES -->
 

@@ -174,7 +174,7 @@ include::../common/network-attributes.adoc[]
 :ibm:                        IBM
 :ms:                         Microsoft
 :nvidia:                     NVIDIA
-:nvidiareg:                  {nvidia}(R)
+:nvidiareg:                  {nvidia}{thrdmrk}
 :rh:                         Red Hat
 :redhat:                     {rh}
 :ubuntu:                     Ubuntu
@@ -234,15 +234,17 @@ include::../common/network-attributes.adoc[]
 
 // NVIDIA products
 :cuda:                       CUDA
-:cudareg:                    {cuda}(R)
+:cudareg:                    {cuda}{thrdmrk}
 :jetson:                     Jetson
-:jetsonreg:                  {jetson}(R)
+:jetsonreg:                  {jetson}{thrdmrk}
 :jetpack:                    JetPack
-:jetpackreg:                 {jetpack}(R)
+:jetpackreg:                 {jetpack}{thrdmrk}
 :xavier:                     Xavier
-:xavierreg:                  {xavier}(R)
+:xavierreg:                  {xavier}{thrdmrk}
 :orin:                       Orin
-:orinreg:                    {orin}(R)
+:orinreg:                    {orin}{thrdmrk}
+:thor:                       Thor
+:thorreg:                    {thor}{thrdmrk}
 
 // HARDWARE ARCHITECTURES AND PLATFORMS
 :x86:                        x86
@@ -251,18 +253,18 @@ include::../common/network-attributes.adoc[]
 :s390x:                      s390x
 :x86-64:                     {amd64}/{intel64}
 :arm:                        Arm
-:armreg:                     Arm(R)
+:armreg:                     Arm{thrdmrk}
 :armv7:                      Armv7
 :armv8:                      Armv8
 :aarch64:                    AArch64
 :arm64:                      {arm}{nbsp}{aarch64}
 :cortex:                     {arm}{nbsp}Cortex
-:cortexreg:                  {armreg}{nbsp}Cortex(R)
+:cortexreg:                  {armreg}{nbsp}Cortex{thrdmrk}
 :vc:                         Broadcom VideoCore
-:vcreg:                      {vc}{nbsp}(R)
+:vcreg:                      {vc}{nbsp}{thrdmrk}
 :vc4reg:                     {vcreg}{nbsp}IV
 :rpi:                        Raspberry{nbsp}Pi
-:rpireg:                     Raspberry{nbsp}Pi(R)
+:rpireg:                     Raspberry{nbsp}Pi{thrdmrk}
 :rpi3:                       Raspberry{nbsp}Pi{nbsp}3
 :rpi4:                       Raspberry{nbsp}Pi{nbsp}4
 :power:                      POWER
@@ -276,7 +278,7 @@ include::../common/network-attributes.adoc[]
 :ds389a:                     389 DS
 :aa:                         AppArmor
 :apparmor:                   {aa}
-:aareg:                      AppArmor(R)
+:aareg:                      AppArmor{thrdmrk}
 :ad:                         Active Directory
 :ada:                        AD
 :aide:                       AIDE
@@ -415,7 +417,7 @@ include::../common/network-attributes.adoc[]
 :vmm:                        Virtual Machine Manager
 :xcat:                       xCAT
 :xen:                        Xen
-:xenreg:                     Xen(R)
+:xenreg:                     Xen{thrdmrk}
 :xenstore:                   XenStore
 
 // DAEMONS
@@ -456,15 +458,15 @@ include::../common/network-attributes.adoc[]
 :dmmpio:                     DM-Multipathing
 :mpio:                       multipath I/O
 :hdmi:                       HDMI
-:hdmireg:                    {hdmi}(R)
-:mipireg:                    MIPI(R)
-:mipidsireg:                 {mipireg} DSI(R)
-:openglreg:                  OpenGL(R)
+:hdmireg:                    {hdmi}{thrdmrk}
+:mipireg:                    MIPI{thrdmrk}
+:mipidsireg:                 {mipireg} DSI{thrdmrk}
+:openglreg:                  OpenGL{thrdmrk}
 :openglesreg:                {openglreg} ES
 :microsd:                    microSD
 :microsdhc:                  microSDHC
 :bt:                         Bluetooth
-:btreg:                      Bluetooth(R)
+:btreg:                      Bluetooth{thrdmrk}
 :usbflashdrive:              USB flash drive
 :usbflashdrivecap:           USB Flash Drive
 :infiniband:                 InfiniBand
