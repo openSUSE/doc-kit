@@ -253,6 +253,7 @@ use &deng;! -->
 <!ENTITY kubeflow               "Kubeflow">
 <!ENTITY istio                  "Istio">
 <!ENTITY seaweedfs              "SeaweedFS">
+<!ENTITY mysql                  "MySQL">
 
 
 <!-- NVIDIA products -->

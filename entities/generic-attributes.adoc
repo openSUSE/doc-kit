@@ -231,6 +231,7 @@ include::../common/network-attributes.adoc[]
 :kubeflow:                   Kubeflow
 :istio:                      Istio
 :seaweedfs:                  SeaweedFS
+:mysql:                      MySQL
 
 // NVIDIA products
 :cuda:                       CUDA
