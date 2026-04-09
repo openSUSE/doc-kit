@@ -175,6 +175,36 @@ include::../common/network-attributes.adoc[]
 :suseregistry:               {suse} Registry
 :sregistry:                  {suseregistry}
 
+// HARDWARE ARCHITECTURES AND PLATFORMS
+:x86:                        x86
+:x64:                        x86-64
+:intel64:                    Intel{nbsp}64
+:amd64:                      AMD64
+:s390x:                      s390x
+:x86-64:                     {amd64}/{intel64}
+:arm:                        Arm
+:armreg:                     Arm{thrdmrk}
+:armv7:                      Armv7
+:armv8:                      Armv8
+:aarch64:                    AArch64
+:arm64:                      {arm}{nbsp}{aarch64}
+:cortex:                     {arm}{nbsp}Cortex
+:cortexreg:                  {armreg}{nbsp}Cortex{thrdmrk}
+:vc:                         Broadcom VideoCore
+:vcreg:                      {vc}{nbsp}{thrdmrk}
+:vc4reg:                     {vcreg}{nbsp}IV
+:rpi:                        Raspberry{nbsp}Pi
+:rpireg:                     Raspberry{nbsp}Pi{thrdmrk}
+:rpi3:                       Raspberry{nbsp}Pi{nbsp}3
+:rpi4:                       Raspberry{nbsp}Pi{nbsp}4
+:power:                      POWER
+:ppc:                        PowerPC
+:ppc64le:                    ppc64le
+:ibm:                        IBM
+:zseries:                    {ibm}{nbsp}Z
+:zsystems:                   {zseries}
+:linuxone:                   {ibm} LinuxONE
+
 // Third party vendors
 :docker:                     Docker
 :hpe:                        HPE
@@ -380,36 +410,6 @@ include::../common/network-attributes.adoc[]
 :orinreg:                    {orin}{thrdmrk}
 :thor:                       Thor
 :thorreg:                    {thor}{thrdmrk}
-
-// HARDWARE ARCHITECTURES AND PLATFORMS
-:x86:                        x86
-:x64:                        x86-64
-:intel64:                    Intel{nbsp}64
-:amd64:                      AMD64
-:s390x:                      s390x
-:x86-64:                     {amd64}/{intel64}
-:arm:                        Arm
-:armreg:                     Arm{thrdmrk}
-:armv7:                      Armv7
-:armv8:                      Armv8
-:aarch64:                    AArch64
-:arm64:                      {arm}{nbsp}{aarch64}
-:cortex:                     {arm}{nbsp}Cortex
-:cortexreg:                  {armreg}{nbsp}Cortex{thrdmrk}
-:vc:                         Broadcom VideoCore
-:vcreg:                      {vc}{nbsp}{thrdmrk}
-:vc4reg:                     {vcreg}{nbsp}IV
-:rpi:                        Raspberry{nbsp}Pi
-:rpireg:                     Raspberry{nbsp}Pi{thrdmrk}
-:rpi3:                       Raspberry{nbsp}Pi{nbsp}3
-:rpi4:                       Raspberry{nbsp}Pi{nbsp}4
-:power:                      POWER
-:ppc:                        PowerPC
-:ppc64le:                    ppc64le
-:ibm:                        IBM
-:zseries:                    {ibm}{nbsp}Z
-:zsystems:                   {zseries}
-:linuxone:                   {ibm} LinuxONE
 
 // SYSTEM COMPONENTS
 :ds389:                      389 Directory Server
