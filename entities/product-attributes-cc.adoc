@@ -22,7 +22,8 @@
 
 // START YEAR OF COPYRIGHT
 :copyrightstart:  20XX
-:copyrightholder: SUSE LLC
+:company: SUSE LLC
+:copyrightholder: {company}
 :license: Creative Commons Attribution-ShareAlike 4.0 International
 :license-acronym: CC-BY-SA 4.0
 :license-url: https://creativecommons.org/licenses/by-sa/4.0/legalcode
