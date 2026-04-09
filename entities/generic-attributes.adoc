@@ -178,7 +178,6 @@ include::../common/network-attributes.adoc[]
 // Third party vendors
 :docker:                     Docker
 :hpe:                        HPE
-:ibm:                        IBM
 :ibmz:                       IBM Z
 :ms:                         Microsoft
 :nvidia:                     NVIDIA
@@ -407,6 +406,7 @@ include::../common/network-attributes.adoc[]
 :power:                      POWER
 :ppc:                        PowerPC
 :ppc64le:                    ppc64le
+:ibm:                        IBM
 :zseries:                    {ibm}{nbsp}Z
 :zsystems:                   {zseries}
 :linuxone:                   {ibm} LinuxONE

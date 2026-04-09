@@ -18,7 +18,7 @@
 
 // RELEASE NOTES URL
 :rn-url: {sc-rn}/x86_64/[PRODUCT]/[VERSION]
-
+:rnotes: Release Notes
 
 // START YEAR OF COPYRIGHT
 :copyrightstart:  20XX
@@ -28,3 +28,11 @@
 :license-acronym: CC-BY-SA 4.0
 :license-url: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
+// the following needs to be cleaned or wiped
+:product:           {productname}
+:company:           {copyrightholder}
+:this-version:      {productnumber}
+:doc-url-source:    {repo-url}
+:copyright-begin:   {copyrightstart}
+:copyright-end:     {docyear}
+:additional-rightsholders: {empty}
