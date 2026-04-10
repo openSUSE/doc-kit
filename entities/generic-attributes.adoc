@@ -11,13 +11,13 @@
 :doo:                        https://doc.opensuse.org
 :sc-rn:                      https://www.suse.com/releasenotes
 :sccurl:                     https://scc.suse.com/
-:ndash:                      &#x02013;
 
 // PRODUCT-SPECIFIC ENTITIES
 include::../common/product-attributes.adoc[]
 include::../common/network-attributes.adoc[]
 
 // special characters
+:ndash:                      &#x02013;
 :mdash: —
 :nbh: ‑
 :nbsp:  
@@ -43,7 +43,7 @@ include::../common/network-attributes.adoc[]
 
 //company
 :suse:                       SUSE
-:susereg:                    {suse}(R)
+:susereg:                    {suse}{thrdmrk}
 :suselinux:                  {suse} Linux
 
 // SUSE products
@@ -59,6 +59,7 @@ include::../common/network-attributes.adoc[]
 :rancher:                    {rancherprime}
 :ranchelemental:             {rancherprime}: OS Manager
 :ailibrary:                  AI Library
+:suma:                       {suse} Manager
 :suseaisuite:                {suse} AI Suite
 :suseai:                     {suse} AI
 :saideployer:                {suseai} Deployer
@@ -78,6 +79,7 @@ include::../common/network-attributes.adoc[]
 :jeosfirstboot:              {jeos} Firstboot
 :slsa:                       SLES
 :minvm:                      {slsa} Minimal VM
+:minimg:                     Minimal Image
 :leanos:                     Unified Installer
 :sle:                        {suse} Linux Enterprise
 :sled:                       {sle} Desktop
@@ -88,6 +90,7 @@ include::../common/network-attributes.adoc[]
 :slelp:                      {sle} Live Patching
 :slert:                      {sle} Real Time
 :sdk:                        {suse} Software Development Kit
+:slesdk:                     {sle} Software Development Kit
 :sles:                       {sle} Server
 :sls:                        {sles}
 :sap:                        SAP
@@ -107,7 +110,8 @@ include::../common/network-attributes.adoc[]
 :sle:                        SLE
 :ha:                         HA
 :sleha:                      {sle} {ha}
-:hageo:                      Geo Clustering for {sleha}
+:slehag:                     Geo Clustering for {sleha}
+:hageo:                      {slehag}
 
 // SUSE Multi-Linux Manager
 :smlm:                    {suse} Multi-Linux Manager
@@ -117,21 +121,22 @@ include::../common/network-attributes.adoc[]
 
 // SUSE PRODUCT ACRONYMS
 :sleda:                      SLED
-:slehaa:                     SLE{nbsp}HA
-:slehaga:                    SLE{nbsp}HA{nbsp}GEO
-:slehpca:                    SLE{nbsp}HPC
+:slehaa:                     {slea}{nbsp}HA
+:slehaga:                    {slea}{nbsp}HA{nbsp}GEO
+:slehpca:                    {slea}{nbsp}HPC
 :sles4sapa:                  SLES{nbsp}for{nbsp}SAP
 :s4sa:                       {sles4sapa}
-:sleposa:                    SLE{nbsp}POS
-:slerta:                     SLE{nbsp}RT
-:slewea:                     SLE{nbsp}WE
-:slelpa:                     SLE{nbsp}LP
+:sleposa:                    {slea}{nbsp}POS
+:slerta:                     {slea}{nbsp}RT
+:sdka:                       {slea} {sdk}
+:slewea:                     {slea}{nbsp}WE
+:slelpa:                     {slea}{nbsp}LP
 :slema:                      {slea} Micro
-:vmdpa:                      SLE{nbsp}VMDP
+:vmdpa:                      {slea}{nbsp}VMDP
 :sesa:                       SES
 :soca:                       SOC
-:capa:                       SUSE{nbsp}CAP
-:caaspa:                     SUSE{nbsp}CaaSP
+:capa:                       {suse}{nbsp}CAP
+:caaspa:                     {suse}{nbsp}CaaSP
 :caspa:                      {caaspa}
 :suseaia:                    {suse} AI
 
@@ -149,8 +154,8 @@ include::../common/network-attributes.adoc[]
 // openSUSE VARIANTS
 :opensuse:                   openSUSE
 :osuse:                      {opensuse}
-:os:                         {opensuse}
-:opensusereg:                openSUSE(R)
+:os:                         opensuse}
+:opensusereg:                {opensuse}{thrdmrk}
 :leap:                       {os} Leap
 :tw:                         {os} Tumbleweed
 :kubic:                      {os} Kubic
@@ -158,20 +163,52 @@ include::../common/network-attributes.adoc[]
 
 // SUSE SERVICES
 :scc:                        {suse} Customer Center
+:sccfull:                    {suse} Customer Center (SCC)
 :scca:                       SCC
 :sccreg:                     {susereg} Customer Center
 :obs:                        Open Build Service
 :osbs:                       {os} Build Service
 :obsa:                       OBS
 :ph:                         {suse} Package Hub
+:rmtfull:                    Repository Mirroring Tool (RMT)
 :soliddriver:                {suse} SolidDriver
 :suseregistry:               {suse} Registry
 :sregistry:                  {suseregistry}
 
+// HARDWARE ARCHITECTURES AND PLATFORMS
+:x86:                        x86
+:x64:                        x86-64
+:intel64:                    Intel{nbsp}64
+:amd64:                      AMD64
+:s390x:                      s390x
+:x86-64:                     {amd64}/{intel64}
+:arm:                        Arm
+:armreg:                     Arm{thrdmrk}
+:armv7:                      Armv7
+:armv8:                      Armv8
+:aarch64:                    AArch64
+:arm64:                      {arm}{nbsp}{aarch64}
+:cortex:                     {arm}{nbsp}Cortex
+:cortexreg:                  {armreg}{nbsp}Cortex{thrdmrk}
+:vc:                         Broadcom VideoCore
+:vcreg:                      {vc}{nbsp}{thrdmrk}
+:vc4reg:                     {vcreg}{nbsp}IV
+:rpi:                        Raspberry{nbsp}Pi
+:rpireg:                     Raspberry{nbsp}Pi{thrdmrk}
+:rpi3:                       Raspberry{nbsp}Pi{nbsp}3
+:rpi4:                       Raspberry{nbsp}Pi{nbsp}4
+:power:                      POWER
+:ppc:                        PowerPC
+:ppc64le:                    ppc64le
+:ibm:                        IBM
+:zseries:                    {ibm}{nbsp}Z
+:zsystems:                   {zseries}
+:linuxone:                   {ibm} LinuxONE
+
 // Third party vendors
 :docker:                     Docker
 :hpe:                        HPE
-:ibm:                        IBM
+:ibmz:                       IBM Z
 :ms:                         Microsoft
 :nvidia:                     NVIDIA
 :nvidiareg:                  {nvidia}{thrdmrk}
@@ -180,11 +217,13 @@ include::../common/network-attributes.adoc[]
 :ubuntu:                     Ubuntu
 :vmware:                     VMware
 :hana:                       {sap} HANA
-:s4h:                        {sap} S/4HANA
+:s4hana:                     {sap} S/4HANA
+:s4h:                        {s4hana}
 :macos:                      macOS
 :mswin:                      {ms} Windows
 :netware:                    NetWare
-:netweaver:                  {sap} NetWeaver
+:nw:                         {sap} NetWeaver
+:netweaver:                  {nw}
 :ostack:                     OpenStack
 :powerkvm:                   PowerKVM
 :powerlinux:                 PowerLinux
@@ -232,6 +271,131 @@ include::../common/network-attributes.adoc[]
 :istio:                      Istio
 :seaweedfs:                  SeaweedFS
 :mysql:                      MySQL
+// https://aws.amazon.com/trademark-guidelines/
+:amazon-ec2:                 Amazon{nbsp}EC2
+:amazon-ec2reg:              {amazon-ec2}{thrdmrk}
+:aws:                        AWS
+:awsreg:                     {aws}{thrdmrk}
+// https://azure.microsoft.com
+:azure:                      Microsoft Azure
+:azurereg:                   Microsoft{thrdmrk} Azure{thrdmrk}
+// https://amperecomputing.com/
+:ampere:                     Ampere
+:amperereg:                  {ampere}{thrdmrk}
+:xgene:                      X-Gene
+:xgenereg:                   {xgene}{thrdmrk}
+:emag:                       eMAG
+:emagreg:                    {emag}{thrdmrk}
+:altra:                      Altra
+:altrareg:                   {altra}{thrdmrk}
+:altramax:                   Altra{nbsp}Max
+:altramaxreg:                {altramax}{thrdmrk}
+// https://www.amd.com/en/corporate/trademarks
+:amd:                        AMD
+:amdreg:                     {amd}{thrdmrk}
+:opteron:                    Opteron
+:opteronreg:                 {opteron}{thrdmrk}
+// https://www.arm.com/company/policies/trademarks
+:armv8:                      {arm}{nbzwsp}v8
+:mali:                       Mali
+:malireg:                    {mali}{thrdmrk}
+:neoverse:                   Neoverse
+:neoversereg:                {neoverse}{thrdmrk}
+:brcm:                       Broadcom
+:brcmreg:                    {brcm}{thrdmrk}
+:videocore:                  VideoCore
+:videocorereg:               {videocore}{thrdmrk}
+// XXX: ⅠⅤ - displaying as ## in cross-references
+:vc4:                        {videocore}{nbsp}IV
+:vc4reg:                     {videocorereg}{nbsp}IV
+// XXX: ⅤⅠ
+:vc6:                        {videocore}{nbsp}VI
+:vc6reg:                     {videocorereg}{nbsp}VI
+// https://www.cadence.com/en_US/home/company/u-s-trademarks.html
+:cadence:                    Cadence
+:cadencereg:                 {cadence}{thrdmrk}
+:displayport:                DisplayPort
+:displayportreg:             {displayport}{thrdmrk}
+// https://www.fujitsu.com/us/about/local/corporate/subsidiaries/fai/legal/trademarks/index.html
+:fujitsu:                    Fujitsu
+:fujitsureg:                 {fujitsu}{thrdmrk}
+// https://consumer.huawei.com/en/legal/intellectual-property/huawei-trademark-policy/
+:huawei:                     Huawei
+:huaweireg:                  {huawei}{thrdmrk}
+:kunpeng:                    Kunpeng
+:kunpengreg:                 {kunpeng}{thrdmrk}
+// Khronos
+:openmax:                    OpenMAX
+:openmaxreg:                 {openmax}{thrdmrk}
+// https://www.marvell.com/company/trademarks.html
+:marvell:                    Marvell
+:marvellreg:                 {marvell}{thrdmrk}
+:armada:                     Armada
+:armadareg:                  {armada}{thrdmrk}
+:octeon-tx:                  OCTEON{nbsp}TX
+:octeon-txreg:               {octeon-tx}{thrdmrk}
+:thunderx:                   ThunderX
+:thunderxreg:                {thunderx}{thrdmrk}
+:thunderx2:                  ThunderX2
+:thunderx2reg:               {thunderx2}{thrdmrk}
+:thunderx3:                  ThunderX3
+:thunderx3reg:               {thunderx3}{thrdmrk}
+:mobiveil:                   Mobiveil
+// https://www.mellanox.com/company/policies/trademarks
+:mellanox:                   Mellanox
+:mellanoxreg:                {mellanox}{thrdmrk}
+:bluefield:                  Blue{nbzwsp}Field
+:bluefieldreg:               {bluefield}{thrdmrk}
+// XXX {nbh}
+:bluefield2:                 {bluefield}-2
+:bluefield2reg:              {bluefieldreg}-2
+:bluefield2x:                {bluefield}-2X
+:bluefield2xreg:             {bluefieldreg}-2X
+:bluefield3:                 {bluefield}-3
+:bluefield3reg:              {bluefieldreg}-3
+:connectx:                   ConnectX
+:connectxreg:                {connectx}{thrdmrk}
+// MIPI Alliance
+:mipi:                       MIPI
+:mipireg:                    {mipi}{thrdmrk}
+:mipicsi2:                   {mipi}{nbsp}CSI{nbh}2
+:mipicsi2reg:                {mipireg}{nbsp}CSI{nbh}2{thrdmrk}
+// https://www.nvidia.com/en-us/about-nvidia/legal-info/
+:drive:                      DRIVE
+:nvidiadrive:                NVIDIA {drive}
+:nvidiadrivereg:             {nvidiadrive}{thrdmrk}
+:jetsonagxxavier:            Jetson AGX{nbsp}Xavier
+:jetsonagxxavierreg:         {jetsonagxxavier}{thrdmrk}
+:pegasus:                    Pegasus
+:pegasusreg:                 {pegasus}{thrdmrk}
+// https://www.nxp.com/company/our-company/about-nxp/terms-of-use:TERMSOFUSE
+:nxp:                        NXP
+:nxpreg:                     {nxp}{thrdmrk}
+:imx:                        i.MX
+:layerscape:                 Layerscape
+:layerscapereg:              {layerscape}{thrdmrk}
+:qoriq:                      QorIQ
+:qoriqreg:                   {qoriq}{thrdmrk}
+:qcom:                       Qualcomm
+:qcomreg:                    {qcom}{thrdmrk}
+:centriq:                    Centriq
+:centriqreg:                 {centriq}{thrdmrk}
+:socionext:                  Socionext
+:socionextreg:               {socionext}{thrdmrk}
+:synquacer:                  SynQuacer
+:synquacerreg:               {synquacer}{thrdmrk}
+// https://www.synopsys.com/company/legal/trademarks-brands.html
+:synopsis:                   Synopsis
+:designware:                 DesignWare
+:designwarereg:              {designware}{thrdmrk}
+:vivante:                    Vivante
+// https://www.xilinx.com/about/legal.html
+:xilinx:                     Xilinx
+:xilinxreg:                  {xilinx}{thrdmrk}
+:ultrascale:                 UltraScale
+:ultrascalereg:              {ultrascale}{thrdmrk}
+:zynq:                       Zynq
+:zynqreg:                    {zynq}{thrdmrk}
 
 // NVIDIA products
 :cuda:                       CUDA
@@ -246,33 +410,6 @@ include::../common/network-attributes.adoc[]
 :orinreg:                    {orin}{thrdmrk}
 :thor:                       Thor
 :thorreg:                    {thor}{thrdmrk}
-
-// HARDWARE ARCHITECTURES AND PLATFORMS
-:x86:                        x86
-:intel64:                    Intel{nbsp}64
-:amd64:                      AMD64
-:s390x:                      s390x
-:x86-64:                     {amd64}/{intel64}
-:arm:                        Arm
-:armreg:                     Arm{thrdmrk}
-:armv7:                      Armv7
-:armv8:                      Armv8
-:aarch64:                    AArch64
-:arm64:                      {arm}{nbsp}{aarch64}
-:cortex:                     {arm}{nbsp}Cortex
-:cortexreg:                  {armreg}{nbsp}Cortex{thrdmrk}
-:vc:                         Broadcom VideoCore
-:vcreg:                      {vc}{nbsp}{thrdmrk}
-:vc4reg:                     {vcreg}{nbsp}IV
-:rpi:                        Raspberry{nbsp}Pi
-:rpireg:                     Raspberry{nbsp}Pi{thrdmrk}
-:rpi3:                       Raspberry{nbsp}Pi{nbsp}3
-:rpi4:                       Raspberry{nbsp}Pi{nbsp}4
-:power:                      POWER
-:ppc64le:                    ppc64le
-:zseries:                    {ibm}{nbsp}Z
-:zsystems:                   {zseries}
-:linuxone:                   {ibm} LinuxONE
 
 // SYSTEM COMPONENTS
 :ds389:                      389 Directory Server
