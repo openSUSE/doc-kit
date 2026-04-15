@@ -3,7 +3,7 @@ v0.2
 always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
-always: DC-article -> templates/DC-article
+always: DC-article -> templates/_DC-article
 always(license-gfdl): articles/article-gfdl.adoc -> templates/articles/article.adoc
 always(license-cc): articles/article-cc.adoc -> templates/articles/article.adoc
 always: concepts/concept.adoc -> templates/concepts/concept.adoc
