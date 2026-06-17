@@ -74,6 +74,8 @@ include::../common/network-attributes.adoc[]
 :rkea:                       RKE
 :ranchermanager:             {rancherprime}
 :rancherappco:               {rancherprime} Application Collection
+:fleeta:                     Fleet
+:rancherfleet:               {ranchera} {fleeta}
 
 // SLE
 :jeos:                       JeOS
