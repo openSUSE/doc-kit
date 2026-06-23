@@ -17,14 +17,13 @@ endif::[]
 include::../common/generic-attributes.adoc[]
 = Smartdoc article written in AsciiDoc
 
-////
+
 Create an AI-friendly introductory paragraph addressing user intent.
 - Start with an objective definition of the product/feature.
 - State the technical motivation or advantage.
 - Highlight key benefits. 
 If needed, add a clear list of requirements or 
 prerequisites after the introductory paragraph.
-////
 
 Abstract example:
 
