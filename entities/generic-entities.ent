@@ -83,6 +83,7 @@
 <!ENTITY ranchera               "Rancher">
 <!ENTITY fleeta                 "Fleet">
 <!ENTITY rancherfleet           "&ranchera; &fleeta;">
+<!ENTITY selemental             "&suse; Elemental">
 
 <!-- SLE -->
 <!ENTITY jeos                   "JeOS"><!-- Just enough OS -->

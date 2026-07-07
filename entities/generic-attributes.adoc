@@ -76,6 +76,7 @@ include::../common/network-attributes.adoc[]
 :rancherappco:               {rancherprime} Application Collection
 :fleeta:                     Fleet
 :rancherfleet:               {ranchera} {fleeta}
+:selemental:                 {suse} Elemental
 
 // SLE
 :jeos:                       JeOS
