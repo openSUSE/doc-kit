@@ -17,20 +17,21 @@ endif::[]
 include::../common/generic-attributes.adoc[]
 = Smartdoc article written in AsciiDoc
 
-WHAT?::
-  Provide an objective, one-sentence definition of the product, feature or solution.
+Create an AI-friendly introductory paragraph addressing user intent.
+- Start with an objective definition of the product/feature.
+- State the technical motivation or advantage.
+- Highlight key benefits. 
+If needed, add a clear list of requirements or 
+prerequisites after the introductory paragraph.
 
-WHY?::
-  Explain why the reader should care and what problem or benefit this content addresses.
+Abstract example:
 
-EFFORT::
-  State the expected time investment and any required background knowledge.
+SSH keys serve as an authentication method that allows access to an encrypted connection between systems. Use SSH keys to automate logins without passwords and to enhance security against brute-force attacks.
 
-GOAL::
-  Describe the concrete outcome after the reader finishes this article.
+*Prerequisites:*
 
-REQUIREMENTS::
-  List prerequisites needed to complete the tasks described in this article.
+* Access to the local terminal
+* Permissions to modify the authorized keys on the remote server
 
 include::../concepts/concept.adoc[leveloffset=+1]
 
