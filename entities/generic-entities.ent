@@ -119,7 +119,7 @@
 
 <!ENTITY sleha                  "&sle; &ha;">
 <!ENTITY slehag                 "Geo Clustering for &sleha;">
-<!ENTITY hageo                  "&slehag">
+<!ENTITY hageo                  "&slehag;">
 
 
 <!-- SUSE Multi-Linux Manager -->
