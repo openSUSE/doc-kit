@@ -375,6 +375,11 @@ include::./network-attributes.adoc[]
 :nvidiagracereg:             {nvidiagrace}{thrdmrk}
 :nvidiagracehopper:          NVIDIA {gracehopper}
 :nvidiagracehopperreg:       {nvidiagracehopper}{thrdmrk}
+:graceblackwell:             {grace} Blackwell
+:dgxspark:                   DGX Spark
+:dgxsparkreg:                {dgxspark}{thrdmrk}
+:dgxstation:                 DGX Station
+:dgxstationreg:              {dgxstation}{thrdmrk}
 :jetson:                     Jetson
 :jetsonreg:                  {jetson}{thrdmrk}
 :jetpack:                    JetPack
