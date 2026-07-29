@@ -369,16 +369,26 @@ include::../common/network-attributes.adoc[]
 // https://www.nvidia.com/en-us/about-nvidia/legal-info/
 :cuda:                       CUDA
 :cudareg:                    {cuda}{thrdmrk}
+:grace:                      Grace
+:gracehopper:                {grace} Hopper
+:nvidiagrace:                NVIDIA {grace}
+:nvidiagracereg:             {nvidiagrace}{thrdmrk}
+:nvidiagracehopper:          NVIDIA {gracehopper}
+:nvidiagracehopperreg:       {nvidiagracehopper}{thrdmrk}
 :jetson:                     Jetson
 :jetsonreg:                  {jetson}{thrdmrk}
 :jetpack:                    JetPack
 :jetpackreg:                 {jetpack}{thrdmrk}
+:tegra:                      Tegra
+:tegrareg:                   {tegra}{thrdmrk}
 :xavier:                     Xavier
 :xavierreg:                  {xavier}{thrdmrk}
 :jetsonagxxavier:            Jetson AGX{nbsp}Xavier
 :jetsonagxxavierreg:         {jetsonagxxavier}{thrdmrk}
 :orin:                       Orin
 :orinreg:                    {orin}{thrdmrk}
+:nvidiaorin:                 NVIDIA {orin}
+:nvidiaorinreg:              {nvidiaorin}{thrdmrk}
 :thor:                       Thor
 :thorreg:                    {thor}{thrdmrk}
 :drive:                      DRIVE
