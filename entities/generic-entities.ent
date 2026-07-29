@@ -311,8 +311,8 @@ use &deng;! -->
 
 <!ENTITY arm                    "Arm">
 <!ENTITY armreg                 "Arm*">
-<!ENTITY armv7                  "Armv7">
-<!ENTITY armv8                  "Armv8">
+<!ENTITY armv7                  "&arm;&nbzwsp;v7">
+<!ENTITY armv8                  "&arm;&nbzwsp;v8">
 <!ENTITY aarch64                "AArch64">
 <!ENTITY arm64                  "&arm;&nbsp;&aarch64;">
 <!ENTITY cortex                 "&arm;&nbsp;Cortex">
@@ -760,7 +760,6 @@ use &deng;! -->
 <!ENTITY opteron "Opteron">
 <!ENTITY opteronreg "&opteron;&thrdmrk;">
 <!-- https://www.arm.com/company/policies/trademarks -->
-<!ENTITY armv8 "&arm;&nbzwsp;v8">
 <!ENTITY mali "Mali">
 <!ENTITY malireg "&mali;&thrdmrk;">
 <!ENTITY neoverse "Neoverse">
