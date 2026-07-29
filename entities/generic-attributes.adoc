@@ -295,6 +295,8 @@ include::../common/network-attributes.adoc[]
 :altrareg:                   {altra}{thrdmrk}
 :altramax:                   Altra{nbsp}Max
 :altramaxreg:                {altramax}{thrdmrk}
+:ampereone:                  AmpereOne
+:ampereonereg:               {ampereone}{thrdmrk}
 // https://www.amd.com/en/corporate/trademarks
 :amd:                        AMD
 :amdreg:                     {amd}{thrdmrk}
