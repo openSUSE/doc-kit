@@ -307,6 +307,7 @@ include::../common/network-attributes.adoc[]
 :malireg:                    {mali}{thrdmrk}
 :neoverse:                   Neoverse
 :neoversereg:                {neoverse}{thrdmrk}
+:agicpu:                     AGI CPU
 :brcm:                       Broadcom
 :brcmreg:                    {brcm}{thrdmrk}
 :videocore:                  VideoCore
