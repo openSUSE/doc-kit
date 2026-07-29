@@ -189,8 +189,8 @@ include::../common/network-attributes.adoc[]
 :x86-64:                     {amd64}/{intel64}
 :arm:                        Arm
 :armreg:                     Arm{thrdmrk}
-:armv7:                      Armv7
-:armv8:                      Armv8
+:armv7:                      {arm}{nbzwsp}v7
+:armv8:                      {arm}{nbzwsp}v8
 :aarch64:                    AArch64
 :arm64:                      {arm}{nbsp}{aarch64}
 :cortex:                     {arm}{nbsp}Cortex
@@ -301,7 +301,6 @@ include::../common/network-attributes.adoc[]
 :opteron:                    Opteron
 :opteronreg:                 {opteron}{thrdmrk}
 // https://www.arm.com/company/policies/trademarks
-:armv8:                      {arm}{nbzwsp}v8
 :mali:                       Mali
 :malireg:                    {mali}{thrdmrk}
 :neoverse:                   Neoverse
