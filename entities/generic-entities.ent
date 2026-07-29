@@ -811,19 +811,19 @@ use &deng;! -->
 <!ENTITY mipicsi2reg "&mipireg;&nbsp;CSI&nbh;2&thrdmrk;">
 <!-- https://www.nvidia.com/en-us/about-nvidia/legal-info/ -->
 <!ENTITY cuda                   "CUDA">
-<!ENTITY cudareg                "&cuda;*">
+<!ENTITY cudareg                "&cuda;&thrdmrk;">
 <!ENTITY jetson                 "Jetson">
-<!ENTITY jetsonreg              "&jetson;*">
+<!ENTITY jetsonreg              "&jetson;&thrdmrk;">
 <!ENTITY jetpack                "JetPack">
-<!ENTITY jetpackreg             "&jetpack;*">
+<!ENTITY jetpackreg             "&jetpack;&thrdmrk;">
 <!ENTITY xavier                 "Xavier">
-<!ENTITY xavierreg              "&xavier;*">
+<!ENTITY xavierreg              "&xavier;&thrdmrk;">
 <!ENTITY jetsonagxxavier        "Jetson AGX&nbsp;Xavier">
 <!ENTITY jetsonagxxavierreg     "&jetsonagxxavier;&thrdmrk;">
 <!ENTITY orin                   "Orin">
-<!ENTITY orinreg                "&orin;*">
+<!ENTITY orinreg                "&orin;&thrdmrk;">
 <!ENTITY thor                   "Thor">
-<!ENTITY thorreg                "&thor;*">
+<!ENTITY thorreg                "&thor;&thrdmrk;">
 <!ENTITY drive "DRIVE">
 <!ENTITY nvidiadrive "NVIDIA &drive;">
 <!ENTITY nvidiadrivereg "&nvidiadrive;&thrdmrk;">
