@@ -473,22 +473,22 @@ use &deng;! -->
 <!ENTITY amdsev                 "AMD SEV">
 <!ENTITY dom0                   "Dom0">
 <!ENTITY esx                    "&vmware; ESX">
-<!ENTITY gpuback                "GPU Pass-Through">
+<!ENTITY gpuback                "GPU pass-through">
 <!ENTITY hyperv                 "&ms; Hyper-V">
 <!ENTITY kvm                    "KVM">
 <!ENTITY kvmserver              "&kvm; Server">
 <!ENTITY kvmclient              "&kvm; Client">
 <!ENTITY libvirt                "<systemitem xmlns='http://docbook.org/ns/docbook' class='library'>libvirt</systemitem>">
-<!ENTITY pciback                "PCI Pass-Through">
+<!ENTITY pciback                "PCI pass-through">
 <!ENTITY qemu                   "QEMU">
 <!ENTITY qemusystemarch         "<command xmlns='http://docbook.org/ns/docbook'>qemu-system-<replaceable>ARCH</replaceable></command>">
-<!ENTITY usbback                "USB Pass-Through">
+<!ENTITY usbback                "USB pass-through">
 <!ENTITY vagrant                "Vagrant">
 <!ENTITY vagrantfile            "<filename xmlns='http://docbook.org/ns/docbook'>Vagrantfile</filename>">
 <!ENTITY vbox                   "VirtualBox">
 <!ENTITY virtualbox             "&vbox;">
 <!ENTITY virsh                  "<command xmlns='http://docbook.org/ns/docbook'>virsh</command>">
-<!ENTITY vgaback                "VGA Pass-Through">
+<!ENTITY vgaback                "VGA pass-through">
 <!ENTITY vmguest                "VM Guest">
 <!ENTITY vmhost                 "VM Host Server">
 <!ENTITY vmm                    "Virtual Machine Manager">
