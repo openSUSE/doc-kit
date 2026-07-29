@@ -272,20 +272,6 @@ use &deng;! -->
 
 
 
-<!-- NVIDIA products -->
-<!ENTITY cuda                   "CUDA">
-<!ENTITY cudareg                "&cuda;*">
-<!ENTITY jetson                 "Jetson">
-<!ENTITY jetsonreg              "&jetson;*">
-<!ENTITY jetpack                "JetPack">
-<!ENTITY jetpackreg             "&jetpack;*">
-<!ENTITY xavier                 "Xavier">
-<!ENTITY xavierreg              "&xavier;*">
-<!ENTITY orin                   "Orin">
-<!ENTITY orinreg                "&orin;*">
-<!ENTITY thor                   "Thor">
-<!ENTITY thorreg                "&thor;*">
-
 <!-- SLE DVD IMAGE NAMES -->
 
 <!ENTITY allmodules             "SLE-15-Packages">
@@ -824,11 +810,23 @@ use &deng;! -->
 <!ENTITY mipicsi2 "&mipi;&nbsp;CSI&nbh;2">
 <!ENTITY mipicsi2reg "&mipireg;&nbsp;CSI&nbh;2&thrdmrk;">
 <!-- https://www.nvidia.com/en-us/about-nvidia/legal-info/ -->
+<!ENTITY cuda                   "CUDA">
+<!ENTITY cudareg                "&cuda;*">
+<!ENTITY jetson                 "Jetson">
+<!ENTITY jetsonreg              "&jetson;*">
+<!ENTITY jetpack                "JetPack">
+<!ENTITY jetpackreg             "&jetpack;*">
+<!ENTITY xavier                 "Xavier">
+<!ENTITY xavierreg              "&xavier;*">
+<!ENTITY jetsonagxxavier        "Jetson AGX&nbsp;Xavier">
+<!ENTITY jetsonagxxavierreg     "&jetsonagxxavier;&thrdmrk;">
+<!ENTITY orin                   "Orin">
+<!ENTITY orinreg                "&orin;*">
+<!ENTITY thor                   "Thor">
+<!ENTITY thorreg                "&thor;*">
 <!ENTITY drive "DRIVE">
 <!ENTITY nvidiadrive "NVIDIA &drive;">
 <!ENTITY nvidiadrivereg "&nvidiadrive;&thrdmrk;">
-<!ENTITY jetsonagxxavier "Jetson AGX&nbsp;Xavier">
-<!ENTITY jetsonagxxavierreg "&jetsonagxxavier;&thrdmrk;">
 <!ENTITY pegasus "Pegasus">
 <!ENTITY pegasusreg "&pegasus;&thrdmrk;">
 <!-- https://www.nxp.com/company/our-company/about-nxp/terms-of-use:TERMSOFUSE -->
