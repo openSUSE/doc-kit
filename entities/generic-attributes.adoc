@@ -13,8 +13,8 @@
 :sccurl:                     https://scc.suse.com/
 
 // PRODUCT-SPECIFIC ENTITIES
-include::../common/product-attributes.adoc[]
-include::../common/network-attributes.adoc[]
+include::./product-attributes.adoc[]
+include::./network-attributes.adoc[]
 
 // special characters
 :ndash:                      &#x02013;
