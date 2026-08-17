@@ -207,7 +207,7 @@ use &deng;! -->
 <!ENTITY ibm                    "IBM">
 <!ENTITY ibmz                   "IBM Z">
 <!ENTITY ms                     "Microsoft">
-<!ENTITY msreg                  "<trademark xmlns='http://docbook.org/ns/docbook' class='registered'>&ms;</trademark>">
+<!ENTITY msreg                  "&ms;*">
 <!ENTITY nvidia                 "NVIDIA">
 <!ENTITY nvidiareg              "&nvidia;*">
 <!ENTITY rh                     "Red Hat">
@@ -222,9 +222,9 @@ use &deng;! -->
 <!ENTITY s4h                    "&sap; S/4HANA">
 <!ENTITY s4hana                 "&s4h;">
 <!ENTITY macos                  "macOS">
-<!ENTITY macosreg               "<trademark xmlns='http://docbook.org/ns/docbook' class='registered'>&macos;</trademark>">
+<!ENTITY macosreg               "&macos;*">
 <!ENTITY mswin                  "&ms; Windows">
-<!ENTITY mswinreg               "&msreg; <trademark xmlns='http://docbook.org/ns/docbook' class='registered'>Windows</trademark>">
+<!ENTITY mswinreg               "&msreg; Windows*">
 <!ENTITY netware                "NetWare">
 <!ENTITY netweaver              "&sap; NetWeaver">
 <!ENTITY nw                     "&netweaver;">
