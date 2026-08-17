@@ -159,7 +159,7 @@ include::./network-attributes.adoc[]
 // openSUSE VARIANTS
 :opensuse:                   openSUSE
 :osuse:                      {opensuse}
-:os:                         opensuse}
+:os:                         {opensuse}
 :opensusereg:                {opensuse}{thrdmrk}
 :leap:                       {os} Leap
 :tw:                         {os} Tumbleweed
