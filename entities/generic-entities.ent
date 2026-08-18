@@ -408,7 +408,7 @@ use &deng;! -->
 <!ENTITY ha                     "High Availability">
 <!ENTITY haproxy                "HAProxy">
 <!ENTITY hasetup                "HA setup">
-<!ENTITY haweb                  "HA Web Konsole">
+<!ENTITY haweb                  "High Availability Web Konsole">
 <!ENTITY hawk                   "Hawk">
 <!ENTITY hawk2                  "Hawk2">
 <!ENTITY hb                     "Heartbeat">
