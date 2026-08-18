@@ -531,6 +531,7 @@ include::./network-attributes.adoc[]
 // SLES FOR SAP
 :sapconf:                    sapconf
 :saptune:                    saptune
+:trento:                     Trento
 
 // CONTAINERS
 :deng:                       {docker} Open Source Engine
