@@ -507,7 +507,7 @@ include::./network-attributes.adoc[]
 :hasi:                       {ha}
 :haproxy:                    HAProxy
 :hasetup:                    HA setup
-:haweb:                      HA Web Konsole
+:haweb:                      High Availability Web Konsole
 :hawk:                       Hawk
 :hawk2:                      Hawk2
 :hb:                         Heartbeat
