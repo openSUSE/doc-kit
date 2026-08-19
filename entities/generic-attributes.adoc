@@ -215,6 +215,8 @@ include::./network-attributes.adoc[]
 :hpe:                        HPE
 :ibmz:                       IBM Z
 :ms:                         Microsoft
+:amd:                        AMD
+:amdreg:                     {amd}{thrdmrk}
 :nvidia:                     NVIDIA
 :nvidiareg:                  {nvidia}{thrdmrk}
 :rh:                         Red Hat
