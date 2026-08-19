@@ -208,8 +208,6 @@ use &deng;! -->
 <!ENTITY ibmz                   "IBM Z">
 <!ENTITY ms                     "Microsoft">
 <!ENTITY msreg                  "<trademark xmlns='http://docbook.org/ns/docbook' class='registered'>&ms;</trademark>">
-<!ENTITY amd                    "AMD">
-<!ENTITY amdreg                 "&amd;*">
 <!ENTITY nvidia                 "NVIDIA">
 <!ENTITY nvidiareg              "&nvidia;*">
 <!ENTITY rh                     "Red Hat">
@@ -307,7 +305,6 @@ use &deng;! -->
 <!ENTITY cortexreg              "&armreg;&nbsp;Cortex*">
 <!ENTITY vc                     "Broadcom VideoCore">
 <!ENTITY vcreg                  "&brcmreg;&nbsp;VideoCore*">
-<!ENTITY vc4reg                 "&vcreg;&nbsp;IV">
 
 <!ENTITY rpi                    "Raspberry&nbsp;Pi">
 <!ENTITY rpireg                 "Raspberry&nbsp;Pi*">

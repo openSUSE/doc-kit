@@ -215,8 +215,6 @@ include::./network-attributes.adoc[]
 :hpe:                        HPE
 :ibmz:                       IBM Z
 :ms:                         Microsoft
-:amd:                        AMD
-:amdreg:                     {amd}{thrdmrk}
 :nvidia:                     NVIDIA
 :nvidiareg:                  {nvidia}{thrdmrk}
 :rh:                         Red Hat
@@ -316,7 +314,6 @@ include::./network-attributes.adoc[]
 :videocorereg:               {videocore}{thrdmrk}
 // XXX: ⅠⅤ - displaying as ## in cross-references
 :vc4:                        {videocore}{nbsp}IV
-:vc4reg:                     {videocorereg}{nbsp}IV
 // XXX: ⅤⅠ
 :vc6:                        {videocore}{nbsp}VI
 :vc6reg:                     {videocorereg}{nbsp}VI
