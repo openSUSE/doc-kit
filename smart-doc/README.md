@@ -39,15 +39,20 @@ article. This is outlined in the `glue.xml` example file.
 
 ## Abstracts
 
-Use the fixed abstract structure defined in the style guide to keep abstracts consistent across all articles:
+To align with modern search behaviors and optimize our documentation, write a solid introductory paragraph that acts as an AI-friendly “answer nugget.”
+A good abstract provides a direct answer to the primary user intent. It should have the following structure:
 
-WHAT? — An objective definition of the product, feature, or solution.
+* Overall length: 40-80 words.
+* Start with an objective, direct definition of the product or feature.
+* Clearly explain the primary motivation and the technical advantage to the user.
+* State the product's or feature's benefits, where applicable.
 
-WHY? — The benefit or motivation: why the reader should care.
+Example:
 
-EFFORT — Expected time investment and required background knowledge.
-
-GOAL — The concrete outcome after completing the article.
+SSH keys serve as an authentication method that allows access to an encrypted connection between systems. Use SSH keys to automate logins without passwords and to enhance security against brute-force attacks.
+Prerequisites:
+- Access to the local terminal
+- Permissions to modify the authorized keys on the remote server
 
 Write abstracts as factual summaries. Avoid procedural language, promises or marketing phrasing.
 
@@ -90,7 +95,7 @@ systemd-timer
 network
 ```
 
-The second component for concept, reference, task, glue should be the topic of the snippet. For tasks, use a verb in gerund. For descriptive topics (concepts, references) opt for noun-based:
+The second component for concept, reference, task or glue should be the topic of the snippet. For tasks, use a verb in gerund. For descriptive topics (concepts, references), opt for noun-based:
 
 ```
 references/autoyast-partitioner-syntax.xml
@@ -120,7 +125,7 @@ Working with assemblies, you need to distinguish between two types of IDs:
 * `external IDs`: These are visible to the world.
 * `internal IDs`: Internal references inside the assembly used to organize the content snippets.
 
-External IDs are built in a similar fashion as file names. As with file names, never include the 
+External IDs are built in a similar fashion to file names. As with file names, never include the 
 topic type in your ID.
 
 ```
@@ -143,7 +148,7 @@ for images that you use for topic files.
 ## Version info
 
 We maintain a changelog (revision history) for each article. Add an entry to the
-`revhistory` element in the assemby whenever you have done substantial content updates
+`revhistory` element in the assembly whenever you have done substantial content updates
 to the article and ask for a rebuild and repost of said article. Do not
 artificially bloat the changelog by entering every single commit. Also, provide concise and 
 meaningful version information that the reader benefits from. This information might one day end up 
@@ -155,7 +160,7 @@ After your article is done, add a metadata layer to the assembly file. Check the
 file for XML syntax and possible values. The following metadata types are currently supported:
 
 * Internal
-* SEO
+* SEO, GEO and AEO
 * Search
 * Publishing info
 * Social media
