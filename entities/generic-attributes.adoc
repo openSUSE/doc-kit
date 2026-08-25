@@ -397,6 +397,8 @@ include::./network-attributes.adoc[]
 :orinreg:                    {orin}{thrdmrk}
 :nvidiaorin:                 NVIDIA {orin}
 :nvidiaorinreg:              {nvidiaorin}{thrdmrk}
+:jetsonorinnano:             {jetson} {orin} Nano
+:jetsonorinnanoreg:          {jetsonorinnano}{thrdmrk}
 :thor:                       Thor
 :thorreg:                    {thor}{thrdmrk}
 :drive:                      DRIVE
