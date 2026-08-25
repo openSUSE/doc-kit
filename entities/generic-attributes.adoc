@@ -54,7 +54,7 @@ include::./network-attributes.adoc[]
 :sstorage:                   {suse} Storage
 :svirtualization:            {suse} Virtualization
 :sappco:                     {suse} Application Collection
-:ranchera:                   Rancher
+:ranchera:                   Rancher Prime
 :rancherprime:               {suse} Rancher Prime
 :rancher:                    {rancherprime}
 :ranchelemental:             {rancherprime}: OS Manager
@@ -76,7 +76,7 @@ include::./network-attributes.adoc[]
 :ranchermanager:             {rancherprime}
 :rancherappco:               {rancherprime} Application Collection
 :fleeta:                     Fleet
-:rancherfleet:               {ranchera} {fleeta}
+:rancherfleet:               Rancher {fleeta}
 :selemental:                 {suse} Elemental
 
 // SLE

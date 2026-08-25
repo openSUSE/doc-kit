@@ -81,7 +81,7 @@
 <!ENTITY ranchermanager         "&rancherprime;">
 <!ENTITY rancherappco           "&rancherprime; Application Collection">
 <!ENTITY rancherprime           "&suse; Rancher Prime">
-<!ENTITY ranchera               "Rancher">
+<!ENTITY ranchera               "Rancher Prime">
 <!ENTITY fleeta                 "Fleet">
 <!ENTITY rancherfleet           "&ranchera; &fleeta;">
 <!ENTITY selemental             "&suse; Elemental">
