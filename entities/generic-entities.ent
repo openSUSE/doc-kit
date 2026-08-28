@@ -773,6 +773,13 @@ use &deng;! -->
 <!ENTITY huaweireg "&huawei;&thrdmrk;">
 <!ENTITY kunpeng "Kunpeng">
 <!ENTITY kunpengreg "&kunpeng;&thrdmrk;">
+<!-- https://www.intel.com/content/www/us/en/legal/trademarks.html -->
+<!ENTITY intel "Intel">
+<!ENTITY intelreg "&intel;&thrdmrk;">
+<!ENTITY optane "&intel;&nbsp;Optane">
+<!ENTITY optanereg "&intelreg;&nbsp;Optane&thrdmrk;">
+<!ENTITY optanemem "&optane; Memory">
+<!ENTITY optanememreg "&optanereg; Memory">
 <!-- Khronos -->
 <!ENTITY openmax "OpenMAX">
 <!ENTITY openmaxreg "&openmax;&thrdmrk;">
