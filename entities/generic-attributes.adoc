@@ -325,6 +325,8 @@ include::./network-attributes.adoc[]
 // https://www.fujitsu.com/us/about/local/corporate/subsidiaries/fai/legal/trademarks/index.html
 :fujitsu:                    Fujitsu
 :fujitsureg:                 {fujitsu}{thrdmrk}
+:fujitsumonaka:              FUJITSU-MONAKA
+:fujitsumonakareg:           {fujitsumonaka}{thrdmrk}
 // https://consumer.huawei.com/en/legal/intellectual-property/huawei-trademark-policy/
 :huawei:                     Huawei
 :huaweireg:                  {huawei}{thrdmrk}
