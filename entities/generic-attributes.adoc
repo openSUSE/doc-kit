@@ -276,7 +276,7 @@ include::./network-attributes.adoc[]
 :istio:                      Istio
 :seaweedfs:                  SeaweedFS
 :mysql:                      MySQL
-:runai:......................{nvidia} Run:ai
+:runai:                      {nvidia} Run:ai
 
 // https://aws.amazon.com/trademark-guidelines/
 :amazon-ec2:                 Amazon{nbsp}EC2
