@@ -268,9 +268,7 @@ use &deng;! -->
 <!ENTITY istio                  "Istio">
 <!ENTITY seaweedfs              "SeaweedFS">
 <!ENTITY mysql                  "MySQL">
-
-
-
+<!ENTITY runai                  "&nvidia; Run:ai">
 
 <!-- SLE DVD IMAGE NAMES -->
 
