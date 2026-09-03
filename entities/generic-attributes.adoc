@@ -261,6 +261,7 @@ include::./network-attributes.adoc[]
 :trivy:                      Trivy
 :valkey:                     Valkey
 :certmanager:                cert-manager
+:externaldns:                external-dns
 :otelemetry:                 OpenTelemetry
 :openlit:                    OpenLIT
 :mlflow:                     MLflow

@@ -253,6 +253,7 @@ use &deng;! -->
 <!ENTITY minio                  "MinIO">
 <!ENTITY okta                   "Okta">
 <!ENTITY certmanager            "cert-manager">
+<!ENTITY externaldns            "external-dns">
 <!ENTITY otelemetry             "OpenTelemetry">
 <!ENTITY openlit                "OpenLIT">
 <!ENTITY mlflow                 "MLflow">
