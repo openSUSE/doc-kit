@@ -269,6 +269,7 @@ use &deng;! -->
 <!ENTITY seaweedfs              "SeaweedFS">
 <!ENTITY mysql                  "MySQL">
 <!ENTITY runai                  "&nvidia; Run:ai">
+<!ENTITY cloudflare             "Cloudflare">
 
 <!-- SLE DVD IMAGE NAMES -->
 

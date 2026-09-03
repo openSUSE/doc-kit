@@ -277,6 +277,7 @@ include::./network-attributes.adoc[]
 :seaweedfs:                  SeaweedFS
 :mysql:                      MySQL
 :runai:                      {nvidia} Run:ai
+:cloudflare:                 Cloudflare
 
 // https://aws.amazon.com/trademark-guidelines/
 :amazon-ec2:                 Amazon{nbsp}EC2
