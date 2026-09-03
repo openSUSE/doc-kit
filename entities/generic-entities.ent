@@ -828,6 +828,8 @@ use &deng;! -->
 <!ENTITY jetsonagxxavierreg     "&jetsonagxxavier;&thrdmrk;">
 <!ENTITY orin                   "Orin">
 <!ENTITY orinreg                "&orin;&thrdmrk;">
+<!ENTITY jetsonorinnano         "&jetson; &orin; Nano">
+<!ENTITY jetsonorinnanoreg      "&jetsonorinnano;&thrdmrk;">
 <!ENTITY thor                   "Thor">
 <!ENTITY thorreg                "&thor;&thrdmrk;">
 <!ENTITY drive "DRIVE">
