@@ -269,7 +269,8 @@ use &deng;! -->
 <!ENTITY istio                  "Istio">
 <!ENTITY seaweedfs              "SeaweedFS">
 <!ENTITY mysql                  "MySQL">
-<!ENTITY runai                  "&nvidia; Run:ai">
+<!ENTITY runaia                 "Run:ai">
+<!ENTITY runai                  "&nvidia; &runaia;">
 <!ENTITY cloudflare             "Cloudflare">
 
 <!-- SLE DVD IMAGE NAMES -->
