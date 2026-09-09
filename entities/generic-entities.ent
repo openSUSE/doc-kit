@@ -653,6 +653,7 @@ use &deng;! -->
 <!ENTITY ldquo            "&#x0201C;" ><!--LEFT DOUBLE QUOTATION MARK -->
 <!ENTITY mdash            "&#x02014;" ><!--EM DASH -->
 <!ENTITY nbsp             "&#x000A0;" ><!--NO-BREAK SPACE -->
+<!ENTITY nbzwsp           "&#8203;"   ><!--NO-BREAK ZERO-WIDTH SPACE -->
 <!ENTITY ndash            "&#x02013;" ><!--EN DASH -->
 <!ENTITY rdquo            "&#x0201D;" ><!--RIGHT DOUBLE QUOTATION MARK -->
 <!ENTITY rsquo            "&#x02019;" ><!--RIGHT SINGLE QUOTATION MARK -->
