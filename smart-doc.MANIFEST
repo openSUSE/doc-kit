@@ -16,25 +16,25 @@ always: tasks/task.xml -> templates/tasks/task.xml
 always: topicmaps/example.xmind -> templates/topicmaps/example.xmind
 always: topicmaps/example.png -> templates/topicmaps/example.png
 
-initial(license-gfdl): ../entities/product-entities-gfdl.ent -> product-entities.ent
+initial(license-gfdl): ../entities/product-entities-gfdl.ent -> common/product-entities.ent
 initial(license-cc): ../entities/product-entities-cc.ent -> common/product-entities.ent
 always: ../entities/generic-entities.ent -> common/generic-entities.ent
 always: ../entities/network-entities.ent -> common/network-entities.ent
-always: common/legal.xml -> common/legal.xml
-always: common/license_gfdl1.2.xml -> common/license_gfdl1.2.xml
+always: common/legal.xml
+always: common/license_gfdl1.2.xml
 
 
-initial: _DC-article -> _DC-article
-initial: articles/assembly.asm.xml -> articles/assembly.asm.xml
-initial: concepts/concept.xml -> concepts/concept.xml
-initial: glues/glue-more-info.xml -> glues/glue-more-info.xml
-initial: glues/glue-whats-next.xml -> glues/glue-whats-next.xml
-initial: glues/glue.xml -> glues/glue.xml
-initial: images/example.png -> images/example.png
-initial: references/reference.xml -> references/reference.xml
-initial: snippets/snippet_warning.xml -> snippets/snippet_warning.xml
-initial: tasks/task.xml -> tasks/task.xml
-initial: topicmaps/example.xmind -> topicmaps/example.xmind
-initial: topicmaps/example.png -> topicmaps/example.png
+initial: _DC-article
+initial: articles/assembly.asm.xml
+initial: concepts/concept.xml
+initial: glues/glue-more-info.xml
+initial: glues/glue-whats-next.xml
+initial: glues/glue.xml
+initial: images/example.png
+initial: references/reference.xml
+initial: snippets/snippet_warning.xml
+initial: tasks/task.xml
+initial: topicmaps/example.xmind 
+initial: topicmaps/example.png
 
 
