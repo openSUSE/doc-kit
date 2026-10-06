@@ -50,10 +50,12 @@ A good abstract provides a direct answer to the primary user intent. It should h
 Example:
 
 SSH keys serve as an authentication method that allows access to an encrypted connection between systems. Use SSH keys to automate logins without passwords and to enhance security against brute-force attacks.
-Prerequisites:
-- Access to the local terminal
-- Permissions to modify the authorized keys on the remote server
 
+**Prerequisites**
+
+- An SSH client installed on the local machine
+- Permissions to modify the authorized keys on the remote server
+  
 Write abstracts as factual summaries. Avoid procedural language, promises or marketing phrasing.
 
 ## Naming and directory conventions
