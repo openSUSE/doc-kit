@@ -18,12 +18,12 @@ always: templates/topicmap_example.xmind
 always: templates/article-example_en.pdf
 
 
-initial(license-gfdl): ../entities/product-entities-gfdl.ent -> common/product-entities.ent
-initial(license-cc): ../entities/product-entities-cc.ent -> common/product-entities.ent
-always: ../entities/generic-entities.ent -> common/generic-entities.ent
-always: ../entities/network-entities.ent -> common/network-entities.ent
-always: common/legal.xml
-always: common/license_gfdl1.2.xml
+initial(license-gfdl): ../entities/product-entities-gfdl.ent -> en/common/product-entities.ent
+initial(license-cc): ../entities/product-entities-cc.ent -> en/common/product-entities.ent
+always: ../entities/generic-entities.ent -> en/common/generic-entities.ent
+always: ../entities/network-entities.ent -> en/common/network-entities.ent
+always: common/legal.xml -> en/common/legal.xml
+always: common/license_gfdl1.2.xml -> en/common/license_gfdl1.2.xml
 
 
 initial: _DC-article -> en/_DC-article
