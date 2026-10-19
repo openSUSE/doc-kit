@@ -3,18 +3,20 @@ v0.2
 always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
-always: _DC-article -> en/templates/_DC-article
-always: articles/assembly.asm.xml -> en/templates/articles/assembly.asm.xml
-always: concepts/concept.xml -> en/templates/concepts/concept.xml
-always: glues/glue-more-info.xml -> en/templates/glues/glue-more-info.xml
-always: glues/glue-whats-next.xml -> en/templates/glues/glue-whats-next.xml
-always: glues/glue.xml -> en/templates/glues/glue.xml
-always: images/example.png -> en/templates/images/example.png
-always: references/reference.xml -> en/templates/references/reference.xml
-always: snippets/snippet_warning.xml -> en/templates/snippets/snippet_warning.xml
-always: tasks/task.xml -> en/templates/tasks/task.xml
-always: topicmaps/example.xmind -> en/templates/topicmaps/example.xmind
-always: topicmaps/example.png -> en/templates/topicmaps/example.png
+always: _DC-article -> en/_DC-article
+always: templates/assembly.asm.xml -> en/templates/articles/assembly.asm.xml
+always: templates/concept.xml -> en/templates/concepts/concept.xml
+always: templates/glue-more-info.xml -> en/templates/glues/glue-more-info.xml
+always: templates/glue-whats-next.xml -> en/templates/glues/glue-whats-next.xml
+always: templates/glue.xml -> en/templates/glues/glue.xml
+always: templates/example.png -> en/templates/images/example.png
+always: templates/reference.xml -> en/templates/references/reference.xml
+always: templates/snippet_warning.xml -> en/templates/snippets/snippet_warning.xml
+always: templates/task.xml -> en/templates/tasks/task.xml
+always: templates/topicmap_example.xmind -> en/templates/topicmaps/topicmap_example.xmind
+always: templates/topicmap_example.png -> en/templates/topicmaps/topicmap_example.xmind
+always: templates/article-example_en.pdf -> en/templates/articles/article-example_en.pdf
+
 
 initial(license-gfdl): ../entities/product-entities-gfdl.ent -> en/common/product-entities.ent
 initial(license-cc): ../entities/product-entities-cc.ent -> en/common/product-entities.ent
@@ -25,14 +27,14 @@ always: common/license_gfdl1.2.xml -> en/common/license_gfdl1.2.xml
 
 
 initial: _DC-article -> en/_DC-article
-initial: articles/assembly.asm.xml -> en/articles/assembly.asm.xml
-initial: concepts/concept.xml -> en/concepts/concept.xml
-initial: glues/glue-more-info.xml -> en/glues/glue-more-info.xml
-initial: glues/glue-whats-next.xml -> en/glues/glue-whats-next.xml
-initial: glues/glue.xml -> en/glues/glue.xml
-initial: images/example.png -> en/images/example.png
-initial: references/reference.xml -> en/references/reference.xml
-initial: snippets/snippet_warning.xml -> en/snippets/snippet_warning.xml
-initial: tasks/task.xml -> en/tasks/task.xml
-initial: topicmaps/example.xmind -> en/topicmaps/example.xmind
-initial: topicmaps/example.png -> en/topicmaps/example.png
+initial: templates/assembly.asm.xml -> en/articles/assembly.asm.xml
+initial: templates/concept.xml -> en/concepts/concept.xml
+initial: templates/glue-more-info.xml -> en/glues/glue-more-info.xml
+initial: templates/glue-whats-next.xml -> en/glues/glue-whats-next.xml
+initial: templates/glue.xml -> en/glues/glue.xml
+initial: templates/example.png -> en/images/example.png
+initial: templates/reference.xml -> en/references/reference.xml
+initial: templates/snippet_warning.xml -> en/snippets/snippet_warning.xml
+initial: templates/task.xml -> en/tasks/task.xml
+initial: templates/example.xmind -> en/topicmaps/topicmap_example.xmind
+initial: templates/example.png -> en/topicmaps/topicmap_example.png
