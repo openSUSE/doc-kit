@@ -26,7 +26,7 @@ always: common/legal.xml
 always: common/license_gfdl1.2.xml
 
 
-initial: templates/_DC-article -> _DC-article
+initial: _DC-article
 initial: templates/assembly.asm.xml -> articles/assembly.asm.xml
 initial: templates/concept.xml -> concepts/concept.xml
 initial: templates/glue-more-info.xml -> glues/glue-more-info.xml
