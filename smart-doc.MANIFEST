@@ -3,27 +3,27 @@ v0.2
 always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
-always: _DC-article -> en/_DC-article
-always: templates/assembly.asm.xml -> en/templates/articles/assembly.asm.xml
-always: templates/concept.xml -> en/templates/concepts/concept.xml
-always: templates/glue-more-info.xml -> en/templates/glues/glue-more-info.xml
-always: templates/glue-whats-next.xml -> en/templates/glues/glue-whats-next.xml
-always: templates/glue.xml -> en/templates/glues/glue.xml
-always: templates/example.png -> en/templates/images/example.png
-always: templates/reference.xml -> en/templates/references/reference.xml
-always: templates/snippet_warning.xml -> en/templates/snippets/snippet_warning.xml
-always: templates/task.xml -> en/templates/tasks/task.xml
-always: templates/topicmap_example.xmind -> en/templates/topicmaps/topicmap_example.xmind
-always: templates/topicmap_example.png -> en/templates/topicmaps/topicmap_example.xmind
-always: templates/article-example_en.pdf -> en/templates/articles/article-example_en.pdf
+always: _DC-article -> templates/_DC-article
+always: templates/assembly.asm.xml
+always: templates/concept.xml
+always: templates/glue-more-info.xml
+always: templates/glue-whats-next.xml
+always: templates/glue.xml
+always: templates/example.png
+always: templates/reference.xml
+always: templates/snippet_warning.xml
+always: templates/task.xml
+always: templates/topicmap_example.png
+always: templates/topicmap_example.xmind
+always: templates/article-example_en.pdf
 
 
-initial(license-gfdl): ../entities/product-entities-gfdl.ent -> en/common/product-entities.ent
-initial(license-cc): ../entities/product-entities-cc.ent -> en/common/product-entities.ent
-always: ../entities/generic-entities.ent -> en/common/generic-entities.ent
-always: ../entities/network-entities.ent -> en/common/network-entities.ent
-always: common/legal.xml -> en/common/legal.xml
-always: common/license_gfdl1.2.xml -> en/common/license_gfdl1.2.xml
+initial(license-gfdl): ../entities/product-entities-gfdl.ent -> common/product-entities.ent
+initial(license-cc): ../entities/product-entities-cc.ent -> common/product-entities.ent
+always: ../entities/generic-entities.ent -> common/generic-entities.ent
+always: ../entities/network-entities.ent -> common/network-entities.ent
+always: common/legal.xml
+always: common/license_gfdl1.2.xml
 
 
 initial: _DC-article -> en/_DC-article
@@ -36,5 +36,5 @@ initial: templates/example.png -> en/images/example.png
 initial: templates/reference.xml -> en/references/reference.xml
 initial: templates/snippet_warning.xml -> en/snippets/snippet_warning.xml
 initial: templates/task.xml -> en/tasks/task.xml
-initial: templates/example.xmind -> en/topicmaps/topicmap_example.xmind
-initial: templates/example.png -> en/topicmaps/topicmap_example.png
+initial: templates/topicmap_example.xmind -> en/topicmaps/example.xmind
+initial: templates/topicmap_example.png -> en/topicmaps/example.png
