@@ -3,18 +3,19 @@ v0.2
 always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
-always: _DC-article -> templates/_DC-article
-always: articles/assembly.asm.xml -> templates/articles/assembly.asm.xml
-always: concepts/concept.xml -> templates/concepts/concept.xml
-always: glues/glue-more-info.xml -> templates/glues/glue-more-info.xml
-always: glues/glue-whats-next.xml -> templates/glues/glue-whats-next.xml
-always: glues/glue.xml -> templates/glues/glue.xml
-always: images/example.png -> templates/images/example.png
-always: references/reference.xml -> templates/references/reference.xml
-always: snippets/snippet_warning.xml -> templates/snippets/snippet_warning.xml
-always: tasks/task.xml -> templates/tasks/task.xml
-always: topicmaps/example.xmind -> templates/topicmaps/example.xmind
-always: topicmaps/example.png -> templates/topicmaps/example.png
+always: _DC-article
+always: templates/assembly.asm.xml
+always: templates/concept.xml
+always: templates/glue-more-info.xml
+always: templates/glue-whats-next.xml
+always: templates/glue.xml
+always: templates/example.png
+always: templates/reference.xml
+always: templates/snippet_warning.xml
+always: templates/task.xml
+always: templates/topicmap_example.png
+always: templates/topicmap_example.xmind
+always: templates/article-example_en.pdf
 
 initial(license-gfdl): ../entities/product-entities-gfdl.ent -> common/product-entities.ent
 initial(license-cc): ../entities/product-entities-cc.ent -> common/product-entities.ent
@@ -24,14 +25,14 @@ always: common/legal.xml
 always: common/license_gfdl1.2.xml
 
 initial: _DC-article
-initial: articles/assembly.asm.xml
-initial: concepts/concept.xml
-initial: glues/glue-more-info.xml
-initial: glues/glue-whats-next.xml
-initial: glues/glue.xml
-initial: images/example.png
-initial: references/reference.xml
-initial: snippets/snippet_warning.xml
-initial: tasks/task.xml
-initial: topicmaps/example.xmind
-initial: topicmaps/example.png
+initial: templates/assembly.asm.xml -> articles/assembly.asm.xml
+initial: templates/concept.xml -> concepts/concept.xml
+initial: templates/glue-more-info.xml -> glues/glue-more-info.xml
+initial: templates/glue-whats-next.xml -> glues/glue-whats-next.xml
+initial: templates/glue.xml -> glues/glue.xml
+initial: templates/example.png -> images/example.png
+initial: templates/reference.xml -> references/reference.xml
+initial: templates/snippet_warning.xml -> snippets/snippet_warning.xml
+initial: templates/task.xml -> tasks/task.xml
+initial: templates/topicmap_example.xmind -> topicmaps/example.xmind
+initial: templates/topicmap_example.png -> topicmaps/example.png
