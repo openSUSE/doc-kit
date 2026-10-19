@@ -15,6 +15,7 @@ always: templates/snippet_warning.xml
 always: templates/task.xml
 always: templates/topicmap_example.png
 always: templates/topicmap_example.xmind
+always: templates/article-example_en.pdf
 
 
 initial(license-gfdl): ../entities/product-entities-gfdl.ent -> common/product-entities.ent
