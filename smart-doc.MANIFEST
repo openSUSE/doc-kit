@@ -3,7 +3,7 @@ v0.2
 always: ../.gitignore -> .gitignore
 always: ../.editorconfig -> .editorconfig
 
-always: templates/_DC-article
+always: _DC-article
 always: templates/assembly.asm.xml
 always: templates/concept.xml
 always: templates/glue-more-info.xml
