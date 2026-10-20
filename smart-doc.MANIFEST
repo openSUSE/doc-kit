@@ -16,6 +16,7 @@ always: templates/task.xml
 always: templates/topicmap_example.png
 always: templates/topicmap_example.xmind
 always: templates/article-example_en.pdf
+always: templates/README.md
 
 
 initial(license-gfdl): ../entities/product-entities-gfdl.ent -> en/common/product-entities.ent
