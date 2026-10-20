@@ -22,6 +22,7 @@ always: templates/README.md
 initial(license-gfdl): ../entities/product-entities-gfdl.ent -> en/common/product-entities.ent
 initial(license-cc): ../entities/product-entities-cc.ent -> en/common/product-entities.ent
 always: ../entities/generic-entities.ent -> en/common/generic-entities.ent
+always: ../entities/l10n-generic-entities.ent -> en/common/l10n-generic-entities.ent
 always: ../entities/network-entities.ent -> en/common/network-entities.ent
 always: common/legal.xml -> en/common/legal.xml
 always: common/license_gfdl1.2.xml -> en/common/license_gfdl1.2.xml
