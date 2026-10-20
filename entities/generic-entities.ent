@@ -10,6 +10,11 @@
 %product-entities;
 
 
+<!-- GENERIC ENTITIES TO BE LOCALIZED -->
+<!ENTITY % l10n-generic-entities SYSTEM      "l10n-generic-entities.ent">
+%l10n-generic-entities;
+
+
 
 <!-- NETWORK-RELATED ENTITIES -->
 
@@ -351,7 +356,6 @@ use &deng;! -->
 <!ENTITY kg                     "kGraft">
 <!ENTITY klp                    "Kernel Live Patching">
 <!ENTITY klpa                   "KLP">
-<!ENTITY ulp                    "user space live patching">
 <!ENTITY ulpa                   "ULP">
 <!ENTITY keylime                "Keylime">
 <!ENTITY kiwi                   "KIWI&nbsp;NG">
@@ -430,7 +434,7 @@ use &deng;! -->
 <!-- HPC -->
 
 <!ENTITY hpc                    "High Performance Computing">
-<!ENTITY hpcm                   "HPC module">
+
 
 
 <!-- SLES FOR SAP -->
@@ -509,7 +513,6 @@ use &deng;! -->
 <!ENTITY cpufreq                "CPUfreq">
 <!ENTITY gpg                    "GPG"> <!-- use GnuPG instead? -->
 <!ENTITY mariadb                "MariaDB">
-<!ENTITY nautilus               "&gnome; Files">
 <!ENTITY oprof                  "OProfile">
 <!ENTITY postgresql             "PostgreSQL">
 <!ENTITY powertop               "powerTOP">
