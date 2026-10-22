@@ -16,8 +16,8 @@
 
 
 <!-- BOOKNAME ENTITIES TO BE LOCALIZED -->
-<!ENTITY % l10n-booknames SYSTEM      "l10n-booknames.ent">
-%l10n-booknames;
+<!ENTITY % l10n-booknames SYSTEM      "l10n-bookname-entities.ent">
+%l10n-bookname-entities;
 
 
 <!-- NETWORK-RELATED ENTITIES -->
