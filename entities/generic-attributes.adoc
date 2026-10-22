@@ -14,6 +14,7 @@
 
 // PRODUCT-SPECIFIC ENTITIES
 include::./product-attributes.adoc[]
+include::./l10n-generic-attributes.adoc[]
 include::./network-attributes.adoc[]
 
 // special characters
@@ -477,7 +478,6 @@ include::./network-attributes.adoc[]
 :kg:                         kGraft
 :klp:                        Kernel Live Patching
 :klpa:                       KLP
-:ulp:                        user space live patching
 :ulpa:                       ULP
 :keylime:                    Keylime
 :kiwi:                       KIWI{nbsp}NG
@@ -549,7 +549,6 @@ include::./network-attributes.adoc[]
 
 // HPC
 :hpc:                        High Performance Computing
-:hpcm:                       HPC module
 
 // SLES FOR SAP
 :sapconf:                    sapconf
@@ -612,7 +611,6 @@ include::./network-attributes.adoc[]
 :cpufreq:                    CPUfreq
 :gpg:                        GPG
 :mariadb:                    MariaDB
-:nautilus:                   {gnome} Files
 :oprof:                      OProfile
 :postgresql:                 PostgreSQL
 :powertop:                   powerTOP

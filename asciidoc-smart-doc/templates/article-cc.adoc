@@ -1,4 +1,6 @@
-:doctype: article
+include::../common/generic-attributes.adoc[]
+= Smartdoc article written in AsciiDoc
+
 :experimental:
 :docinfo:
 
@@ -10,13 +12,6 @@ ifdef::env-github[]
 :caution-caption: :fire:
 :warning-caption: :warning:
 endif::[]
-
-:revdate: YYYY-MM-DD
-:page-revdate: {revdate}
-
-include::../common/generic-attributes.adoc[]
-= Smartdoc article written in AsciiDoc
-
 
 Create an AI-friendly introductory paragraph addressing user intent.
 - Start with an objective definition of the product/feature.
