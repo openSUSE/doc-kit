@@ -15,6 +15,10 @@
 %l10n-generic-entities;
 
 
+<!-- BOOKNAME ENTITIES TO BE LOCALIZED -->
+<!ENTITY % l10n-bookname-entities SYSTEM      "l10n-bookname-entities.ent">
+%l10n-bookname-entities;
+
 
 <!-- NETWORK-RELATED ENTITIES -->
 
