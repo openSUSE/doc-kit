@@ -543,7 +543,7 @@ include::./network-attributes.adoc[]
 :rear.long:                  Relax-and-Recover
 :sbd:                        SBD
 :stonith:                    STONITH
-:sbd.long:                   {stonith} Block Device
+:sbd.long:                   Storage-Based Death
 :ingress:                    Ingress
 :keepalived:                 Keepalived
 

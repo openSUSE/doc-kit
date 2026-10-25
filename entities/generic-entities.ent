@@ -430,7 +430,7 @@ use &deng;! -->
 <!ENTITY rear                   "ReaR">
 <!ENTITY rear.long              "Relax-and-Recover">
 <!ENTITY sbd                    "SBD">
-<!ENTITY sbd.long               "&stonith; Block Device">
+<!ENTITY sbd.long               "Storage-Based Death">
 <!ENTITY stonith                "STONITH">
 <!ENTITY ingress                "Ingress">
 <!ENTITY keepalived             "Keepalived">
