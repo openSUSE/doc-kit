@@ -5,4 +5,4 @@
 
 :ulp:                        user space live patching
 :hpcm:                       HPC module
-:nautilus:                   {gnome} Files
+:nautilus:                   GNOME Files
