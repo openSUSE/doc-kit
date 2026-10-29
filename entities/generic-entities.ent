@@ -263,6 +263,12 @@ use &deng;! -->
 <!ENTITY etcd                   "etcd">
 <!ENTITY minio                  "MinIO">
 <!ENTITY okta                   "Okta">
+<!ENTITY harbor                 "Harbor">
+<!ENTITY redis                  "Redis">
+<!ENTITY nginx                  "nginx">
+<!ENTITY traefik                "Traefik">
+<!ENTITY trivy                  "Trivy">
+<!ENTITY valkey                 "Valkey">
 <!ENTITY certmanager            "cert-manager">
 <!ENTITY externaldns            "external-dns">
 <!ENTITY otelemetry             "OpenTelemetry">

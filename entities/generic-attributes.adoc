@@ -259,6 +259,7 @@ include::./network-attributes.adoc[]
 :ingress:                    Ingress
 :postgresql:                 PostgreSQL
 :nginx:                      nginx
+:traefik:                    traefik
 :trivy:                      Trivy
 :valkey:                     Valkey
 :certmanager:                cert-manager
