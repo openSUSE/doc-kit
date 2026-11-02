@@ -6,6 +6,7 @@ always: ../.editorconfig -> .editorconfig
 always: _DC-article -> templates/_DC-article
 always(license-gfdl): templates/article-gfdl.adoc -> templates/article.adoc
 always(license-cc): templates/article-cc.adoc -> templates/article.adoc
+always: templates/article-docinfo.xml
 always: templates/concept.adoc
 always: templates/glue-more-info.adoc
 always: templates/glue-whats-next.adoc
