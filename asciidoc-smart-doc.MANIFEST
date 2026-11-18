@@ -22,9 +22,9 @@ initial(license-cc): ../entities/product-attributes-cc.adoc -> en/common/product
 always: ../entities/generic-attributes.adoc -> en/common/generic-attributes.adoc
 always: ../entities/l10n-generic-attributes.adoc -> en/common/l10n-generic-attributes.adoc
 always: ../entities/network-attributes.adoc -> en/common/network-attributes.adoc
-always(license-gfdl): en/common/common_copyright_gfdl.adoc
-always(license-gfdl): en/common/common_license_gfdl1.2.adoc
-always(license-cc): en/common/common_copyright_cc.adoc
+always(license-gfdl): common/common_copyright_gfdl.adoc
+always(license-gfdl): common/common_license_gfdl1.2.adoc
+always(license-cc): common/common_copyright_cc.adoc
 
 initial: _DC-article -> en/_DC-article
 initial(license-gfdl): templates/article-gfdl.adoc -> en/articles/article.adoc
