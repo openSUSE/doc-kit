@@ -13,7 +13,6 @@
 :sccurl:                     https://scc.suse.com/
 
 // PRODUCT-SPECIFIC ENTITIES
-include::./product-attributes.adoc[]
 include::./l10n-generic-attributes.adoc[]
 include::./network-attributes.adoc[]
 
@@ -727,3 +726,6 @@ include::./network-attributes.adoc[]
 :mgrgetstart:            Getting Started Guide
 :mgrrefguide:            Reference Guide
 :mgruserguide:           User Guide
+
+// PRODUCT specific attributes
+include::./product-attributes.adoc[]
